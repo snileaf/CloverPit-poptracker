@@ -240,13 +240,13 @@
                 "inherit_codes": true,
                 "img": "/images/items/progressiveskeleton3.png",
                 "codes": "progressiveskeleton_stage3"
-            }
+            },
             {
                 "name": "progressiveskeleton stage4",
                 "inherit_codes": true,
                 "img": "/images/items/progressiveskeleton4.png",
                 "codes": "progressiveskeleton_stage4"
-            }
+            },
             {
                 "name": "progressiveskeleton stage5",
                 "inherit_codes": true,
@@ -640,7 +640,7 @@
                 "inherit_codes": true,
                 "img": "/images/items/progressivedrawer3.png",
                 "codes": "progressivedrawer_stage3"
-            }
+            },
             {
                 "name": "progressivedrawer stage4",
                 "inherit_codes": true,
