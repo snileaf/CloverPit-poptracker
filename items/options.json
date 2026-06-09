@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Progressive globes",
+    "type": "static",
+    "codes": "setting_prog_globes_txt",
+    "img": "images/settings/globes.png"
+  },
+  {
+    "name": "Progressive globes",
+    "type": "progressive",
+    "codes": "setting_prog_globes",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Progressive globes - Vanilla",
+        "img": "images/settings/vanilla.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Progressive globes - Progressive",
+        "img": "images/settings/progressive.png",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

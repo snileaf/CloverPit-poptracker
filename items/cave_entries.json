@@ -1,0 +1,1192 @@
+[
+  {
+    "name": "Emergence Cave - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "EC_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Subterranean Complex - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "SC_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Frontier Cavern - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "FC_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Hole of Beasts - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "HoB_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "White Flower Garden - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "WFG_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Bulblax Kingdom - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "BK_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Snagret Hole - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "SH_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Citadel of Spiders - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "CoS_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Glutton's Kitchen - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "GK_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shower Room - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "SR_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Submerged Castle - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "SMGC_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Cavern of Chaos - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "CoC_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Hole of Heroes - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "HoH_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Dream Den - Destination",
+    "type": "progressive",
+    "loop": true,
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "codes": "DD_dst",
+    "stages": [
+      {
+        "name": "??? - Destination",
+        "img": "images/caves/unknown.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Emergence Cave - Destination",
+        "img": "images/caves/EC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Subterranean Complex - Destination",
+        "img": "images/caves/SC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Frontier Cavern - Destination",
+        "img": "images/caves/FC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Beasts - Destination",
+        "img": "images/caves/HoB.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "White Flower Garden - Destination",
+        "img": "images/caves/WFG.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bulblax Kingdom - Destination",
+        "img": "images/caves/BK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Snagret Hole - Destination",
+        "img": "images/caves/SH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Citadel of Spiders - Destination",
+        "img": "images/caves/CoS.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Glutton's Kitchen - Destination",
+        "img": "images/caves/GK.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Shower Room - Destination",
+        "img": "images/caves/SR.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Submerged Castle - Destination",
+        "img": "images/caves/SMGC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cavern of Chaos - Destination",
+        "img": "images/caves/CoC.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hole of Heroes - Destination",
+        "img": "images/caves/HoH.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Dream Den - Destination",
+        "img": "images/caves/DD.png",
+        "inherit_codes": false
+      }
+    ]
+  }
+]
