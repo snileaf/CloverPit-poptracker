@@ -1,0 +1,1680 @@
+[
+    {
+        "name": "charmabyssu",
+        "type": "toggle",
+        "img": "images/items/charmabyssu.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmabyssu"
+    },
+    {
+        "name": "charmrotatedhamsa",
+        "type": "toggle",
+        "img": "images/items/charmrotatedhamsa.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmrotatedhamsa"
+    },
+    {
+        "name": "cardpack2",
+        "type": "toggle",
+        "img": "images/items/cardpack2.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cardpack2"
+    },
+    {
+        "name": "charmnuclearbutton",
+        "type": "toggle",
+        "img": "images/items/charmnuclearbutton.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmnuclearbutton"
+    },
+    {
+        "name": "charmdisca",
+        "type": "toggle",
+        "img": "images/items/charmdisca.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdisca"
+    },
+    {
+        "name": "charmdemonshorn",
+        "type": "toggle",
+        "img": "images/items/charmdemonshorn.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdemonshorn"
+    },
+    {
+        "name": "charmpareidolia",
+        "type": "toggle",
+        "img": "images/items/charmpareidolia.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmpareidolia"
+    },
+    {
+        "name": "charmredshinyrock",
+        "type": "toggle",
+        "img": "images/items/charmredshinyrock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmredshinyrock"
+    },
+    {
+        "name": "charmdynamo",
+        "type": "toggle",
+        "img": "images/items/charmdynamo.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdynamo"
+    },
+    {
+        "name": "cardpack6",
+        "type": "toggle",
+        "img": "images/items/cardpack6.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cardpack6"
+    },
+    {
+        "name": "charmthief",
+        "type": "toggle",
+        "img": "images/items/charmthief.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmthief"
+    },
+    {
+        "name": "charmstonks",
+        "type": "toggle",
+        "img": "images/items/charmstonks.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmstonks"
+    },
+    {
+        "name": "charmcloverpet",
+        "type": "toggle",
+        "img": "images/items/charmcloverpet.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcloverpet"
+    },
+    {
+        "name": "charmjimbo",
+        "type": "toggle",
+        "img": "images/items/charmjimbo.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmjimbo"
+    },
+    {
+        "name": "charmd4",
+        "type": "toggle",
+        "img": "images/items/charmd4.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmd4"
+    },
+    {
+        "name": "charmnumber2",
+        "type": "toggle",
+        "img": "images/items/charmnumber2.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmnumber2"
+    },
+    {
+        "name": "calliusedtoeathealthy...",
+        "type": "toggle",
+        "img": "images/items/calliusedtoeathealthy....png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "calliusedtoeathealthy..."
+    },
+    {
+        "name": "charmcherrypicture",
+        "type": "toggle",
+        "img": "images/items/charmcherrypicture.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcherrypicture"
+    },
+    {
+        "name": "charmhamsa",
+        "type": "toggle",
+        "img": "images/items/charmhamsa.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmhamsa"
+    },
+    {
+        "name": "charmchonkycat",
+        "type": "toggle",
+        "img": "images/items/charmchonkycat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmchonkycat"
+    },
+    {
+        "name": "charmgreenpepper",
+        "type": "toggle",
+        "img": "images/items/charmgreenpepper.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgreenpepper"
+    },
+    {
+        "name": "charmdiesellocomotive",
+        "type": "toggle",
+        "img": "images/items/charmdiesellocomotive.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdiesellocomotive"
+    },
+    {
+        "name": "charmwheat",
+        "type": "toggle",
+        "img": "images/items/charmwheat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmwheat"
+    },
+    {
+        "name": "callcanieatsomething?",
+        "type": "toggle",
+        "img": "images/items/callcanieatsomething?.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callcanieatsomething?"
+    },
+    {
+        "name": "charmweirdclock",
+        "type": "toggle",
+        "img": "images/items/charmweirdclock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmweirdclock"
+    },
+    {
+        "name": "cardpack5",
+        "type": "toggle",
+        "img": "images/items/cardpack5.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cardpack5"
+    },
+    {
+        "name": "charmcrystalskull",
+        "type": "toggle",
+        "img": "images/items/charmcrystalskull.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcrystalskull"
+    },
+    {
+        "name": "progressiveskeleton",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressiveskeleton stage1",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveskeleton1.png",
+                "codes": "progressiveskeleton, progressiveskeleton_stage1"
+            },
+            {
+                "name": "progressiveskeleton stage2",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveskeleton2.png",
+                "codes": "progressiveskeleton_stage2"
+            },
+            {
+                "name": "progressiveskeleton stage3",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveskeleton3.png",
+                "codes": "progressiveskeleton_stage3"
+            }
+            {
+                "name": "progressiveskeleton stage4",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveskeleton4.png",
+                "codes": "progressiveskeleton_stage4"
+            }
+            {
+                "name": "progressiveskeleton stage5",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveskeleton5.png",
+                "codes": "progressiveskeleton_stage5"
+            }
+        ]
+    },
+    {
+        "name": "charmcloverpot",
+        "type": "toggle",
+        "img": "images/items/charmcloverpot.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcloverpot"
+    },
+    {
+        "name": "charmlostbriefcase",
+        "type": "toggle",
+        "img": "images/items/charmlostbriefcase.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmlostbriefcase"
+    },
+    {
+        "name": "charmswolecat",
+        "type": "toggle",
+        "img": "images/items/charmswolecat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmswolecat"
+    },
+    {
+        "name": "charmverybigmushroom",
+        "type": "toggle",
+        "img": "images/items/charmverybigmushroom.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmverybigmushroom"
+    },
+    {
+        "name": "charmevildeal",
+        "type": "toggle",
+        "img": "images/items/charmevildeal.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmevildeal"
+    },
+    {
+        "name": "charmcrystalsphere",
+        "type": "toggle",
+        "img": "images/items/charmcrystalsphere.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcrystalsphere"
+    },
+    {
+        "name": "callhelp!",
+        "type": "toggle",
+        "img": "images/items/callhelp!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callhelp!"
+    },
+    {
+        "name": "callpleasedontthrowmystuffaway!",
+        "type": "toggle",
+        "img": "images/items/callpleasedontthrowmystuffaway!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callpleasedontthrowmystuffaway!"
+    },
+    {
+        "name": "callthistimeimbettingonorange!",
+        "type": "toggle",
+        "img": "images/items/callthistimeimbettingonorange!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callthistimeimbettingonorange!"
+    },
+    {
+        "name": "charmhourglass",
+        "type": "toggle",
+        "img": "images/items/charmhourglass.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmhourglass"
+    },
+    {
+        "name": "callimbeingconstant!",
+        "type": "toggle",
+        "img": "images/items/callimbeingconstant!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callimbeingconstant!"
+    },
+    {
+        "name": "callineedtohealmyself.",
+        "type": "toggle",
+        "img": "images/items/callineedtohealmyself..png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callineedtohealmyself."
+    },
+    {
+        "name": "charmpossessedcellphone",
+        "type": "toggle",
+        "img": "images/items/charmpossessedcellphone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmpossessedcellphone"
+    },
+    {
+        "name": "charmconsolationprize",
+        "type": "toggle",
+        "img": "images/items/charmconsolationprize.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmconsolationprize"
+    },
+    {
+        "name": "charmgreedyking",
+        "type": "toggle",
+        "img": "images/items/charmgreedyking.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgreedyking"
+    },
+    {
+        "name": "charmdiscc",
+        "type": "toggle",
+        "img": "images/items/charmdiscc.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdiscc"
+    },
+    {
+        "name": "charmmidastouch",
+        "type": "toggle",
+        "img": "images/items/charmmidastouch.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmmidastouch"
+    },
+    {
+        "name": "charmaceofclubs",
+        "type": "toggle",
+        "img": "images/items/charmaceofclubs.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmaceofclubs"
+    },
+    {
+        "name": "charmabstractpainting",
+        "type": "toggle",
+        "img": "images/items/charmabstractpainting.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmabstractpainting"
+    },
+    {
+        "name": "charmgoldentreasure",
+        "type": "toggle",
+        "img": "images/items/charmgoldentreasure.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgoldentreasure"
+    },
+    {
+        "name": "charmelectricitymeter",
+        "type": "toggle",
+        "img": "images/items/charmelectricitymeter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmelectricitymeter"
+    },
+    {
+        "name": "charmbricks",
+        "type": "toggle",
+        "img": "images/items/charmbricks.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmbricks"
+    },
+    {
+        "name": "callcaniborrowsomegreen?",
+        "type": "toggle",
+        "img": "images/items/callcaniborrowsomegreen?.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callcaniborrowsomegreen?"
+    },
+    {
+        "name": "callplease",
+        "type": "toggle",
+        "img": "images/items/callplease.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callplease"
+    },
+    {
+        "name": "callididnthurtanybody...",
+        "type": "toggle",
+        "img": "images/items/callididnthurtanybody....png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callididnthurtanybody..."
+    },
+    {
+        "name": "charmnumber1",
+        "type": "toggle",
+        "img": "images/items/charmnumber1.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmnumber1"
+    },
+    {
+        "name": "callwait",
+        "type": "toggle",
+        "img": "images/items/callwait.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callwait"
+    },
+    {
+        "name": "charmbellpepper",
+        "type": "toggle",
+        "img": "images/items/charmbellpepper.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmbellpepper"
+    },
+    {
+        "name": "charmpainkillers",
+        "type": "toggle",
+        "img": "images/items/charmpainkillers.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmpainkillers"
+    },
+    {
+        "name": "charmragingcapitalist",
+        "type": "toggle",
+        "img": "images/items/charmragingcapitalist.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmragingcapitalist"
+    },
+    {
+        "name": "charmaceofspades",
+        "type": "toggle",
+        "img": "images/items/charmaceofspades.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmaceofspades"
+    },
+    {
+        "name": "charmscratchandhope",
+        "type": "toggle",
+        "img": "images/items/charmscratchandhope.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmscratchandhope"
+    },
+    {
+        "name": "charmbookofshadows",
+        "type": "toggle",
+        "img": "images/items/charmbookofshadows.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmbookofshadows"
+    },
+    {
+        "name": "charmdiscb",
+        "type": "toggle",
+        "img": "images/items/charmdiscb.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdiscb"
+    },
+    {
+        "name": "charmmagicaltomato",
+        "type": "toggle",
+        "img": "images/items/charmmagicaltomato.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmmagicaltomato"
+    },
+    {
+        "name": "charmancientcoin",
+        "type": "toggle",
+        "img": "images/items/charmancientcoin.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmancientcoin"
+    },
+    {
+        "name": "callimfeelingmoreenergeticrecently.",
+        "type": "toggle",
+        "img": "images/items/callimfeelingmoreenergeticrecently..png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callimfeelingmoreenergeticrecently."
+    },
+    {
+        "name": "charmexpiredmeds",
+        "type": "toggle",
+        "img": "images/items/charmexpiredmeds.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmexpiredmeds"
+    },
+    {
+        "name": "charmmusictape",
+        "type": "toggle",
+        "img": "images/items/charmmusictape.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmmusictape"
+    },
+    {
+        "name": "charmpotatobattery",
+        "type": "toggle",
+        "img": "images/items/charmpotatobattery.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmpotatobattery"
+    },
+    {
+        "name": "charmaceofhearts",
+        "type": "toggle",
+        "img": "images/items/charmaceofhearts.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmaceofhearts"
+    },
+    {
+        "name": "charmsheep",
+        "type": "toggle",
+        "img": "images/items/charmsheep.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmsheep"
+    },
+    {
+        "name": "charmd6",
+        "type": "toggle",
+        "img": "images/items/charmd6.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmd6"
+    },
+    {
+        "name": "charmgoldendiamond",
+        "type": "toggle",
+        "img": "images/items/charmgoldendiamond.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgoldendiamond"
+    },
+    {
+        "name": "charmwheelbarrow",
+        "type": "toggle",
+        "img": "images/items/charmwheelbarrow.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmwheelbarrow"
+    },
+    {
+        "name": "progressivedrawer",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressivedrawer stage1",
+                "inherit_codes": true,
+                "img": "/images/items/progressivedrawer1.png",
+                "codes": "progressivedrawer, progressivedrawer_stage1"
+            },
+            {
+                "name": "progressivedrawer stage2",
+                "inherit_codes": true,
+                "img": "/images/items/progressivedrawer2.png",
+                "codes": "progressivedrawer_stage2"
+            },
+            {
+                "name": "progressivedrawer stage3",
+                "inherit_codes": true,
+                "img": "/images/items/progressivedrawer3.png",
+                "codes": "progressivedrawer_stage3"
+            }
+            {
+                "name": "progressivedrawer stage4",
+                "inherit_codes": true,
+                "img": "/images/items/progressivedrawer4.png",
+                "codes": "progressivedrawer_stage4"
+            }
+        ]
+    },
+    {
+        "name": "callicantquitnow!",
+        "type": "toggle",
+        "img": "images/items/callicantquitnow!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callicantquitnow!"
+    },
+    {
+        "name": "charmmushrooms",
+        "type": "toggle",
+        "img": "images/items/charmmushrooms.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmmushrooms"
+    },
+    {
+        "name": "charmlemonpicture",
+        "type": "toggle",
+        "img": "images/items/charmlemonpicture.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmlemonpicture"
+    },
+    {
+        "name": "progressiveluck",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "progressiveluck stage1",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveluck.png",
+                "codes": "progressiveluck, progressiveluck_stage1"
+            },
+            {
+                "name": "progressiveluck stage2",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveluck.png",
+                "codes": "progressiveluck_stage2"
+            },
+            {
+                "name": "progressiveluck stage3",
+                "inherit_codes": true,
+                "img": "/images/items/progressiveluck.png",
+                "codes": "progressiveluck_stage3"
+            }
+        ]
+    },
+    {
+        "name": "charmdarklotus",
+        "type": "toggle",
+        "img": "images/items/charmdarklotus.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdarklotus"
+    },
+    {
+        "name": "charmgabihbbh",
+        "type": "toggle",
+        "img": "images/items/charmgabihbbh.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgabihbbh"
+    },
+    {
+        "name": "charmcross",
+        "type": "toggle",
+        "img": "images/items/charmcross.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcross"
+    },
+    {
+        "name": "calltodaysmyluckyday!",
+        "type": "toggle",
+        "img": "images/items/calltodaysmyluckyday!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "calltodaysmyluckyday!"
+    },
+    {
+        "name": "charmdepression",
+        "type": "toggle",
+        "img": "images/items/charmdepression.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdepression"
+    },
+    {
+        "name": "charmsardines",
+        "type": "toggle",
+        "img": "images/items/charmsardines.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmsardines"
+    },
+    {
+        "name": "charmtarotdeck",
+        "type": "toggle",
+        "img": "images/items/charmtarotdeck.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmtarotdeck"
+    },
+    {
+        "name": "charmcloverfield",
+        "type": "toggle",
+        "img": "images/items/charmcloverfield.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcloverfield"
+    },
+    {
+        "name": "charmnaughtydealer",
+        "type": "toggle",
+        "img": "images/items/charmnaughtydealer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmnaughtydealer"
+    },
+    {
+        "name": "charmiron",
+        "type": "toggle",
+        "img": "images/items/charmiron.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmiron"
+    },
+    {
+        "name": "charmgrandmaspurse",
+        "type": "toggle",
+        "img": "images/items/charmgrandmaspurse.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgrandmaspurse"
+    },
+    {
+        "name": "charmcatfood",
+        "type": "toggle",
+        "img": "images/items/charmcatfood.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcatfood"
+    },
+    {
+        "name": "charmvoicemail",
+        "type": "toggle",
+        "img": "images/items/charmvoicemail.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmvoicemail"
+    },
+    {
+        "name": "callilikecrypticvalues!",
+        "type": "toggle",
+        "img": "images/items/callilikecrypticvalues!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callilikecrypticvalues!"
+    },
+    {
+        "name": "charmthecollector",
+        "type": "toggle",
+        "img": "images/items/charmthecollector.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmthecollector"
+    },
+    {
+        "name": "calliloveshinystuff!",
+        "type": "toggle",
+        "img": "images/items/calliloveshinystuff!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "calliloveshinystuff!"
+    },
+    {
+        "name": "charmsteamlocomotive",
+        "type": "toggle",
+        "img": "images/items/charmsteamlocomotive.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmsteamlocomotive"
+    },
+    {
+        "name": "callineedsupplements!",
+        "type": "toggle",
+        "img": "images/items/callineedsupplements!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callineedsupplements!"
+    },
+    {
+        "name": "charmgoldencherry",
+        "type": "toggle",
+        "img": "images/items/charmgoldencherry.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgoldencherry"
+    },
+    {
+        "name": "charmdungbeetle",
+        "type": "toggle",
+        "img": "images/items/charmdungbeetle.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdungbeetle"
+    },
+    {
+        "name": "callilltakebackcontrolofmylife.",
+        "type": "toggle",
+        "img": "images/items/callilltakebackcontrolofmylife..png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callilltakebackcontrolofmylife."
+    },
+    {
+        "name": "5xclovertickets",
+        "type": "toggle",
+        "img": "images/items/5xclovertickets.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "5xclovertickets"
+    },
+    {
+        "name": "callineedtobethere!",
+        "type": "toggle",
+        "img": "images/items/callineedtobethere!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callineedtobethere!"
+    },
+    {
+        "name": "charmdiamondpicture",
+        "type": "toggle",
+        "img": "images/items/charmdiamondpicture.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdiamondpicture"
+    },
+    {
+        "name": "charmgoldenclover",
+        "type": "toggle",
+        "img": "images/items/charmgoldenclover.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgoldenclover"
+    },
+    {
+        "name": "charmonetrickpony",
+        "type": "toggle",
+        "img": "images/items/charmonetrickpony.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmonetrickpony"
+    },
+    {
+        "name": "charmshoe",
+        "type": "toggle",
+        "img": "images/items/charmshoe.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmshoe"
+    },
+    {
+        "name": "callimgonnagoallin!",
+        "type": "toggle",
+        "img": "images/items/callimgonnagoallin!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callimgonnagoallin!"
+    },
+    {
+        "name": "charmnecronomicon",
+        "type": "toggle",
+        "img": "images/items/charmnecronomicon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmnecronomicon"
+    },
+    {
+        "name": "charmwood",
+        "type": "toggle",
+        "img": "images/items/charmwood.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmwood"
+    },
+    {
+        "name": "cardpack1",
+        "type": "toggle",
+        "img": "images/items/cardpack1.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cardpack1"
+    },
+    {
+        "name": "calllifegavemelemons",
+        "type": "toggle",
+        "img": "images/items/calllifegavemelemons.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "calllifegavemelemons"
+    },
+    {
+        "name": "charmpersonaltrainer",
+        "type": "toggle",
+        "img": "images/items/charmpersonaltrainer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmpersonaltrainer"
+    },
+    {
+        "name": "charmcarbattery",
+        "type": "toggle",
+        "img": "images/items/charmcarbattery.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcarbattery"
+    },
+    {
+        "name": "charmshoppingcart",
+        "type": "toggle",
+        "img": "images/items/charmshoppingcart.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmshoppingcart"
+    },
+    {
+        "name": "cardpack7",
+        "type": "toggle",
+        "img": "images/items/cardpack7.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cardpack7"
+    },
+    {
+        "name": "charmchastitybelt",
+        "type": "toggle",
+        "img": "images/items/charmchastitybelt.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmchastitybelt"
+    },
+    {
+        "name": "charmcigarettes",
+        "type": "toggle",
+        "img": "images/items/charmcigarettes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcigarettes"
+    },
+    {
+        "name": "charmdeardiary",
+        "type": "toggle",
+        "img": "images/items/charmdeardiary.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmdeardiary"
+    },
+    {
+        "name": "charmluckycat",
+        "type": "toggle",
+        "img": "images/items/charmluckycat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmluckycat"
+    },
+    {
+        "name": "charmcardboardhouse",
+        "type": "toggle",
+        "img": "images/items/charmcardboardhouse.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcardboardhouse"
+    },
+    {
+        "name": "charmrosary",
+        "type": "toggle",
+        "img": "images/items/charmrosary.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmrosary"
+    },
+    {
+        "name": "charmvinessoup",
+        "type": "toggle",
+        "img": "images/items/charmvinessoup.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmvinessoup"
+    },
+    {
+        "name": "charm7sinsstone",
+        "type": "toggle",
+        "img": "images/items/charm7sinsstone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charm7sinsstone"
+    },
+    {
+        "name": "charmnecklace",
+        "type": "toggle",
+        "img": "images/items/charmnecklace.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmnecklace"
+    },
+    {
+        "name": "charmgoldenpepper",
+        "type": "toggle",
+        "img": "images/items/charmgoldenpepper.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgoldenpepper"
+    },
+    {
+        "name": "charmlostwallet",
+        "type": "toggle",
+        "img": "images/items/charmlostwallet.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmlostwallet"
+    },
+    {
+        "name": "charmholybible",
+        "type": "toggle",
+        "img": "images/items/charmholybible.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmholybible"
+    },
+    {
+        "name": "callidontcareabouttheprice!",
+        "type": "toggle",
+        "img": "images/items/callidontcareabouttheprice!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callidontcareabouttheprice!"
+    },
+    {
+        "name": "charmbarathrum",
+        "type": "toggle",
+        "img": "images/items/charmbarathrum.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmbarathrum"
+    },
+    {
+        "name": "callgivemebackmymoney!",
+        "type": "toggle",
+        "img": "images/items/callgivemebackmymoney!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callgivemebackmymoney!"
+    },
+    {
+        "name": "calltheresnothingtoeatbutmould.",
+        "type": "toggle",
+        "img": "images/items/calltheresnothingtoeatbutmould..png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "calltheresnothingtoeatbutmould."
+    },
+    {
+        "name": "charmbrokencalculator",
+        "type": "toggle",
+        "img": "images/items/charmbrokencalculator.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmbrokencalculator"
+    },
+    {
+        "name": "callivealreadybetitall!",
+        "type": "toggle",
+        "img": "images/items/callivealreadybetitall!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callivealreadybetitall!"
+    },
+    {
+        "name": "cointrap",
+        "type": "toggle",
+        "img": "images/items/cointrap.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cointrap"
+    },
+    {
+        "name": "charmbaphomet",
+        "type": "toggle",
+        "img": "images/items/charmbaphomet.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmbaphomet"
+    },
+    {
+        "name": "charmtubahat",
+        "type": "toggle",
+        "img": "images/items/charmtubahat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmtubahat"
+    },
+    {
+        "name": "charmcloverpicture",
+        "type": "toggle",
+        "img": "images/items/charmcloverpicture.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcloverpicture"
+    },
+    {
+        "name": "charmaceofdiamonds",
+        "type": "toggle",
+        "img": "images/items/charmaceofdiamonds.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmaceofdiamonds"
+    },
+    {
+        "name": "callthistimeimbettingongreen!",
+        "type": "toggle",
+        "img": "images/items/callthistimeimbettingongreen!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callthistimeimbettingongreen!"
+    },
+    {
+        "name": "charmgoldenbell",
+        "type": "toggle",
+        "img": "images/items/charmgoldenbell.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgoldenbell"
+    },
+    {
+        "name": "charmfidelitycard",
+        "type": "toggle",
+        "img": "images/items/charmfidelitycard.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmfidelitycard"
+    },
+    {
+        "name": "charmcalendar",
+        "type": "toggle",
+        "img": "images/items/charmcalendar.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcalendar"
+    },
+    {
+        "name": "charmchanneleroffortune",
+        "type": "toggle",
+        "img": "images/items/charmchanneleroffortune.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmchanneleroffortune"
+    },
+    {
+        "name": "charmcrowbar",
+        "type": "toggle",
+        "img": "images/items/charmcrowbar.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcrowbar"
+    },
+    {
+        "name": "charmgoldenseven",
+        "type": "toggle",
+        "img": "images/items/charmgoldenseven.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgoldenseven"
+    },
+    {
+        "name": "callthistimeimbettingonyellow!",
+        "type": "toggle",
+        "img": "images/items/callthistimeimbettingonyellow!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callthistimeimbettingonyellow!"
+    },
+    {
+        "name": "callifikeeptrying",
+        "type": "toggle",
+        "img": "images/items/callifikeeptrying.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callifikeeptrying"
+    },
+    {
+        "name": "charmclovervoucher",
+        "type": "toggle",
+        "img": "images/items/charmclovervoucher.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmclovervoucher"
+    },
+    {
+        "name": "calliseethepatternsinmybehaviour.",
+        "type": "toggle",
+        "img": "images/items/calliseethepatternsinmybehaviour..png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "calliseethepatternsinmybehaviour."
+    },
+    {
+        "name": "charmfruitbasket",
+        "type": "toggle",
+        "img": "images/items/charmfruitbasket.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmfruitbasket"
+    },
+    {
+        "name": "charmgoldenhorseshoe",
+        "type": "toggle",
+        "img": "images/items/charmgoldenhorseshoe.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgoldenhorseshoe"
+    },
+    {
+        "name": "charmritualbell",
+        "type": "toggle",
+        "img": "images/items/charmritualbell.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmritualbell"
+    },
+    {
+        "name": "charmharbor",
+        "type": "toggle",
+        "img": "images/items/charmharbor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmharbor"
+    },
+    {
+        "name": "charmredpepper",
+        "type": "toggle",
+        "img": "images/items/charmredpepper.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmredpepper"
+    },
+    {
+        "name": "charmrottenpepper",
+        "type": "toggle",
+        "img": "images/items/charmrottenpepper.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmrottenpepper"
+    },
+    {
+        "name": "charmtoytrain",
+        "type": "toggle",
+        "img": "images/items/charmtoytrain.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmtoytrain"
+    },
+    {
+        "name": "bonusdeadlinetickets",
+        "type": "toggle",
+        "img": "images/items/bonusdeadlinetickets.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bonusdeadlinetickets"
+    },
+    {
+        "name": "charmpropertycertificate",
+        "type": "toggle",
+        "img": "images/items/charmpropertycertificate.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmpropertycertificate"
+    },
+    {
+        "name": "charmsevenpicture",
+        "type": "toggle",
+        "img": "images/items/charmsevenpicture.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmsevenpicture"
+    },
+    {
+        "name": "cardpack3",
+        "type": "toggle",
+        "img": "images/items/cardpack3.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cardpack3"
+    },
+    {
+        "name": "cardpack4",
+        "type": "toggle",
+        "img": "images/items/cardpack4.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cardpack4"
+    },
+    {
+        "name": "callimfeelinglucky!",
+        "type": "toggle",
+        "img": "images/items/callimfeelinglucky!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callimfeelinglucky!"
+    },
+    {
+        "name": "charmaabatteries",
+        "type": "toggle",
+        "img": "images/items/charmaabatteries.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmaabatteries"
+    },
+    {
+        "name": "charmpentacle",
+        "type": "toggle",
+        "img": "images/items/charmpentacle.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmpentacle"
+    },
+    {
+        "name": "charmelectrician",
+        "type": "toggle",
+        "img": "images/items/charmelectrician.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmelectrician"
+    },
+    {
+        "name": "callimre-organizingmymind!",
+        "type": "toggle",
+        "img": "images/items/callimre-organizingmymind!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callimre-organizingmymind!"
+    },
+    {
+        "name": "charmfortuneteller",
+        "type": "toggle",
+        "img": "images/items/charmfortuneteller.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmfortuneteller"
+    },
+    {
+        "name": "charmankh",
+        "type": "toggle",
+        "img": "images/items/charmankh.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmankh"
+    },
+    {
+        "name": "calliwanttoaddresssomestuff.",
+        "type": "toggle",
+        "img": "images/items/calliwanttoaddresssomestuff..png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "calliwanttoaddresssomestuff."
+    },
+    {
+        "name": "charmsupercapacitor",
+        "type": "toggle",
+        "img": "images/items/charmsupercapacitor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmsupercapacitor"
+    },
+    {
+        "name": "charmeyejar",
+        "type": "toggle",
+        "img": "images/items/charmeyejar.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmeyejar"
+    },
+    {
+        "name": "charmgoldenlemon",
+        "type": "toggle",
+        "img": "images/items/charmgoldenlemon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmgoldenlemon"
+    },
+    {
+        "name": "charmcar",
+        "type": "toggle",
+        "img": "images/items/charmcar.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcar"
+    },
+    {
+        "name": "charmringbell",
+        "type": "toggle",
+        "img": "images/items/charmringbell.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmringbell"
+    },
+    {
+        "name": "callitskindafun!",
+        "type": "toggle",
+        "img": "images/items/callitskindafun!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callitskindafun!"
+    },
+    {
+        "name": "clovertrap",
+        "type": "toggle",
+        "img": "images/items/clovertrap.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "clovertrap"
+    },
+    {
+        "name": "charmmegaphone",
+        "type": "toggle",
+        "img": "images/items/charmmegaphone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmmegaphone"
+    },
+    {
+        "name": "charmd20",
+        "type": "toggle",
+        "img": "images/items/charmd20.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmd20"
+    },
+    {
+        "name": "charmlittlestar",
+        "type": "toggle",
+        "img": "images/items/charmlittlestar.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmlittlestar"
+    },
+    {
+        "name": "charmstone",
+        "type": "toggle",
+        "img": "images/items/charmstone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmstone"
+    },
+    {
+        "name": "charmthimble",
+        "type": "toggle",
+        "img": "images/items/charmthimble.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmthimble"
+    },
+    {
+        "name": "callmyheadhurts!",
+        "type": "toggle",
+        "img": "images/items/callmyheadhurts!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callmyheadhurts!"
+    },
+    {
+        "name": "bonusstartingtickets",
+        "type": "toggle",
+        "img": "images/items/bonusstartingtickets.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bonusstartingtickets"
+    },
+    {
+        "name": "charmbellpicture",
+        "type": "toggle",
+        "img": "images/items/charmbellpicture.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmbellpicture"
+    },
+    {
+        "name": "callineedmoney!",
+        "type": "toggle",
+        "img": "images/items/callineedmoney!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callineedmoney!"
+    },
+    {
+        "name": "callcanigetsomeenergydrinks?",
+        "type": "toggle",
+        "img": "images/items/callcanigetsomeenergydrinks?.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callcanigetsomeenergydrinks?"
+    },
+    {
+        "name": "charmphotobook",
+        "type": "toggle",
+        "img": "images/items/charmphotobook.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmphotobook"
+    },
+    {
+        "name": "charmcloverbell",
+        "type": "toggle",
+        "img": "images/items/charmcloverbell.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmcloverbell"
+    },
+    {
+        "name": "charmstain",
+        "type": "toggle",
+        "img": "images/items/charmstain.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmstain"
+    },
+    {
+        "name": "charmtreasurepicture",
+        "type": "toggle",
+        "img": "images/items/charmtreasurepicture.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmtreasurepicture"
+    },
+    {
+        "name": "charmvorago",
+        "type": "toggle",
+        "img": "images/items/charmvorago.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmvorago"
+    },
+    {
+        "name": "callimsurethevaluewillrise!",
+        "type": "toggle",
+        "img": "images/items/callimsurethevaluewillrise!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callimsurethevaluewillrise!"
+    },
+    {
+        "name": "win",
+        "type": "toggle",
+        "img": "images/items/win.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "win"
+    },
+    {
+        "name": "charmnose",
+        "type": "toggle",
+        "img": "images/items/charmnose.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmnose"
+    },
+    {
+        "name": "callimthinkingofsomestrategies!",
+        "type": "toggle",
+        "img": "images/items/callimthinkingofsomestrategies!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callimthinkingofsomestrategies!"
+    },
+    {
+        "name": "charmship",
+        "type": "toggle",
+        "img": "images/items/charmship.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmship"
+    },
+    {
+        "name": "callifoundawinningstrategy!",
+        "type": "toggle",
+        "img": "images/items/callifoundawinningstrategy!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callifoundawinningstrategy!"
+    },
+    {
+        "name": "charmhorseshoe",
+        "type": "toggle",
+        "img": "images/items/charmhorseshoe.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmhorseshoe"
+    },
+    {
+        "name": "callgoldanddiamondsareagoodinvestment!",
+        "type": "toggle",
+        "img": "images/items/callgoldanddiamondsareagoodinvestment!.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callgoldanddiamondsareagoodinvestment!"
+    },
+    {
+        "name": "charmclicker",
+        "type": "toggle",
+        "img": "images/items/charmclicker.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charmclicker"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]

@@ -1,0 +1,1543 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Buy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Buy - Smoke Some Cigarettes",
+                        "ref": "Buy/Smoke Some Cigarettes"
+                    },
+                    {
+                        "name": "Buy - Buy Ankh",
+                        "ref": "Buy/Buy Ankh"
+                    },
+                    {
+                        "name": "Buy - Buy Horseshoe",
+                        "ref": "Buy/Buy Horseshoe"
+                    },
+                    {
+                        "name": "Buy - Buy Golden Horseshoe",
+                        "ref": "Buy/Buy Golden Horseshoe"
+                    },
+                    {
+                        "name": "Buy - Buy Hamsa",
+                        "ref": "Buy/Buy Hamsa"
+                    },
+                    {
+                        "name": "Buy - Buy Rotated Hamsa",
+                        "ref": "Buy/Buy Rotated Hamsa"
+                    },
+                    {
+                        "name": "Buy - Buy Lucky Cat",
+                        "ref": "Buy/Buy Lucky Cat"
+                    },
+                    {
+                        "name": "Buy - Buy Chonky Cat",
+                        "ref": "Buy/Buy Chonky Cat"
+                    },
+                    {
+                        "name": "Buy - Buy Swole Cat",
+                        "ref": "Buy/Buy Swole Cat"
+                    },
+                    {
+                        "name": "Buy - Buy One Trick Pony",
+                        "ref": "Buy/Buy One Trick Pony"
+                    },
+                    {
+                        "name": "Buy - Buy Red Shiny Rock",
+                        "ref": "Buy/Buy Red Shiny Rock"
+                    },
+                    {
+                        "name": "Buy - Buy Tarot Deck",
+                        "ref": "Buy/Buy Tarot Deck"
+                    },
+                    {
+                        "name": "Buy - Buy Dung Beetle",
+                        "ref": "Buy/Buy Dung Beetle"
+                    },
+                    {
+                        "name": "Buy - Buy Grandmas Purse",
+                        "ref": "Buy/Buy Grandmas Purse"
+                    },
+                    {
+                        "name": "Buy - Buy Pentacle",
+                        "ref": "Buy/Buy Pentacle"
+                    },
+                    {
+                        "name": "Buy - Buy Property Certificate",
+                        "ref": "Buy/Buy Property Certificate"
+                    },
+                    {
+                        "name": "Buy - Buy Nuclear Button",
+                        "ref": "Buy/Buy Nuclear Button"
+                    },
+                    {
+                        "name": "Buy - Buy Dear Diary",
+                        "ref": "Buy/Buy Dear Diary"
+                    },
+                    {
+                        "name": "Buy - Buy Megaphone",
+                        "ref": "Buy/Buy Megaphone"
+                    },
+                    {
+                        "name": "Buy - Buy Super Capacitor",
+                        "ref": "Buy/Buy Super Capacitor"
+                    },
+                    {
+                        "name": "Buy - Buy Dynamo",
+                        "ref": "Buy/Buy Dynamo"
+                    },
+                    {
+                        "name": "Buy - Buy Scratch And Hope",
+                        "ref": "Buy/Buy Scratch And Hope"
+                    },
+                    {
+                        "name": "Buy - Buy Stonks",
+                        "ref": "Buy/Buy Stonks"
+                    },
+                    {
+                        "name": "Buy - Buy Car Battery",
+                        "ref": "Buy/Buy Car Battery"
+                    },
+                    {
+                        "name": "Buy - Buy Expired Meds",
+                        "ref": "Buy/Buy Expired Meds"
+                    },
+                    {
+                        "name": "Buy - Buy Midas Touch",
+                        "ref": "Buy/Buy Midas Touch"
+                    },
+                    {
+                        "name": "Buy - Buy Number 1",
+                        "ref": "Buy/Buy Number 1"
+                    },
+                    {
+                        "name": "Buy - Buy Number 2",
+                        "ref": "Buy/Buy Number 2"
+                    },
+                    {
+                        "name": "Buy - Buy Pain Killers",
+                        "ref": "Buy/Buy Pain Killers"
+                    },
+                    {
+                        "name": "Buy - Buy Lost Wallet",
+                        "ref": "Buy/Buy Lost Wallet"
+                    },
+                    {
+                        "name": "Buy - Buy Calendar",
+                        "ref": "Buy/Buy Calendar"
+                    },
+                    {
+                        "name": "Buy - Buy Little Star",
+                        "ref": "Buy/Buy Little Star"
+                    },
+                    {
+                        "name": "Buy - Buy Fortune Cookie",
+                        "ref": "Buy/Buy Fortune Cookie"
+                    },
+                    {
+                        "name": "Buy - Buy Fidelity Card",
+                        "ref": "Buy/Buy Fidelity Card"
+                    },
+                    {
+                        "name": "Buy - Buy Sardines",
+                        "ref": "Buy/Buy Sardines"
+                    },
+                    {
+                        "name": "Buy - Buy Broken Calculator",
+                        "ref": "Buy/Buy Broken Calculator"
+                    },
+                    {
+                        "name": "Buy - Buy The Collector",
+                        "ref": "Buy/Buy The Collector"
+                    },
+                    {
+                        "name": "Buy - Buy Channeler of Fortune",
+                        "ref": "Buy/Buy Channeler of Fortune"
+                    },
+                    {
+                        "name": "Buy - Buy Nose",
+                        "ref": "Buy/Buy Nose"
+                    },
+                    {
+                        "name": "Buy - Buy Eye Jar",
+                        "ref": "Buy/Buy Eye Jar"
+                    },
+                    {
+                        "name": "Buy - Buy Voice Mail",
+                        "ref": "Buy/Buy Voice Mail"
+                    },
+                    {
+                        "name": "Buy - Buy Ring Bell",
+                        "ref": "Buy/Buy Ring Bell"
+                    },
+                    {
+                        "name": "Buy - Buy Consolation Prize",
+                        "ref": "Buy/Buy Consolation Prize"
+                    },
+                    {
+                        "name": "Buy - Buy Dark Lotus",
+                        "ref": "Buy/Buy Dark Lotus"
+                    },
+                    {
+                        "name": "Buy - Buy Weird Clock",
+                        "ref": "Buy/Buy Weird Clock"
+                    },
+                    {
+                        "name": "Buy - Buy Music Tape",
+                        "ref": "Buy/Buy Music Tape"
+                    },
+                    {
+                        "name": "Buy - Buy Shopping Cart",
+                        "ref": "Buy/Buy Shopping Cart"
+                    },
+                    {
+                        "name": "Buy - Buy Crowbar",
+                        "ref": "Buy/Buy Crowbar"
+                    },
+                    {
+                        "name": "Buy - Buy Disc A",
+                        "ref": "Buy/Buy Disc A"
+                    },
+                    {
+                        "name": "Buy - Buy Disc B",
+                        "ref": "Buy/Buy Disc B"
+                    },
+                    {
+                        "name": "Buy - Buy Disc C",
+                        "ref": "Buy/Buy Disc C"
+                    },
+                    {
+                        "name": "Buy - Buy Cardboard House",
+                        "ref": "Buy/Buy Cardboard House"
+                    },
+                    {
+                        "name": "Buy - Buy Lost Briefcase",
+                        "ref": "Buy/Buy Lost Briefcase"
+                    },
+                    {
+                        "name": "Buy - Buy Electricity Meter",
+                        "ref": "Buy/Buy Electricity Meter"
+                    },
+                    {
+                        "name": "Buy - Buy Potato Battery",
+                        "ref": "Buy/Buy Potato Battery"
+                    },
+                    {
+                        "name": "Buy - Buy Ancient Coin",
+                        "ref": "Buy/Buy Ancient Coin"
+                    },
+                    {
+                        "name": "Buy - Buy Cat Food",
+                        "ref": "Buy/Buy Cat Food"
+                    },
+                    {
+                        "name": "Buy - Buy Depression",
+                        "ref": "Buy/Buy Depression"
+                    },
+                    {
+                        "name": "Buy - Buy Toy Train",
+                        "ref": "Buy/Buy Toy Train"
+                    },
+                    {
+                        "name": "Buy - Buy Steam Locomotive",
+                        "ref": "Buy/Buy Steam Locomotive"
+                    },
+                    {
+                        "name": "Buy - Buy Diesel Locomotive",
+                        "ref": "Buy/Buy Diesel Locomotive"
+                    },
+                    {
+                        "name": "Buy - Buy Clover Voucher",
+                        "ref": "Buy/Buy Clover Voucher"
+                    },
+                    {
+                        "name": "Buy - Buy Clover Pot",
+                        "ref": "Buy/Buy Clover Pot"
+                    },
+                    {
+                        "name": "Buy - Buy Clover Pet",
+                        "ref": "Buy/Buy Clover Pet"
+                    },
+                    {
+                        "name": "Buy - Buy Clover Field",
+                        "ref": "Buy/Buy Clover Field"
+                    },
+                    {
+                        "name": "Buy - Buy Mushrooms",
+                        "ref": "Buy/Buy Mushrooms"
+                    },
+                    {
+                        "name": "Buy - Buy Vines Soup",
+                        "ref": "Buy/Buy Vines Soup"
+                    },
+                    {
+                        "name": "Buy - Buy Very Big Mushroom",
+                        "ref": "Buy/Buy Very Big Mushroom"
+                    },
+                    {
+                        "name": "Buy - Buy Abyssu",
+                        "ref": "Buy/Buy Abyssu"
+                    },
+                    {
+                        "name": "Buy - Buy Vorago",
+                        "ref": "Buy/Buy Vorago"
+                    },
+                    {
+                        "name": "Buy - Buy Barathrum",
+                        "ref": "Buy/Buy Barathrum"
+                    },
+                    {
+                        "name": "Buy - Buy Stain",
+                        "ref": "Buy/Buy Stain"
+                    },
+                    {
+                        "name": "Buy - Buy Abstract Painting",
+                        "ref": "Buy/Buy Abstract Painting"
+                    },
+                    {
+                        "name": "Buy - Buy Pareidolia",
+                        "ref": "Buy/Buy Pareidolia"
+                    },
+                    {
+                        "name": "Buy - Buy Hourglass",
+                        "ref": "Buy/Buy Hourglass"
+                    },
+                    {
+                        "name": "Buy - Buy Fruit Basket",
+                        "ref": "Buy/Buy Fruit Basket"
+                    },
+                    {
+                        "name": "Buy - Buy Seven Sins Stone",
+                        "ref": "Buy/Buy Seven Sins Stone"
+                    },
+                    {
+                        "name": "Buy - Buy Necklace",
+                        "ref": "Buy/Buy Necklace"
+                    },
+                    {
+                        "name": "Buy - Buy Clover Bell",
+                        "ref": "Buy/Buy Clover Bell"
+                    },
+                    {
+                        "name": "Buy - Buy Red Pepper",
+                        "ref": "Buy/Buy Red Pepper"
+                    },
+                    {
+                        "name": "Buy - Buy Green Pepper",
+                        "ref": "Buy/Buy Green Pepper"
+                    },
+                    {
+                        "name": "Buy - Buy Rotten Pepper",
+                        "ref": "Buy/Buy Rotten Pepper"
+                    },
+                    {
+                        "name": "Buy - Buy Bell Pepper",
+                        "ref": "Buy/Buy Bell Pepper"
+                    },
+                    {
+                        "name": "Buy - Buy Golden Pepper",
+                        "ref": "Buy/Buy Golden Pepper"
+                    },
+                    {
+                        "name": "Buy - Buy Demons Horn",
+                        "ref": "Buy/Buy Demons Horn"
+                    },
+                    {
+                        "name": "Buy - Buy Necronomicon",
+                        "ref": "Buy/Buy Necronomicon"
+                    },
+                    {
+                        "name": "Buy - Buy Holy Bible",
+                        "ref": "Buy/Buy Holy Bible"
+                    },
+                    {
+                        "name": "Buy - Buy Baphomet",
+                        "ref": "Buy/Buy Baphomet"
+                    },
+                    {
+                        "name": "Buy - Buy Cross",
+                        "ref": "Buy/Buy Cross"
+                    },
+                    {
+                        "name": "Buy - Buy Rosary",
+                        "ref": "Buy/Buy Rosary"
+                    },
+                    {
+                        "name": "Buy - Buy Book Of Shadows",
+                        "ref": "Buy/Buy Book Of Shadows"
+                    },
+                    {
+                        "name": "Buy - Buy Gabihbbh",
+                        "ref": "Buy/Buy Gabihbbh"
+                    },
+                    {
+                        "name": "Buy - Buy Possessed Cell Phone",
+                        "ref": "Buy/Buy Possessed Cell Phone"
+                    },
+                    {
+                        "name": "Buy - Buy Magical Tomato",
+                        "ref": "Buy/Buy Magical Tomato"
+                    },
+                    {
+                        "name": "Buy - Buy Ritual Bell",
+                        "ref": "Buy/Buy Ritual Bell"
+                    },
+                    {
+                        "name": "Buy - Buy Crystal Skull",
+                        "ref": "Buy/Buy Crystal Skull"
+                    },
+                    {
+                        "name": "Buy - Buy Evil Deal",
+                        "ref": "Buy/Buy Evil Deal"
+                    },
+                    {
+                        "name": "Buy - Buy Chastity Belt",
+                        "ref": "Buy/Buy Chastity Belt"
+                    },
+                    {
+                        "name": "Buy - Buy Photo Book",
+                        "ref": "Buy/Buy Photo Book"
+                    },
+                    {
+                        "name": "Buy - Buy Lemon Picture",
+                        "ref": "Buy/Buy Lemon Picture"
+                    },
+                    {
+                        "name": "Buy - Buy Cherry Picture",
+                        "ref": "Buy/Buy Cherry Picture"
+                    },
+                    {
+                        "name": "Buy - Buy Clover Picture",
+                        "ref": "Buy/Buy Clover Picture"
+                    },
+                    {
+                        "name": "Buy - Buy Bell Picture",
+                        "ref": "Buy/Buy Bell Picture"
+                    },
+                    {
+                        "name": "Buy - Buy Diamond Picture",
+                        "ref": "Buy/Buy Diamond Picture"
+                    },
+                    {
+                        "name": "Buy - Buy Treasure Picture",
+                        "ref": "Buy/Buy Treasure Picture"
+                    },
+                    {
+                        "name": "Buy - Buy Seven Picture",
+                        "ref": "Buy/Buy Seven Picture"
+                    },
+                    {
+                        "name": "Buy - Buy Clicker",
+                        "ref": "Buy/Buy Clicker"
+                    },
+                    {
+                        "name": "Buy - Buy AA Batteries",
+                        "ref": "Buy/Buy AA Batteries"
+                    },
+                    {
+                        "name": "Buy - Buy Crystal Sphere",
+                        "ref": "Buy/Buy Crystal Sphere"
+                    },
+                    {
+                        "name": "Buy - Buy Naughty Dealer",
+                        "ref": "Buy/Buy Naughty Dealer"
+                    },
+                    {
+                        "name": "Buy - Buy Greedy King",
+                        "ref": "Buy/Buy Greedy King"
+                    },
+                    {
+                        "name": "Buy - Buy Raging Capitalist",
+                        "ref": "Buy/Buy Raging Capitalist"
+                    },
+                    {
+                        "name": "Buy - Buy Personal Trainer",
+                        "ref": "Buy/Buy Personal Trainer"
+                    },
+                    {
+                        "name": "Buy - Buy Electrician",
+                        "ref": "Buy/Buy Electrician"
+                    },
+                    {
+                        "name": "Buy - Buy Fortune Teller",
+                        "ref": "Buy/Buy Fortune Teller"
+                    },
+                    {
+                        "name": "Buy - Buy Golden Lemon",
+                        "ref": "Buy/Buy Golden Lemon"
+                    },
+                    {
+                        "name": "Buy - Buy Golden Cherry",
+                        "ref": "Buy/Buy Golden Cherry"
+                    },
+                    {
+                        "name": "Buy - Buy Golden Clover",
+                        "ref": "Buy/Buy Golden Clover"
+                    },
+                    {
+                        "name": "Buy - Buy Golden Bell",
+                        "ref": "Buy/Buy Golden Bell"
+                    },
+                    {
+                        "name": "Buy - Buy Golden Diamond",
+                        "ref": "Buy/Buy Golden Diamond"
+                    },
+                    {
+                        "name": "Buy - Buy Golden Treasure",
+                        "ref": "Buy/Buy Golden Treasure"
+                    },
+                    {
+                        "name": "Buy - Buy Golden Seven",
+                        "ref": "Buy/Buy Golden Seven"
+                    },
+                    {
+                        "name": "Buy - Buy Bricks",
+                        "ref": "Buy/Buy Bricks"
+                    },
+                    {
+                        "name": "Buy - Buy Wood",
+                        "ref": "Buy/Buy Wood"
+                    },
+                    {
+                        "name": "Buy - Buy Sheep",
+                        "ref": "Buy/Buy Sheep"
+                    },
+                    {
+                        "name": "Buy - Buy Wheat",
+                        "ref": "Buy/Buy Wheat"
+                    },
+                    {
+                        "name": "Buy - Buy Stone",
+                        "ref": "Buy/Buy Stone"
+                    },
+                    {
+                        "name": "Buy - Buy Harbor",
+                        "ref": "Buy/Buy Harbor"
+                    },
+                    {
+                        "name": "Buy - Buy Thief",
+                        "ref": "Buy/Buy Thief"
+                    },
+                    {
+                        "name": "Buy - Buy Wheelbarrow",
+                        "ref": "Buy/Buy Wheelbarrow"
+                    },
+                    {
+                        "name": "Buy - Buy Shoe",
+                        "ref": "Buy/Buy Shoe"
+                    },
+                    {
+                        "name": "Buy - Buy Thimble",
+                        "ref": "Buy/Buy Thimble"
+                    },
+                    {
+                        "name": "Buy - Buy Iron",
+                        "ref": "Buy/Buy Iron"
+                    },
+                    {
+                        "name": "Buy - Buy Car",
+                        "ref": "Buy/Buy Car"
+                    },
+                    {
+                        "name": "Buy - Buy Ship",
+                        "ref": "Buy/Buy Ship"
+                    },
+                    {
+                        "name": "Buy - Buy Tuba Hat",
+                        "ref": "Buy/Buy Tuba Hat"
+                    },
+                    {
+                        "name": "Buy - Buy Ace Of Hearts",
+                        "ref": "Buy/Buy Ace Of Hearts"
+                    },
+                    {
+                        "name": "Buy - Buy Ace Of Clubs",
+                        "ref": "Buy/Buy Ace Of Clubs"
+                    },
+                    {
+                        "name": "Buy - Buy Ace Of Diamonds",
+                        "ref": "Buy/Buy Ace Of Diamonds"
+                    },
+                    {
+                        "name": "Buy - Buy Ace Of Spades",
+                        "ref": "Buy/Buy Ace Of Spades"
+                    },
+                    {
+                        "name": "Buy - Buy Jimbo",
+                        "ref": "Buy/Buy Jimbo"
+                    },
+                    {
+                        "name": "Buy - Buy D4",
+                        "ref": "Buy/Buy D4"
+                    },
+                    {
+                        "name": "Buy - Buy D6",
+                        "ref": "Buy/Buy D6"
+                    },
+                    {
+                        "name": "Buy - Buy D20",
+                        "ref": "Buy/Buy D20"
+                    },
+                    {
+                        "name": "Buy - Buy Fake Coin",
+                        "ref": "Buy/Buy Fake Coin"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 738,
+                        "y": 1439,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Deadline",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Deadline - Deadline 1 Complete",
+                        "ref": "Deadline/Deadline 1 Complete"
+                    },
+                    {
+                        "name": "Deadline - Deadline 2 Complete",
+                        "ref": "Deadline/Deadline 2 Complete"
+                    },
+                    {
+                        "name": "Deadline - Deadline 3 Complete",
+                        "ref": "Deadline/Deadline 3 Complete"
+                    },
+                    {
+                        "name": "Deadline - Deadline 4 Complete",
+                        "ref": "Deadline/Deadline 4 Complete"
+                    },
+                    {
+                        "name": "Deadline - Deadline 5 Complete",
+                        "ref": "Deadline/Deadline 5 Complete"
+                    },
+                    {
+                        "name": "Deadline - Deadline 6 Complete",
+                        "ref": "Deadline/Deadline 6 Complete"
+                    },
+                    {
+                        "name": "Deadline - Deadline 7 Complete",
+                        "ref": "Deadline/Deadline 7 Complete"
+                    },
+                    {
+                        "name": "Deadline - Deadline 8 Complete",
+                        "ref": "Deadline/Deadline 8 Complete"
+                    },
+                    {
+                        "name": "Deadline - Deadline 9 Complete",
+                        "ref": "Deadline/Deadline 9 Complete"
+                    },
+                    {
+                        "name": "Deadline - Deadline 10 Complete",
+                        "ref": "Deadline/Deadline 10 Complete"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1450,
+                        "y": 1023,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Goal Completed",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1207,
+                        "y": 2191,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Key",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Key - Key 1 Collected",
+                        "ref": "Key/Key 1 Collected"
+                    },
+                    {
+                        "name": "Key - Key 2 Collected",
+                        "ref": "Key/Key 2 Collected"
+                    },
+                    {
+                        "name": "Key - Key 3 Collected",
+                        "ref": "Key/Key 3 Collected"
+                    },
+                    {
+                        "name": "Key - Key 4 Collected",
+                        "ref": "Key/Key 4 Collected"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1037,
+                        "y": 1806,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Memory Card",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Memory Card - Desperate Search Beat",
+                        "ref": "Memory Card/Desperate Search Beat"
+                    },
+                    {
+                        "name": "Memory Card - Fixation Beat",
+                        "ref": "Memory Card/Fixation Beat"
+                    },
+                    {
+                        "name": "Memory Card - Screen Addiction Beat",
+                        "ref": "Memory Card/Screen Addiction Beat"
+                    },
+                    {
+                        "name": "Memory Card - Cold Affection Beat",
+                        "ref": "Memory Card/Cold Affection Beat"
+                    },
+                    {
+                        "name": "Memory Card - Old Wounds Beat",
+                        "ref": "Memory Card/Old Wounds Beat"
+                    },
+                    {
+                        "name": "Memory Card - Bullies Favorite Beat",
+                        "ref": "Memory Card/Bullies Favorite Beat"
+                    },
+                    {
+                        "name": "Memory Card - Delusions of Grandeur Beat",
+                        "ref": "Memory Card/Delusions of Grandeur Beat"
+                    },
+                    {
+                        "name": "Memory Card - Important Choice Beat",
+                        "ref": "Memory Card/Important Choice Beat"
+                    },
+                    {
+                        "name": "Memory Card - Recovery Attempts Beat",
+                        "ref": "Memory Card/Recovery Attempts Beat"
+                    },
+                    {
+                        "name": "Memory Card - Life Lessons Beat",
+                        "ref": "Memory Card/Life Lessons Beat"
+                    },
+                    {
+                        "name": "Memory Card - A New Investment Beat",
+                        "ref": "Memory Card/A New Investment Beat"
+                    },
+                    {
+                        "name": "Memory Card - Sacrifices Beat",
+                        "ref": "Memory Card/Sacrifices Beat"
+                    },
+                    {
+                        "name": "Memory Card - Lets Go Gambling Beat",
+                        "ref": "Memory Card/Lets Go Gambling Beat"
+                    },
+                    {
+                        "name": "Memory Card - Class Dunce Beat",
+                        "ref": "Memory Card/Class Dunce Beat"
+                    },
+                    {
+                        "name": "Memory Card - Heartbreak Beat",
+                        "ref": "Memory Card/Heartbreak Beat"
+                    },
+                    {
+                        "name": "Memory Card - Repressed Emotions Beat",
+                        "ref": "Memory Card/Repressed Emotions Beat"
+                    },
+                    {
+                        "name": "Memory Card - First Love Beat",
+                        "ref": "Memory Card/First Love Beat"
+                    },
+                    {
+                        "name": "Memory Card - Expensive Love Beat",
+                        "ref": "Memory Card/Expensive Love Beat"
+                    },
+                    {
+                        "name": "Memory Card - Overdose Beat",
+                        "ref": "Memory Card/Overdose Beat"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1689,
+                        "y": 595,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Normal Call",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Normal Call - Please dont throw my stuff away!",
+                        "ref": "Normal Call/Please dont throw my stuff away!"
+                    },
+                    {
+                        "name": "Normal Call - I can't quit now!",
+                        "ref": "Normal Call/I can't quit now!"
+                    },
+                    {
+                        "name": "Normal Call - Can I borrow some green",
+                        "ref": "Normal Call/Can I borrow some green"
+                    },
+                    {
+                        "name": "Normal Call - Can I eat something",
+                        "ref": "Normal Call/Can I eat something"
+                    },
+                    {
+                        "name": "Normal Call - This time I'm betting on Green!",
+                        "ref": "Normal Call/This time I'm betting on Green!"
+                    },
+                    {
+                        "name": "Normal Call - This time I'm betting on Yellow!",
+                        "ref": "Normal Call/This time I'm betting on Yellow!"
+                    },
+                    {
+                        "name": "Normal Call - This time I'm betting on Orange!",
+                        "ref": "Normal Call/This time I'm betting on Orange!"
+                    },
+                    {
+                        "name": "Normal Call - If I keep trying, the patterns will align!",
+                        "ref": "Normal Call/If I keep trying, the patterns will align!"
+                    },
+                    {
+                        "name": "Normal Call - It's kinda fun!",
+                        "ref": "Normal Call/It's kinda fun!"
+                    },
+                    {
+                        "name": "Normal Call - I'm sure the value will rise!",
+                        "ref": "Normal Call/I'm sure the value will rise!"
+                    },
+                    {
+                        "name": "Normal Call - Can I get some Energy Drinks",
+                        "ref": "Normal Call/Can I get some Energy Drinks"
+                    },
+                    {
+                        "name": "Normal Call - Life gave me lemons",
+                        "ref": "Normal Call/Life gave me lemons"
+                    },
+                    {
+                        "name": "Normal Call - I used to eat healthy...",
+                        "ref": "Normal Call/I used to eat healthy..."
+                    },
+                    {
+                        "name": "Normal Call - Today's my lucky day!",
+                        "ref": "Normal Call/Today's my lucky day!"
+                    },
+                    {
+                        "name": "Normal Call - I need to be there!",
+                        "ref": "Normal Call/I need to be there!"
+                    },
+                    {
+                        "name": "Normal Call - Please, I'll give you anything",
+                        "ref": "Normal Call/Please, I'll give you anything"
+                    },
+                    {
+                        "name": "Normal Call - I need money!",
+                        "ref": "Normal Call/I need money!"
+                    },
+                    {
+                        "name": "Normal Call - I didn't hurt anybody...",
+                        "ref": "Normal Call/I didn't hurt anybody..."
+                    },
+                    {
+                        "name": "Normal Call - I need supplements!",
+                        "ref": "Normal Call/I need supplements!"
+                    },
+                    {
+                        "name": "Normal Call - I'm feeling lucky!",
+                        "ref": "Normal Call/I'm feeling lucky!"
+                    },
+                    {
+                        "name": "Normal Call - Gold and Diamonds are a good investment!",
+                        "ref": "Normal Call/Gold and Diamonds are a good investment!"
+                    },
+                    {
+                        "name": "Normal Call - I'm gonna go All In!",
+                        "ref": "Normal Call/I'm gonna go All In!"
+                    },
+                    {
+                        "name": "Normal Call - I'm thinking of some strategies!",
+                        "ref": "Normal Call/I'm thinking of some strategies!"
+                    },
+                    {
+                        "name": "Normal Call - I found a winning strategy!",
+                        "ref": "Normal Call/I found a winning strategy!"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 445,
+                        "y": 1213,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Press The Red Button",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 370,
+                        "y": 2070,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Red Button",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Red Button - Activate The Golden Horseshoe",
+                        "ref": "Red Button/Activate The Golden Horseshoe"
+                    },
+                    {
+                        "name": "Red Button - Activate Red Shiny Rock",
+                        "ref": "Red Button/Activate Red Shiny Rock"
+                    },
+                    {
+                        "name": "Red Button - Activate Midas Touch",
+                        "ref": "Red Button/Activate Midas Touch"
+                    },
+                    {
+                        "name": "Red Button - Activate Number 1",
+                        "ref": "Red Button/Activate Number 1"
+                    },
+                    {
+                        "name": "Red Button - Activate Number 2",
+                        "ref": "Red Button/Activate Number 2"
+                    },
+                    {
+                        "name": "Red Button - Activate Ring Bell",
+                        "ref": "Red Button/Activate Ring Bell"
+                    },
+                    {
+                        "name": "Red Button - Activate Weird Clock",
+                        "ref": "Red Button/Activate Weird Clock"
+                    },
+                    {
+                        "name": "Red Button - Activate Ancient Coin",
+                        "ref": "Red Button/Activate Ancient Coin"
+                    },
+                    {
+                        "name": "Red Button - Activate Cross",
+                        "ref": "Red Button/Activate Cross"
+                    },
+                    {
+                        "name": "Red Button - Activate Possessed Cell Phone",
+                        "ref": "Red Button/Activate Possessed Cell Phone"
+                    },
+                    {
+                        "name": "Red Button - Activate Lemon Picture",
+                        "ref": "Red Button/Activate Lemon Picture"
+                    },
+                    {
+                        "name": "Red Button - Activate Cherry Picture",
+                        "ref": "Red Button/Activate Cherry Picture"
+                    },
+                    {
+                        "name": "Red Button - Activate Clover Picture",
+                        "ref": "Red Button/Activate Clover Picture"
+                    },
+                    {
+                        "name": "Red Button - Activate Bell Picture",
+                        "ref": "Red Button/Activate Bell Picture"
+                    },
+                    {
+                        "name": "Red Button - Activate Diamond Picture",
+                        "ref": "Red Button/Activate Diamond Picture"
+                    },
+                    {
+                        "name": "Red Button - Activate Treasure Picture",
+                        "ref": "Red Button/Activate Treasure Picture"
+                    },
+                    {
+                        "name": "Red Button - Activate Seven Picture",
+                        "ref": "Red Button/Activate Seven Picture"
+                    },
+                    {
+                        "name": "Red Button - Activate Angels Hand",
+                        "ref": "Red Button/Activate Angels Hand"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 68,
+                        "y": 1510,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Red Call",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Red Call - I like cryptic values!",
+                        "ref": "Red Call/I like cryptic values!"
+                    },
+                    {
+                        "name": "Red Call - I love shiny stuff!",
+                        "ref": "Red Call/I love shiny stuff!"
+                    },
+                    {
+                        "name": "Red Call - I don't care about the price!",
+                        "ref": "Red Call/I don't care about the price!"
+                    },
+                    {
+                        "name": "Red Call - My head hurts!",
+                        "ref": "Red Call/My head hurts!"
+                    },
+                    {
+                        "name": "Red Call - Give me back my money!",
+                        "ref": "Red Call/Give me back my money!"
+                    },
+                    {
+                        "name": "Red Call - There's nothing to eat but mould.",
+                        "ref": "Red Call/There's nothing to eat but mould."
+                    },
+                    {
+                        "name": "Red Call - Wait, what day is it",
+                        "ref": "Red Call/Wait, what day is it"
+                    },
+                    {
+                        "name": "Red Call - I've already bet it all!",
+                        "ref": "Red Call/I've already bet it all!"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1652,
+                        "y": 111,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sacred Call",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Sacred Call - I'm re-organizing my mind!",
+                        "ref": "Sacred Call/I'm re-organizing my mind!"
+                    },
+                    {
+                        "name": "Sacred Call - I see the patterns in my behaviour.",
+                        "ref": "Sacred Call/I see the patterns in my behaviour."
+                    },
+                    {
+                        "name": "Sacred Call - I'm feeling more energetic recently.",
+                        "ref": "Sacred Call/I'm feeling more energetic recently."
+                    },
+                    {
+                        "name": "Sacred Call - I need to heal myself.",
+                        "ref": "Sacred Call/I need to heal myself."
+                    },
+                    {
+                        "name": "Sacred Call - I'm being constant!",
+                        "ref": "Sacred Call/I'm being constant!"
+                    },
+                    {
+                        "name": "Sacred Call - Help!",
+                        "ref": "Sacred Call/Help!"
+                    },
+                    {
+                        "name": "Sacred Call - I want to address some stuff.",
+                        "ref": "Sacred Call/I want to address some stuff."
+                    },
+                    {
+                        "name": "Sacred Call - I'll take back control of my life.",
+                        "ref": "Sacred Call/I'll take back control of my life."
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1415,
+                        "y": 643,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Score",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Score - Score HOR Pattern",
+                        "ref": "Score/Score HOR Pattern"
+                    },
+                    {
+                        "name": "Score - Score VERT Pattern",
+                        "ref": "Score/Score VERT Pattern"
+                    },
+                    {
+                        "name": "Score - Score DIAG Pattern",
+                        "ref": "Score/Score DIAG Pattern"
+                    },
+                    {
+                        "name": "Score - Score HOR-L Pattern",
+                        "ref": "Score/Score HOR-L Pattern"
+                    },
+                    {
+                        "name": "Score - Score HOR-XL Pattern",
+                        "ref": "Score/Score HOR-XL Pattern"
+                    },
+                    {
+                        "name": "Score - Score ZIG Pattern",
+                        "ref": "Score/Score ZIG Pattern"
+                    },
+                    {
+                        "name": "Score - Score ZAG Pattern",
+                        "ref": "Score/Score ZAG Pattern"
+                    },
+                    {
+                        "name": "Score - Score ABOVE Pattern",
+                        "ref": "Score/Score ABOVE Pattern"
+                    },
+                    {
+                        "name": "Score - Score BELOW Pattern",
+                        "ref": "Score/Score BELOW Pattern"
+                    },
+                    {
+                        "name": "Score - Score EYE Pattern",
+                        "ref": "Score/Score EYE Pattern"
+                    },
+                    {
+                        "name": "Score - Score a Jackpot",
+                        "ref": "Score/Score a Jackpot"
+                    },
+                    {
+                        "name": "Score - Score with Lemons",
+                        "ref": "Score/Score with Lemons"
+                    },
+                    {
+                        "name": "Score - Score with Cherries",
+                        "ref": "Score/Score with Cherries"
+                    },
+                    {
+                        "name": "Score - Score with Clovers",
+                        "ref": "Score/Score with Clovers"
+                    },
+                    {
+                        "name": "Score - Score with Bells",
+                        "ref": "Score/Score with Bells"
+                    },
+                    {
+                        "name": "Score - Score with Diamonds",
+                        "ref": "Score/Score with Diamonds"
+                    },
+                    {
+                        "name": "Score - Score with Treasures",
+                        "ref": "Score/Score with Treasures"
+                    },
+                    {
+                        "name": "Score - Score with Sevens",
+                        "ref": "Score/Score with Sevens"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1696,
+                        "y": 1341,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Skeleton - Equip Skeleton Head",
+                        "ref": "Skeleton/Equip Skeleton Head"
+                    },
+                    {
+                        "name": "Skeleton - Equip Skeleton Arm 1",
+                        "ref": "Skeleton/Equip Skeleton Arm 1"
+                    },
+                    {
+                        "name": "Skeleton - Equip Skeleton Arm 2",
+                        "ref": "Skeleton/Equip Skeleton Arm 2"
+                    },
+                    {
+                        "name": "Skeleton - Equip Skeleton Leg 1",
+                        "ref": "Skeleton/Equip Skeleton Leg 1"
+                    },
+                    {
+                        "name": "Skeleton - Equip Skeleton Leg 2",
+                        "ref": "Skeleton/Equip Skeleton Leg 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 757,
+                        "y": 333,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Toilet",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Toilet - Take A Piss",
+                        "ref": "Toilet/Take A Piss"
+                    },
+                    {
+                        "name": "Toilet - Take A Shit",
+                        "ref": "Toilet/Take A Shit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 506,
+                        "y": 2378,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Trigger",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Trigger - Trigger Fake Coin",
+                        "ref": "Trigger/Trigger Fake Coin"
+                    },
+                    {
+                        "name": "Trigger - Trigger Ankh",
+                        "ref": "Trigger/Trigger Ankh"
+                    },
+                    {
+                        "name": "Trigger - Trigger Hamsa",
+                        "ref": "Trigger/Trigger Hamsa"
+                    },
+                    {
+                        "name": "Trigger - Trigger Rotated Hamsa",
+                        "ref": "Trigger/Trigger Rotated Hamsa"
+                    },
+                    {
+                        "name": "Trigger - Trigger Lucky Cat",
+                        "ref": "Trigger/Trigger Lucky Cat"
+                    },
+                    {
+                        "name": "Trigger - Trigger Chonky Cat",
+                        "ref": "Trigger/Trigger Chonky Cat"
+                    },
+                    {
+                        "name": "Trigger - Trigger Swole Cat",
+                        "ref": "Trigger/Trigger Swole Cat"
+                    },
+                    {
+                        "name": "Trigger - Trigger Dung Beetle",
+                        "ref": "Trigger/Trigger Dung Beetle"
+                    },
+                    {
+                        "name": "Trigger - Trigger One Trick Pony",
+                        "ref": "Trigger/Trigger One Trick Pony"
+                    },
+                    {
+                        "name": "Trigger - Trigger Tarot Deck",
+                        "ref": "Trigger/Trigger Tarot Deck"
+                    },
+                    {
+                        "name": "Trigger - Trigger Pentacle",
+                        "ref": "Trigger/Trigger Pentacle"
+                    },
+                    {
+                        "name": "Trigger - Trigger Dynamo",
+                        "ref": "Trigger/Trigger Dynamo"
+                    },
+                    {
+                        "name": "Trigger - Trigger Disc A",
+                        "ref": "Trigger/Trigger Disc A"
+                    },
+                    {
+                        "name": "Trigger - Trigger Disc B",
+                        "ref": "Trigger/Trigger Disc B"
+                    },
+                    {
+                        "name": "Trigger - Trigger Disc C",
+                        "ref": "Trigger/Trigger Disc C"
+                    },
+                    {
+                        "name": "Trigger - Trigger Clover Pot",
+                        "ref": "Trigger/Trigger Clover Pot"
+                    },
+                    {
+                        "name": "Trigger - Trigger Clover Field",
+                        "ref": "Trigger/Trigger Clover Field"
+                    },
+                    {
+                        "name": "Trigger - Trigger Mushrooms",
+                        "ref": "Trigger/Trigger Mushrooms"
+                    },
+                    {
+                        "name": "Trigger - Trigger Vines Soup",
+                        "ref": "Trigger/Trigger Vines Soup"
+                    },
+                    {
+                        "name": "Trigger - Trigger Very Big Mushroom",
+                        "ref": "Trigger/Trigger Very Big Mushroom"
+                    },
+                    {
+                        "name": "Trigger - Throw Away Abyssu",
+                        "ref": "Trigger/Throw Away Abyssu"
+                    },
+                    {
+                        "name": "Trigger - Throw Away Vorago",
+                        "ref": "Trigger/Throw Away Vorago"
+                    },
+                    {
+                        "name": "Trigger - Throw Away Barathrum",
+                        "ref": "Trigger/Throw Away Barathrum"
+                    },
+                    {
+                        "name": "Trigger - Trigger Stain",
+                        "ref": "Trigger/Trigger Stain"
+                    },
+                    {
+                        "name": "Trigger - Trigger Abstract Painting",
+                        "ref": "Trigger/Trigger Abstract Painting"
+                    },
+                    {
+                        "name": "Trigger - Trigger Hourglass",
+                        "ref": "Trigger/Trigger Hourglass"
+                    },
+                    {
+                        "name": "Trigger - Trigger Seven Sins Stone",
+                        "ref": "Trigger/Trigger Seven Sins Stone"
+                    },
+                    {
+                        "name": "Trigger - Trigger Red Pepper",
+                        "ref": "Trigger/Trigger Red Pepper"
+                    },
+                    {
+                        "name": "Trigger - Trigger Green Pepper",
+                        "ref": "Trigger/Trigger Green Pepper"
+                    },
+                    {
+                        "name": "Trigger - Trigger Rotten Pepper",
+                        "ref": "Trigger/Trigger Rotten Pepper"
+                    },
+                    {
+                        "name": "Trigger - Trigger Bell Pepper",
+                        "ref": "Trigger/Trigger Bell Pepper"
+                    },
+                    {
+                        "name": "Trigger - Trigger Golden Pepper",
+                        "ref": "Trigger/Trigger Golden Pepper"
+                    },
+                    {
+                        "name": "Trigger - Trigger Demons Horn",
+                        "ref": "Trigger/Trigger Demons Horn"
+                    },
+                    {
+                        "name": "Trigger - Trigger Holy Bible",
+                        "ref": "Trigger/Trigger Holy Bible"
+                    },
+                    {
+                        "name": "Trigger - Trigger Baphomet",
+                        "ref": "Trigger/Trigger Baphomet"
+                    },
+                    {
+                        "name": "Trigger - Trigger Rosary",
+                        "ref": "Trigger/Trigger Rosary"
+                    },
+                    {
+                        "name": "Trigger - Trigger Book Of Shadows",
+                        "ref": "Trigger/Trigger Book Of Shadows"
+                    },
+                    {
+                        "name": "Trigger - Trigger Gabihbb'h",
+                        "ref": "Trigger/Trigger Gabihbb'h"
+                    },
+                    {
+                        "name": "Trigger - Trigger Magical Tomato",
+                        "ref": "Trigger/Trigger Magical Tomato"
+                    },
+                    {
+                        "name": "Trigger - Trigger Ritual Bell",
+                        "ref": "Trigger/Trigger Ritual Bell"
+                    },
+                    {
+                        "name": "Trigger - Trigger Crystal Skull",
+                        "ref": "Trigger/Trigger Crystal Skull"
+                    },
+                    {
+                        "name": "Trigger - Trigger Ace Of Hearts",
+                        "ref": "Trigger/Trigger Ace Of Hearts"
+                    },
+                    {
+                        "name": "Trigger - Trigger Ace Of Diamonds",
+                        "ref": "Trigger/Trigger Ace Of Diamonds"
+                    },
+                    {
+                        "name": "Trigger - Trigger D4",
+                        "ref": "Trigger/Trigger D4"
+                    },
+                    {
+                        "name": "Trigger - Trigger D6",
+                        "ref": "Trigger/Trigger D6"
+                    },
+                    {
+                        "name": "Trigger - Trigger D20",
+                        "ref": "Trigger/Trigger D20"
+                    },
+                    {
+                        "name": "Trigger - Trigger Eye of God",
+                        "ref": "Trigger/Trigger Eye of God"
+                    },
+                    {
+                        "name": "Trigger - Trigger Holy Spirit",
+                        "ref": "Trigger/Trigger Holy Spirit"
+                    },
+                    {
+                        "name": "Trigger - Trigger Eternity",
+                        "ref": "Trigger/Trigger Eternity"
+                    },
+                    {
+                        "name": "Trigger - Trigger Adams Ribcage",
+                        "ref": "Trigger/Trigger Adams Ribcage"
+                    },
+                    {
+                        "name": "Trigger - Trigger Ophanim Wheels",
+                        "ref": "Trigger/Trigger Ophanim Wheels"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1860,
+                        "y": 200,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Win Something",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2369,
+                        "y": 460,
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]
