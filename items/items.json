@@ -186,7 +186,7 @@
   {
     "name": "Can I eat something?",
     "type": "toggle",
-    "img": "images/items/callcanieatsomething?.png",
+    "img": "images/items/callcanieatsomething.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "callcanieatsomething?"
@@ -434,7 +434,7 @@
   {
     "name": "Can I borrow some green?",
     "type": "toggle",
-    "img": "images/items/callcaniborrowsomegreen?.png",
+    "img": "images/items/callcaniborrowsomegreen.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "callcaniborrowsomegreen?"
@@ -1552,7 +1552,7 @@
   {
     "name": "Can I get some Energy Drinks?",
     "type": "toggle",
-    "img": "images/items/callcanigetsomeenergydrinks?.png",
+    "img": "images/items/callcanigetsomeenergydrinks.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "callcanigetsomeenergydrinks?"
