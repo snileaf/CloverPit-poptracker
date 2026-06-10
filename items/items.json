@@ -625,25 +625,25 @@
     "stages": [
       {
         "name": "Progressive Drawer 1",
-        "inherit_codes": true,
+        "inherit_codes": false,
         "img": "/images/items/progressivedrawer1.png",
         "codes": "progressivedrawer, progressivedrawer_stage1"
       },
       {
         "name": "Progressive Drawer 2",
-        "inherit_codes": true,
+        "inherit_codes": false,
         "img": "/images/items/progressivedrawer2.png",
         "codes": "progressivedrawer_stage2"
       },
       {
         "name": "Progressive Drawer 3",
-        "inherit_codes": true,
+        "inherit_codes": false,
         "img": "/images/items/progressivedrawer3.png",
         "codes": "progressivedrawer_stage3"
       },
       {
         "name": "Progressive Drawer 4",
-        "inherit_codes": true,
+        "inherit_codes": false,
         "img": "/images/items/progressivedrawer4.png",
         "codes": "progressivedrawer_stage4"
       }

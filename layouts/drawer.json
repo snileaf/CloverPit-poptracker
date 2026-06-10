@@ -1,0 +1,19 @@
+{
+  "drawer_grid": {
+    "type": "itemgrid",
+    "item_margin": "2, 2",
+    "h_alignment": "left",
+    "item_h_alignment": "center",
+    "item_v_alignment": "center",
+    "item_height": 40,
+    "item_width": 40,
+    "rows": [
+      [
+        "progressivedrawer1",
+        "progressivedrawer2",
+        "progressivedrawer3",
+        "progressivedrawer4"
+      ]
+    ]
+  }
+}

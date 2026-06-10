@@ -1,75 +1,61 @@
 {
   "phonecall_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "margin": "0,0",
-    "content": [
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "5,5",
-        "content": [
-          {
-            "type": "itemgrid",
-            "item_margin": "2, 2",
-            "h_alignment": "left",
-            "item_h_alignment": "center",
-            "item_v_alignment": "center",
-            "item_height": 40,
-            "item_width": 40,
-            "rows": [
-              [
-                "callpleasedontthrowmystuffaway!",
-                "callicantquitnow!",
-                "callcaniborrowsomegreen?",
-                "callcanieatsomething?",
-                "callcanigetsomeenergydrinks?",
-                "callthistimeimbettingongreen!",
-                "callthistimeimbettingonyellow!",
-                "callthistimeimbettingonorange!",
-                "callifikeeptrying",
-                "callitskindafun!",
-                "callimsurethevaluewillrise!",
-                "calllifegavemelemons",
-                "calliusedtoeathealthy...",
-                "calltodaysmyluckyday!",
-                "callineedtobethere!"
-              ],
-              [
-                "callplease",
-                "callineedmoney!",
-                "callididnthurtanybody...",
-                "callineedsupplements!",
-                "callimfeelinglucky!",
-                "callgoldanddiamondsareagoodinvestment!",
-                "callimgonnagoallin!",
-                "callimthinkingofsomestrategies!",
-                "callifoundawinningstrategy!"
-              ],
-              [
-                "calliloveshinystuff!",
-                "callilikecrypticvalues!",
-                "callidontcareabouttheprice!",
-                "callmyheadhurts!",
-                "callgivemebackmymoney!",
-                "calltheresnothingtoeatbutmould.",
-                "callwait",
-                "callivealreadybetitall!"
-              ],
-              [
-                "callimre-organizingmymind!",
-                "calliseethepatternsinmybehaviour.",
-                "callimfeelingmoreenergeticrecently.",
-                "callineedtohealmyself.",
-                "callimbeingconstant!",
-                "callhelp!",
-                "calliwanttoaddresssomestuff.",
-                "callilltakebackcontrolofmylife."
-              ]
-            ]
-          }
-        ]
-      }
+    "type": "itemgrid",
+    "item_margin": "2, 2",
+    "h_alignment": "left",
+    "item_h_alignment": "center",
+    "item_v_alignment": "center",
+    "item_height": 40,
+    "item_width": 40,
+    "rows": [
+      [
+        "callpleasedontthrowmystuffaway!",
+        "callicantquitnow!",
+        "callcaniborrowsomegreen?",
+        "callcanieatsomething?",
+        "callcanigetsomeenergydrinks?",
+        "callthistimeimbettingongreen!",
+        "callthistimeimbettingonyellow!",
+        "callthistimeimbettingonorange!",
+        "callifikeeptrying",
+        "callitskindafun!",
+        "callimsurethevaluewillrise!",
+        "calllifegavemelemons",
+        "calliusedtoeathealthy...",
+        "calltodaysmyluckyday!",
+        "callineedtobethere!"
+      ],
+      [
+        "callplease",
+        "callineedmoney!",
+        "callididnthurtanybody...",
+        "callineedsupplements!",
+        "callimfeelinglucky!",
+        "callgoldanddiamondsareagoodinvestment!",
+        "callimgonnagoallin!",
+        "callimthinkingofsomestrategies!",
+        "callifoundawinningstrategy!"
+      ],
+      [
+        "calliloveshinystuff!",
+        "callilikecrypticvalues!",
+        "callidontcareabouttheprice!",
+        "callmyheadhurts!",
+        "callgivemebackmymoney!",
+        "calltheresnothingtoeatbutmould.",
+        "callwait",
+        "callivealreadybetitall!"
+      ],
+      [
+        "callimre-organizingmymind!",
+        "calliseethepatternsinmybehaviour.",
+        "callimfeelingmoreenergeticrecently.",
+        "callineedtohealmyself.",
+        "callimbeingconstant!",
+        "callhelp!",
+        "calliwanttoaddresssomestuff.",
+        "callilltakebackcontrolofmylife."
+      ]
     ]
   }
 }

@@ -21,11 +21,11 @@
         "charmstonks",
         "charmcloverpet",
         "charmjimbo",
-        "charmd4"
+        "charmd4",
+        "charmnumber2",
+        "charmcherrypicture"
       ],
       [
-        "charmnumber2",
-        "charmcherrypicture",
         "charmhamsa",
         "charmchonkycat",
         "charmgreenpepper",
@@ -33,27 +33,20 @@
         "charmwheat",
         "charmweirdclock",
         "charmcrystalskull",
-        "progressiveskeleton_stage1",
-        "progressiveskeleton_stage2",
-        "progressiveskeleton_stage3",
-        "progressiveskeleton_stage4",
-        "progressiveskeleton_stage5",
         "charmcloverpot",
-        "charmlostbriefcase"
-      ],
-      [
+        "charmlostbriefcase",
         "charmswolecat",
         "charmverybigmushroom",
         "charmevildeal",
         "charmcrystalsphere",
         "charmhourglass",
-        "charmpossessedcellphone",
+        "charmpossessedcellphone"
+      ],
+      [
         "charmconsolationprize",
         "charmgreedyking",
         "charmdiscc",
-        "charmmidastouch"
-      ],
-      [
+        "charmmidastouch",
         "charmaceofclubs",
         "charmabstractpainting",
         "charmgoldentreasure",
@@ -79,15 +72,11 @@
         "charmd6",
         "charmgoldendiamond",
         "charmwheelbarrow",
-        "progressivedrawer_stage1",
-        "progressivedrawer_stage2",
-        "progressivedrawer_stage3",
-        "progressivedrawer_stage4"
-      ],
-      [
         "charmmushrooms",
         "charmlemonpicture",
-        "charmdarklotus",
+        "charmdarklotus"
+      ],
+      [
         "charmgabihbbh",
         "charmcross",
         "charmdepression",
@@ -97,20 +86,18 @@
         "charmnaughtydealer",
         "charmiron",
         "charmgrandmaspurse",
-        "charmcatfood"
-      ],
-      [
+        "charmcatfood",
         "charmvoicemail",
         "charmthecollector",
         "charmsteamlocomotive",
         "charmgoldencherry",
-        "charmdungbeetle",
+        "charmdungbeetle"
+      ],
+      [
         "charmdiamondpicture",
         "charmgoldenclover",
         "charmonetrickpony",
-        "charmshoe"
-      ],
-      [
+        "charmshoe",
         "charmnecronomicon",
         "charmwood",
         "charmpersonaltrainer",
@@ -133,22 +120,20 @@
         "charmbarathrum",
         "charmbrokencalculator",
         "charmbaphomet",
-        "charmtubahat"
-      ],
-      [
+        "charmtubahat",
         "charmcloverpicture",
         "charmaceofdiamonds",
         "charmgoldenbell",
         "charmfidelitycard",
-        "charmcalendar",
+        "charmcalendar"
+      ],
+      [
         "charmchanneleroffortune",
         "charmcrowbar",
         "charmgoldenseven",
         "charmclovervoucher",
         "charmfruitbasket",
-        "charmgoldenhorseshoe"
-      ],
-      [
+        "charmgoldenhorseshoe",
         "charmritualbell",
         "charmharbor",
         "charmredpepper",
@@ -157,10 +142,10 @@
         "charmpropertycertificate",
         "charmsevenpicture",
         "charmaabatteries",
-        "charmpentacle",
-        "charmelectrician"
+        "charmpentacle"
       ],
       [
+        "charmelectrician",
         "charmfortuneteller",
         "charmankh",
         "charmsupercapacitor",
@@ -172,19 +157,17 @@
         "charmd20",
         "charmlittlestar",
         "charmstone",
-        "charmthimble"
+        "charmthimble",
+        "charmbellpicture",
+        "charmphotobook"
       ],
       [
-        "charmbellpicture",
-        "charmphotobook",
         "charmcloverbell",
         "charmstain",
         "charmtreasurepicture",
         "charmvorago",
         "charmnose",
-        "charmship"
-      ],
-      [
+        "charmship",
         "charmhorseshoe",
         "charmclicker"
       ]
