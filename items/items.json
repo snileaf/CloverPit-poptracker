@@ -256,6 +256,46 @@
     ]
   },
   {
+    "name": "Progressive Skeleton 1",
+    "type": "toggle",
+    "img": "/images/items/progressiveskeleton1.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "progressiveskeleton_stage1_item"
+  },
+  {
+    "name": "Progressive Skeleton 2",
+    "type": "toggle",
+    "img": "/images/items/progressiveskeleton2.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "progressiveskeleton_stage2_item"
+  },
+  {
+    "name": "Progressive Skeleton 3",
+    "type": "toggle",
+    "img": "/images/items/progressiveskeleton3.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "progressiveskeleton_stage3_item"
+  },
+  {
+    "name": "Progressive Skeleton 4",
+    "type": "toggle",
+    "img": "/images/items/progressiveskeleton4.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "progressiveskeleton_stage4_item"
+  },
+  {
+    "name": "Progressive Skeleton 5",
+    "type": "toggle",
+    "img": "/images/items/progressiveskeleton5.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "progressiveskeleton_stage5_item"
+  },
+  {
     "name": "Progressive Drawer Stage 1 (visual)",
     "type": "toggle",
     "img": "/images/items/progressivedrawer1.png",

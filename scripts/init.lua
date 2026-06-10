@@ -33,4 +33,5 @@ end
 require("scripts/luaitems")
 require("scripts/watches")
 require("scripts/prog_drawer_sync")
+require("scripts/prog_skeleton_sync")
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
