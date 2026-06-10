@@ -9,11 +9,11 @@
     "item_width": 40,
     "rows": [
       [
-        "progressiveskeleton, progressiveskeleton_stage1",
-        "progressiveskeleton, progressiveskeleton_stage2",
-        "progressiveskeleton, progressiveskeleton_stage3",
-        "progressiveskeleton, progressiveskeleton_stage4",
-        "progressiveskeleton, progressiveskeleton_stage5"
+        "progressiveskeleton_stage1",
+        "progressiveskeleton_stage2",
+        "progressiveskeleton_stage3",
+        "progressiveskeleton_stage4",
+        "progressiveskeleton_stage5"
       ]
     ]
   }

@@ -9,10 +9,10 @@
     "item_width": 40,
     "rows": [
       [
-        "progressivedrawer, progressivedrawer_stage1",
-        "progressivedrawer, progressivedrawer_stage2",
-        "progressivedrawer, progressivedrawer_stage3",
-        "progressivedrawer, progressivedrawer_stage4"
+        "progressivedrawer_stage1",
+        "progressivedrawer_stage2",
+        "progressivedrawer_stage3",
+        "progressivedrawer_stage4"
       ]
     ]
   }
