@@ -259,7 +259,7 @@
   "shared_item_grid_vertical": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "0,0",
+    "margin": "5,5",
     "content": [
       {
         "type": "array",
@@ -272,8 +272,8 @@
             "h_alignment": "left",
             "item_h_alignment": "center",
             "item_v_alignment": "center",
-            "item_height": 36,
-            "item_width": 36,
+            "item_height": 40,
+            "item_width": 40,
             "rows": [
               [
                 "charmabyssu",
@@ -305,7 +305,11 @@
                 "charmweirdclock",
                 "cardpack5",
                 "charmcrystalskull",
-                "progressiveskeleton, progressiveskeleton_stage1",
+                "progressiveskeleton_stage1",
+                "progressiveskeleton_stage2",
+                "progressiveskeleton_stage3",
+                "progressiveskeleton_stage4",
+                "progressiveskeleton_stage5",
                 "charmcloverpot",
                 "charmlostbriefcase"
               ],
@@ -357,13 +361,15 @@
                 "charmd6",
                 "charmgoldendiamond",
                 "charmwheelbarrow",
-                "progressivedrawer, progressivedrawer_stage1",
+                "progressivedrawer_stage1",
+                "progressivedrawer_stage2",
+                "progressivedrawer_stage3",
+                "progressivedrawer_stage4",
                 "callicantquitnow!"
               ],
               [
                 "charmmushrooms",
                 "charmlemonpicture",
-                "progressiveluck, progressiveluck_stage1",
                 "charmdarklotus",
                 "charmgabihbbh",
                 "charmcross",
