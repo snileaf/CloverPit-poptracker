@@ -32,4 +32,5 @@ function OnFrameHandler()
 end
 require("scripts/luaitems")
 require("scripts/watches")
+require("scripts/prog_drawer_sync")
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)

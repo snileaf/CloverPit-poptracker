@@ -1,282 +1,282 @@
 {
-    "tabbed_maps_horizontal": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "Buy",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Buy"
-                    ]
-                }
-            },
-            {
-                "title": "Deadline",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Deadline"
-                    ]
-                }
-            },
-            {
-                "title": "Goal Completed",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Goal Completed"
-                    ]
-                }
-            },
-            {
-                "title": "Key",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Key"
-                    ]
-                }
-            },
-            {
-                "title": "Memory Card",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Memory Card"
-                    ]
-                }
-            },
-            {
-                "title": "Normal Call",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Normal Call"
-                    ]
-                }
-            },
-            {
-                "title": "Press The Red Button",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Press The Red Button"
-                    ]
-                }
-            },
-            {
-                "title": "Red Button",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Red Button"
-                    ]
-                }
-            },
-            {
-                "title": "Red Call",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Red Call"
-                    ]
-                }
-            },
-            {
-                "title": "Sacred Call",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Sacred Call"
-                    ]
-                }
-            },
-            {
-                "title": "Score",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Score"
-                    ]
-                }
-            },
-            {
-                "title": "Skeleton",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Skeleton"
-                    ]
-                }
-            },
-            {
-                "title": "Toilet",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Toilet"
-                    ]
-                }
-            },
-            {
-                "title": "Trigger",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Trigger"
-                    ]
-                }
-            },
-            {
-                "title": "Win Something",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Win Something"
-                    ]
-                }
-            }
-        ]
-    },
-    "tabbed_maps_vertical": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "Buy",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Buy"
-                    ]
-                }
-            },
-            {
-                "title": "Deadline",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Deadline"
-                    ]
-                }
-            },
-            {
-                "title": "Goal Completed",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Goal Completed"
-                    ]
-                }
-            },
-            {
-                "title": "Key",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Key"
-                    ]
-                }
-            },
-            {
-                "title": "Memory Card",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Memory Card"
-                    ]
-                }
-            },
-            {
-                "title": "Normal Call",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Normal Call"
-                    ]
-                }
-            },
-            {
-                "title": "Press The Red Button",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Press The Red Button"
-                    ]
-                }
-            },
-            {
-                "title": "Red Button",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Red Button"
-                    ]
-                }
-            },
-            {
-                "title": "Red Call",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Red Call"
-                    ]
-                }
-            },
-            {
-                "title": "Sacred Call",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Sacred Call"
-                    ]
-                }
-            },
-            {
-                "title": "Score",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Score"
-                    ]
-                }
-            },
-            {
-                "title": "Skeleton",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Skeleton"
-                    ]
-                }
-            },
-            {
-                "title": "Toilet",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Toilet"
-                    ]
-                }
-            },
-            {
-                "title": "Trigger",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Trigger"
-                    ]
-                }
-            },
-            {
-                "title": "Win Something",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Win Something"
-                    ]
-                }
-            }
-        ]
-    }
+  "tabbed_maps_horizontal": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Buy",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Buy"
+          ]
+        }
+      },
+      {
+        "title": "Deadline",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Deadline"
+          ]
+        }
+      },
+      {
+        "title": "Goal Completed",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Goal Completed"
+          ]
+        }
+      },
+      {
+        "title": "Key",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Key"
+          ]
+        }
+      },
+      {
+        "title": "Memory Card",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Memory Card"
+          ]
+        }
+      },
+      {
+        "title": "Normal Call",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Normal Call"
+          ]
+        }
+      },
+      {
+        "title": "Press The Red Button",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Press The Red Button"
+          ]
+        }
+      },
+      {
+        "title": "Red Button",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Red Button"
+          ]
+        }
+      },
+      {
+        "title": "Red Call",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Red Call"
+          ]
+        }
+      },
+      {
+        "title": "Sacred Call",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Sacred Call"
+          ]
+        }
+      },
+      {
+        "title": "Score",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Score"
+          ]
+        }
+      },
+      {
+        "title": "Skeleton",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Skeleton"
+          ]
+        }
+      },
+      {
+        "title": "Toilet",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Toilet"
+          ]
+        }
+      },
+      {
+        "title": "Trigger",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Trigger"
+          ]
+        }
+      },
+      {
+        "title": "Win Something",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Win Something"
+          ]
+        }
+      }
+    ]
+  },
+  "tabbed_maps_vertical": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Buy",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Buy"
+          ]
+        }
+      },
+      {
+        "title": "Deadline",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Deadline"
+          ]
+        }
+      },
+      {
+        "title": "Goal Completed",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Goal Completed"
+          ]
+        }
+      },
+      {
+        "title": "Key",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Key"
+          ]
+        }
+      },
+      {
+        "title": "Memory Card",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Memory Card"
+          ]
+        }
+      },
+      {
+        "title": "Normal Call",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Normal Call"
+          ]
+        }
+      },
+      {
+        "title": "Press The Red Button",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Press The Red Button"
+          ]
+        }
+      },
+      {
+        "title": "Red Button",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Red Button"
+          ]
+        }
+      },
+      {
+        "title": "Red Call",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Red Call"
+          ]
+        }
+      },
+      {
+        "title": "Sacred Call",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Sacred Call"
+          ]
+        }
+      },
+      {
+        "title": "Score",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Score"
+          ]
+        }
+      },
+      {
+        "title": "Skeleton",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Skeleton"
+          ]
+        }
+      },
+      {
+        "title": "Toilet",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Toilet"
+          ]
+        }
+      },
+      {
+        "title": "Trigger",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Trigger"
+          ]
+        }
+      },
+      {
+        "title": "Win Something",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Win Something"
+          ]
+        }
+      }
+    ]
+  }
 }

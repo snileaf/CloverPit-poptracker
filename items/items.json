@@ -225,35 +225,67 @@
     "stages": [
       {
         "name": "Progressive Skeleton 1",
-        "inherit_codes": true,
+        "inherit_codes": false,
         "img": "/images/items/progressiveskeleton1.png",
         "codes": "progressiveskeleton, progressiveskeleton_stage1"
       },
       {
         "name": "Progressive Skeleton 2",
-        "inherit_codes": true,
+        "inherit_codes": false,
         "img": "/images/items/progressiveskeleton2.png",
-        "codes": "progressiveskeleton_stage2"
+        "codes": "progressiveskeleton, progressiveskeleton_stage2"
       },
       {
         "name": "Progressive Skeleton 3",
-        "inherit_codes": true,
+        "inherit_codes": false,
         "img": "/images/items/progressiveskeleton3.png",
-        "codes": "progressiveskeleton_stage3"
+        "codes": "progressiveskeleton, progressiveskeleton_stage3"
       },
       {
         "name": "Progressive Skeleton 4",
-        "inherit_codes": true,
+        "inherit_codes": false,
         "img": "/images/items/progressiveskeleton4.png",
-        "codes": "progressiveskeleton_stage4"
+        "codes": "progressiveskeleton, progressiveskeleton_stage4"
       },
       {
         "name": "Progressive Skeleton 5",
-        "inherit_codes": true,
+        "inherit_codes": false,
         "img": "/images/items/progressiveskeleton5.png",
-        "codes": "progressiveskeleton_stage5"
+        "codes": "progressiveskeleton, progressiveskeleton_stage5"
       }
     ]
+  },
+  {
+    "name": "Progressive Drawer Stage 1 (visual)",
+    "type": "toggle",
+    "img": "/images/items/progressivedrawer1.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "progressivedrawer_stage1_item"
+  },
+  {
+    "name": "Progressive Drawer Stage 2 (visual)",
+    "type": "toggle",
+    "img": "/images/items/progressivedrawer2.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "progressivedrawer_stage2_item"
+  },
+  {
+    "name": "Progressive Drawer Stage 3 (visual)",
+    "type": "toggle",
+    "img": "/images/items/progressivedrawer3.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "progressivedrawer_stage3_item"
+  },
+  {
+    "name": "Progressive Drawer Stage 4 (visual)",
+    "type": "toggle",
+    "img": "/images/items/progressivedrawer4.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "progressivedrawer_stage4_item"
   },
   {
     "name": "CloverPot",
@@ -617,36 +649,35 @@
   },
   {
     "name": "progressivedrawer",
-    "type": "progressive_toggle",
+    "type": "progressive",
     "loop": false,
     "allow_disabled": true,
     "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "progressivedrawer",
     "stages": [
       {
         "name": "Progressive Drawer 1",
         "inherit_codes": false,
         "img": "/images/items/progressivedrawer1.png",
-        "codes": "progressivedrawer_stage1"
+        "codes": "progressivedrawer, progressivedrawer_stage1"
       },
       {
         "name": "Progressive Drawer 2",
         "inherit_codes": false,
         "img": "/images/items/progressivedrawer2.png",
-        "codes": "progressivedrawer_stage2"
+        "codes": "progressivedrawer, progressivedrawer_stage2"
       },
       {
         "name": "Progressive Drawer 3",
         "inherit_codes": false,
         "img": "/images/items/progressivedrawer3.png",
-        "codes": "progressivedrawer_stage3"
+        "codes": "progressivedrawer, progressivedrawer_stage3"
       },
       {
         "name": "Progressive Drawer 4",
         "inherit_codes": false,
         "img": "/images/items/progressivedrawer4.png",
-        "codes": "progressivedrawer_stage4"
+        "codes": "progressivedrawer, progressivedrawer_stage4"
       }
     ]
   },
