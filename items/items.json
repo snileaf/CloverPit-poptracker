@@ -130,7 +130,7 @@
   {
     "name": "I used to eat healthy...",
     "type": "toggle",
-    "img": "images/items/icallusedtoeathealthy....png",
+    "img": "images/items/calliusedtoeathealthy....png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "calliusedtoeathealthy..."
