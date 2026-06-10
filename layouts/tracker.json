@@ -8,13 +8,13 @@
       "content": [
         {
           "type": "dock",
-          "dock": "left",
+          "dock": "top",
           "v_alignment": "stretch",
           "content": [
             {
               "type": "group",
               "header": "Charms",
-              "dock": "left",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "charm_grid"
@@ -23,7 +23,7 @@
             {
               "type": "group",
               "header": "Phone Calls",
-              "dock": "left",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "phonecall_grid"
@@ -32,7 +32,7 @@
             {
               "type": "group",
               "header": "Card Packs",
-              "dock": "left",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "cardpack_grid"
@@ -41,7 +41,7 @@
             {
               "type": "group",
               "header": "Drawers",
-              "dock": "left",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "drawer_grid"
@@ -50,7 +50,7 @@
             {
               "type": "group",
               "header": "Skeleton Pieces",
-              "dock": "left",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "skeleton_grid"
