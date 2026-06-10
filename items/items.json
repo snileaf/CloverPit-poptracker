@@ -296,7 +296,7 @@
     "codes": "progressiveskeleton_stage5_item"
   },
   {
-    "name": "Progressive Drawer Stage 1 (visual)",
+    "name": "Progressive Drawer 1",
     "type": "toggle",
     "img": "/images/items/progressivedrawer1.png",
     "initial_active_state": false,
@@ -304,7 +304,7 @@
     "codes": "progressivedrawer_stage1_item"
   },
   {
-    "name": "Progressive Drawer Stage 2 (visual)",
+    "name": "Progressive Drawer 2",
     "type": "toggle",
     "img": "/images/items/progressivedrawer2.png",
     "initial_active_state": false,
@@ -312,7 +312,7 @@
     "codes": "progressivedrawer_stage2_item"
   },
   {
-    "name": "Progressive Drawer Stage 3 (visual)",
+    "name": "Progressive Drawer 3",
     "type": "toggle",
     "img": "/images/items/progressivedrawer3.png",
     "initial_active_state": false,
@@ -320,7 +320,7 @@
     "codes": "progressivedrawer_stage3_item"
   },
   {
-    "name": "Progressive Drawer Stage 4 (visual)",
+    "name": "Progressive Drawer 4",
     "type": "toggle",
     "img": "/images/items/progressivedrawer4.png",
     "initial_active_state": false,

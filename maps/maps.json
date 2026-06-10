@@ -12,12 +12,6 @@
         "img": "images/maps/Deadline.png"
     },
     {
-        "name": "Goal Completed",
-        "location_size": 6,
-        "location_border_thickness": 1,
-        "img": "images/maps/Goal Completed.png"
-    },
-    {
         "name": "Key",
         "location_size": 6,
         "location_border_thickness": 1,
@@ -34,12 +28,6 @@
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Normal Call.png"
-    },
-    {
-        "name": "Press The Red Button",
-        "location_size": 6,
-        "location_border_thickness": 1,
-        "img": "images/maps/Press The Red Button.png"
     },
     {
         "name": "Red Button",
@@ -82,11 +70,5 @@
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Trigger.png"
-    },
-    {
-        "name": "Win Something",
-        "location_size": 6,
-        "location_border_thickness": 1,
-        "img": "images/maps/Win Something.png"
     }
 ]
