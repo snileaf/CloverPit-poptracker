@@ -1,5 +1,7 @@
 Tracker:AddLayouts("layouts/settings_popup.json")
-Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/charms.json")
+Tracker:AddLayouts("layouts/phonecall.json")
+Tracker:AddLayouts("layouts/cardpack.json")
 Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
