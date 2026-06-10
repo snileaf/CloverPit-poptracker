@@ -1,0 +1,35 @@
+{
+	"cardpack_grid": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "5,5",
+				"content": [
+					{
+						"type": "itemgrid",
+						"item_margin": "2, 2",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"item_width": 40,
+						"rows": [
+							[
+								"cardpack1",
+								"cardpack2",
+								"cardpack3",
+								"cardpack4",
+								"cardpack5",
+								"cardpack6",
+								"cardpack7"
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}
