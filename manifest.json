@@ -6,7 +6,7 @@
   "author": "Snileaf, builder_script",
   "variants": {
     "Map Tracker": {
-      "display_name": "Item's Only'",
+      "display_name": "Item's Only",
       "flags": [
         "ap"
       ]
