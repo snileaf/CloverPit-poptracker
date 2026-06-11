@@ -1,8 +1,8 @@
 [
     {
         "name": "Sacred Call",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/items/callplease.png",
+        "chest_opened_img": "/images/items/callhelp!.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -60,8 +60,8 @@
         "map_locations": [
             {
                 "map": "Sacred Call",
-                "x": 1243,
-                "y": 2409,
+                "x": 160,
+                "y": 120,
                 "size": 6
             }
         ]
