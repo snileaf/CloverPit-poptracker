@@ -3,5 +3,7 @@
 ################################################################################
 
 /.vs
+/AUTOTRACKING.md
+/PACKS.md
 /VisualStudio.gitignore
 /datapackage_url.json
