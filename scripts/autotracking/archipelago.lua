@@ -29,6 +29,23 @@ if Highlight then
     }
 end
 
+-- Ensure items are reset when Archipelago issues a clear event.
+-- This registers an additional clear handler that will call ItemReset for every mapped item.
+if Archipelago and Archipelago.AddClearHandler then
+    Archipelago:AddClearHandler("item reset handler", function(slot_data)
+        for _, item_array in pairs(ITEM_MAPPING) do
+            for _, item_pair in pairs(item_array) do
+                local item_code = item_pair[1]
+                local item_type = item_pair[2]
+                local item_obj = Tracker:FindObjectForCode(item_code)
+                if item_obj then
+                    ItemReset(item_type, item_obj, item_code)
+                end
+            end
+        end
+    end)
+end
+
 Troll_Lookup = {
     ["solarcell"] = true,
     ["earthor"] = true,
@@ -268,6 +285,82 @@ function OnClear(slot_data)
     end
     ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
     MANUAL_CHECKED = true
+end
+
+-- Reapply AP state when reconnecting or when pack is reloaded while still connected.
+local LAST_AP_CONNECTED = (Archipelago and Archipelago.PlayerNumber and Archipelago.PlayerNumber > -1) or false
+
+local function ReapplyFromAP()
+    print("ReapplyFromAP: Restoring state from Archipelago client")
+    -- Restore locations
+    if Archipelago.CheckedLocations then
+        for _, loc in ipairs(Archipelago.CheckedLocations) do
+            -- call the same handler that is used when a location is reported
+            pcall(OnLocation, loc, nil)
+        end
+    end
+    -- Try to restore previously received items from SLOT_DATA if available
+    if SLOT_DATA then
+        -- common possible keys for received items in slot_data
+        local candidates = {"items", "Items", "ItemsReceived", "ReceivedItems", "receivedItems", "received", "items_received", "received_items"}
+        local found = nil
+        for _, key in ipairs(candidates) do
+            if SLOT_DATA[key] then
+                found = SLOT_DATA[key]
+                break
+            end
+        end
+        if found then
+            -- found a list, attempt to replay each item
+            for idx, entry in ipairs(found) do
+                local item_id = nil
+                if type(entry) == "number" then
+                    item_id = entry
+                elseif type(entry) == "string" then
+                    item_id = tonumber(entry)
+                elseif type(entry) == "table" then
+                    item_id = entry.id or entry.item or entry.item_id
+                end
+                if item_id then
+                    -- try to lookup a name, fall back to empty string
+                    local ok, name = pcall(function() return Archipelago:GetItemName(item_id) end)
+                    if not ok then name = "" end
+                    pcall(OnItem, idx, item_id, name, Archipelago.PlayerNumber or -1)
+                end
+            end
+        end
+    end
+    -- Restore missing locations/highlights list if present
+    if Archipelago.MissingLocations then
+        ALL_LOCATIONS = {}
+        for _, value in pairs(Archipelago.MissingLocations) do
+            table.insert(ALL_LOCATIONS, #ALL_LOCATIONS + 1, value)
+        end
+        for _, value in pairs(Archipelago.CheckedLocations or {}) do
+            table.insert(ALL_LOCATIONS, #ALL_LOCATIONS + 1, value)
+        end
+    end
+    -- Force UI/logic update
+    ForceUpdate()
+end
+
+local function APConnectionWatcher(elapsed)
+    local connected = (Archipelago and Archipelago.PlayerNumber and Archipelago.PlayerNumber > -1) or false
+    if connected and not LAST_AP_CONNECTED then
+        -- newly connected, run PreOnClear to init caches then reapply
+        PreOnClear()
+        ReapplyFromAP()
+    end
+    LAST_AP_CONNECTED = connected
+end
+
+-- start watcher so packs that are reloaded while still connected will restore state
+ScriptHost:AddOnFrameHandler("ap reconnect watcher", APConnectionWatcher)
+
+-- If we loaded while already connected, reapply immediately
+if LAST_AP_CONNECTED then
+    PreOnClear()
+    ReapplyFromAP()
 end
 
 ---Run every time an Item gets send to the connected slot

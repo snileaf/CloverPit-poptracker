@@ -517,7 +517,7 @@
     "img": "images/items/callplease.png",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "callplease"
+    "codes": "callpleaseillgiveyouanything"
   },
   {
     "name": "I didn't hurt anybody...",
@@ -541,7 +541,7 @@
     "img": "images/items/callwait.png",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "callwait"
+    "codes": "callwaitwhatdayisit?"
   },
   {
     "name": "Bell Pepper",
@@ -1315,7 +1315,7 @@
     "img": "images/items/callifikeeptrying.png",
     "initial_active_state": false,
     "overlay_align": "right",
-    "codes": "callifikeeptrying"
+    "codes": "callifikeeptryingthepatternswillalign!"
   },
   {
     "name": "Clover Voucher",
