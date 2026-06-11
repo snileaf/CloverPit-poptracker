@@ -15,4 +15,4 @@ Currently item's only as PopTracker currently doesn't support custom gui images 
 Images used for this tracker came from the following sources:
 
 - The wiki for [CloverPit](https://cloverpit.wiki.gg/).
-- A single asset from the game [CloverPit](https://store.steampowered.com/app/1936440/CloverPit/).<span style="color:gray;">since the wiki doesn't have a lemon manifest call image</span>
+- A single asset from the game [CloverPit](https://store.steampowered.com/app/1936440/CloverPit/). <span style="color:gray;">since the wiki doesn't have a lemon manifest call image</span>
