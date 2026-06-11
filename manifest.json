@@ -3,10 +3,10 @@
   "game_name": "CloverPit",
   "package_version": "0.0.1",
   "package_uid": "cloverpit_ap",
-  "author": "builder_script",
+  "author": "Snileaf, builder_script",
   "variants": {
     "Map Tracker": {
-      "display_name": "Map Tracker",
+      "display_name": "Item's Only'",
       "flags": [
         "ap"
       ]

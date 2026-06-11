@@ -1,20 +1,64 @@
 {
-    "tracker_broadcast": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
-        "content": [
+  "tracker_broadcast": {
+    "type": "container",
+    "background": "#00000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
             {
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "layout",
-                        "key": "shared_item_grid_vertical"
-                    }
-                ]
+              "type": "group",
+              "header": "Charms",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "charm_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Phone Calls",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "phonecall_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Card Packs",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "cardpack_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Drawers",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "drawer_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Skeleton Pieces",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "skeleton_grid"
+              }
             }
-        ]
+          ]
+        }
+      ]
     }
+  }
 }
