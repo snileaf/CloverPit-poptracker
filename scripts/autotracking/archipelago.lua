@@ -336,6 +336,7 @@ function OnLocation(location_id, location_name)
         -- print(location, location_obj)
         if location_obj then
             if location:sub(1, 1) == "@" then
+                print(location)
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
             else
                 location_obj.Active = true
