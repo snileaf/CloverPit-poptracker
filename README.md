@@ -10,7 +10,7 @@ Please post any issues with tracking and whatnot in the issues tab.
 
 1. If you don't already have it, download [Poptracker](https://github.com/black-sliver/PopTracker/releases).
 2. Download the [latest release](https://github.com/snileaf/CloverPit-poptracker/releases) of this pack.
-3. Place the downloaded zip file in PopTracker's `packs` directory or drag and drop the .zip file onto the PopTracker window.
+3. Place the downloaded zip file in PopTracker's `packs` directory OR drag and drop the .zip file onto the PopTracker window.
 
 ## Credits
 
