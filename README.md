@@ -17,4 +17,4 @@ Please post any issues with tracking and whatnot in the issues tab.
 Images used for this tracker came from the following sources:
 
 - The wiki for [CloverPit](https://cloverpit.wiki.gg/).
-- A single asset from the game [CloverPit](https://store.steampowered.com/app/1936440/CloverPit/).
+- A single asset from the game [CloverPit](https://store.steampowered.com/app/3314790/CloverPit/).
