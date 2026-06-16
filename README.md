@@ -2,7 +2,7 @@
 
 PopTracker pack for the CloverPit Archipelago Mod
 
-Currently item's only as PopTracker currently doesn't support custom gui images for maps.
+Currently items only as PopTracker currently doesn't support custom gui images for maps.
 
 Please post any issues with tracking and whatnot in the issues tab.
 
