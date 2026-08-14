@@ -2,8 +2,6 @@
 
 # PopTracker pack for the CloverPit Archipelago Mod
 
-Currently item's only as PopTracker currently doesn't support custom gui images for maps.
-
 ## Installation
 
 1. If you don't already have it, download [Poptracker](https://github.com/black-sliver/PopTracker/releases).
