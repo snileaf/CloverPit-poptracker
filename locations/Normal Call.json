@@ -152,6 +152,14 @@
                 "visibility_rules": [],
                 "item_count": 1
             }
+        ],
+        "map_locations": [
+            {
+                "map": "Normal Call",
+                "x": 1983,
+                "y": 340,
+                "size": 6
+            }
         ]
     }
 ]

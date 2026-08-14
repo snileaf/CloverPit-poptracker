@@ -1,7 +1,7 @@
 {
   "name": "CloverPit Archipelago",
   "game_name": "CloverPit",
-  "package_version": "1.0",
+  "package_version": "0.0.1",
   "package_uid": "cloverpit_ap",
   "author": "Snileaf, builder_script",
   "variants": {
@@ -12,6 +12,5 @@
       ]
     }
   },
-  "versions_url": "https://raw.githubusercontent.com/snileaf/CloverPit-poptracker/versions/versions.json",
   "min_poptracker_version": "0.31.0"
 }

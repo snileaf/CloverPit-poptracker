@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Buy",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Buy.png"
+    },
+    {
+        "name": "Deadline",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Deadline.png"
+    },
+    {
+        "name": "Key",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Key.png"
+    },
+    {
+        "name": "Memory Card",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Memory Card.png"
+    },
+    {
+        "name": "Normal Call",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Normal Call.png"
+    },
+    {
+        "name": "Red Button",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Red Button.png"
+    },
+    {
+        "name": "Red Call",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Red Call.png"
+    },
+    {
+        "name": "Sacred Call",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Sacred Call.png"
+    },
+    {
+        "name": "Score",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Score.png"
+    },
+    {
+        "name": "Skeleton",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Skeleton.png"
+    },
+    {
+        "name": "Toilet",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Toilet.png"
+    },
+    {
+        "name": "Trigger",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Trigger.png"
+    }
+]

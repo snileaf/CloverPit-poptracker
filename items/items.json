@@ -1,108 +1,19 @@
 [
   {
     "name": "Abyssu",
-    "type": "progressive",
-    "loop": false,
-    "allow_disabled": true,
-    "initial_stage_idx": 0,
+    "type": "toggle",
+    "img": "images/items/charmabyssu.png",
+    "initial_active_state": false,
     "overlay_align": "right",
-    "stages": [
-      {
-        "name": "Abyssu",
-        "inherit_codes": true,
-        "img": "/images/items/charmabyssu.png",
-        "codes": "charmabyssu, charmabyssuget"
-      },
-      {
-        "name": "Abyssu",
-        "inherit_codes": true,
-        "img": "/images/items/charmabyssubuy.png",
-        "codes": "charmabyssubuy"
-      },
-      {
-        "name": "Abyssu",
-        "inherit_codes": true,
-        "img": "/images/items/charmabyssutrigger.png",
-        "codes": "charmabyssutrigger"
-      }
-    ]
+    "codes": "charmabyssu"
   },
   {
     "name": "Rotated Hamsa",
-    "type": "progressive",
-    "loop": false,
-    "allow_disabled": true,
-    "initial_stage_idx": 0,
+    "type": "toggle",
+    "img": "images/items/charmrotatedhamsa.png",
+    "initial_active_state": false,
     "overlay_align": "right",
-    "stages": [
-      {
-        "name": "Rotated Hamsa",
-        "inherit_codes": true,
-        "img": "/images/items/charmrotatedhamsa.png",
-        "codes": "charmrotatedhamsa, charmrotatedhamsaget"
-      },
-      {
-        "name": "Rotated Hamsa",
-        "inherit_codes": true,
-        "img": "/images/items/charmrotatedhamsabuy.png",
-        "codes": "charmrotatedhamsabuy"
-      },
-      {
-        "name": "Rotated Hamsa",
-        "inherit_codes": true,
-        "img": "/images/items/charmrotatedhamsatrigger.png",
-        "codes": "charmrotatedhamsatrigger"
-      }
-    ]
-  },
-  {
-    "name": "Fortune Cookie",
-    "type": "progressive",
-    "loop": false,
-    "allow_disabled": false,
-    "initial_stage_idx": 0,
-    "overlay_align": "right",
-    "codes": "charmfortunecookie",
-    "stages": [
-      {
-        "name": "Fortune Cookie",
-        "img": "/images/items/charmfortunecookie.png"
-      },
-      {
-        "name": "Fortune Cookie Buy",
-        "inherit_codes": true,
-        "codes": "charmfortunecookiebuy",
-        "img": "/images/items/charmfortunecookiebuy.png"
-      }
-    ]
-  },
-  {
-    "name": "Fake Coin",
-    "type": "progressive",
-    "loop": false,
-    "allow_disabled": false,
-    "initial_stage_idx": 0,
-    "overlay_align": "right",
-    "stages": [
-      {
-        "name": "Fake Coin",
-        "inherit_codes": true,
-        "img": "/images/items/charmfakecoin.png",
-        "codes": "charmfakecoin, charmfakecoinget"
-      },
-      {
-        "name": "Fake Coin",
-        "inherit_codes": true,
-        "img": "/images/items/charmfakecoinbuy.png",
-        "codes": "charmfakecoinbuy"
-      },
-      {
-        "name": "Fake Coin",
-        "inherit_codes": true,
-        "img": "/images/items/charmfakecointrigger.png",
-        "codes": "charmfakecointrigger"
-      }
-    ]
+    "codes": "charmrotatedhamsa"
   },
   {
     "name": "Card Pack 2",

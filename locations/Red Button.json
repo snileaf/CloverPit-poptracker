@@ -116,6 +116,14 @@
                 "visibility_rules": [],
                 "item_count": 1
             }
+        ],
+        "map_locations": [
+            {
+                "map": "Red Button",
+                "x": 1550,
+                "y": 2282,
+                "size": 6
+            }
         ]
     }
 ]
