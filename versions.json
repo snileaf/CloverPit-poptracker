@@ -1,9 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/snileaf/CloverPit-poptracker/releases/download/v1.0.0/CloverPit-PopTracker.v1.0.0.zip",
+            "sha256": "24e43fa3a0fe27e4a5e0dbf4b8dec2ac3ebcea826afd9482a0f2ea6c2406df2e",
+            "changelog": [
+                "Added tracking for if you have bought, triggered, or activated a charm."
+            ]
+        },
+        {
             "package_version": "0.0.1",
             "download_url": "https://github.com/snileaf/CloverPit-poptracker/releases/download/v0.0.1/CloverPit-poptracker-v0.0.1.zip",
-            "sha256": "sha256:0ef6b77bf6dde4f0da294e61a13e068772760aa5b74f9a2695294e12ff806eb0",
+            "sha256": "0ef6b77bf6dde4f0da294e61a13e068772760aa5b74f9a2695294e12ff806eb0",
             "changelog": [
                 "Initial release of the CloverPit PopTracker pack."
             ]
