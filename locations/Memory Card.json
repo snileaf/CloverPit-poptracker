@@ -122,14 +122,6 @@
                 "visibility_rules": [],
                 "item_count": 1
             }
-        ],
-        "map_locations": [
-            {
-                "map": "Memory Card",
-                "x": 75,
-                "y": 1965,
-                "size": 6
-            }
         ]
     }
 ]

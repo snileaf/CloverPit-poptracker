@@ -116,14 +116,6 @@
                 "visibility_rules": [],
                 "item_count": 1
             }
-        ],
-        "map_locations": [
-            {
-                "map": "Score",
-                "x": 2414,
-                "y": 963,
-                "size": 6
-            }
         ]
     }
 ]

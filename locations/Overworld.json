@@ -597,14 +597,6 @@
                         "name": "Buy - Buy Fake Coin",
                         "ref": "Buy/Buy Fake Coin"
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 738,
-                        "y": 1439,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -656,14 +648,6 @@
                         "name": "Deadline - Deadline 10 Complete",
                         "ref": "Deadline/Deadline 10 Complete"
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1450,
-                        "y": 1023,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -674,15 +658,7 @@
                 "access_rules": [
                     " "
                 ],
-                "sections": [],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1207,
-                        "y": 2191,
-                        "size": 6
-                    }
-                ]
+                "sections": []
             },
             {
                 "name": "Key",
@@ -708,14 +684,6 @@
                     {
                         "name": "Key - Key 4 Collected",
                         "ref": "Key/Key 4 Collected"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1037,
-                        "y": 1806,
-                        "size": 6
                     }
                 ]
             },
@@ -803,14 +771,6 @@
                     {
                         "name": "Memory Card - Overdose Beat",
                         "ref": "Memory Card/Overdose Beat"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1689,
-                        "y": 595,
-                        "size": 6
                     }
                 ]
             },
@@ -919,14 +879,6 @@
                         "name": "Normal Call - I found a winning strategy!",
                         "ref": "Normal Call/I found a winning strategy!"
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 445,
-                        "y": 1213,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -937,15 +889,7 @@
                 "access_rules": [
                     " "
                 ],
-                "sections": [],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 370,
-                        "y": 2070,
-                        "size": 6
-                    }
-                ]
+                "sections": []
             },
             {
                 "name": "Red Button",
@@ -1028,14 +972,6 @@
                         "name": "Red Button - Activate Angels Hand",
                         "ref": "Red Button/Activate Angels Hand"
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 68,
-                        "y": 1510,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -1079,14 +1015,6 @@
                         "name": "Red Call - I've already bet it all!",
                         "ref": "Red Call/I've already bet it all!"
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1652,
-                        "y": 111,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -1129,14 +1057,6 @@
                     {
                         "name": "Sacred Call - I'll take back control of my life.",
                         "ref": "Sacred Call/I'll take back control of my life."
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1415,
-                        "y": 643,
-                        "size": 6
                     }
                 ]
             },
@@ -1221,14 +1141,6 @@
                         "name": "Score - Score with Sevens",
                         "ref": "Score/Score with Sevens"
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1696,
-                        "y": 1341,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -1260,14 +1172,6 @@
                         "name": "Skeleton - Equip Skeleton Leg 2",
                         "ref": "Skeleton/Equip Skeleton Leg 2"
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 757,
-                        "y": 333,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -1286,14 +1190,6 @@
                     {
                         "name": "Toilet - Take A Shit",
                         "ref": "Toilet/Take A Shit"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 506,
-                        "y": 2378,
-                        "size": 6
                     }
                 ]
             },
@@ -1510,14 +1406,6 @@
                         "name": "Trigger - Trigger Ophanim Wheels",
                         "ref": "Trigger/Trigger Ophanim Wheels"
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1860,
-                        "y": 200,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -1528,15 +1416,7 @@
                 "access_rules": [
                     " "
                 ],
-                "sections": [],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 2369,
-                        "y": 460,
-                        "size": 6
-                    }
-                ]
+                "sections": []
             }
         ]
     }

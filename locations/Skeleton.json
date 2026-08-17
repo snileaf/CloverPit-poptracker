@@ -38,14 +38,6 @@
                 "visibility_rules": [],
                 "item_count": 1
             }
-        ],
-        "map_locations": [
-            {
-                "map": "Skeleton",
-                "x": 2457,
-                "y": 1374,
-                "size": 6
-            }
         ]
     }
 ]

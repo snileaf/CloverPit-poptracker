@@ -3,7 +3,6 @@
 -- the needed functions for that are in `/scripts/logic/graph_logic/logic_main.lua`.
 
 
-
 -- function <name> (<parameters if needed>)
 --     <actual code>
 --     <indentations are just for readability>

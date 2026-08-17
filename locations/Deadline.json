@@ -68,14 +68,6 @@
                 "visibility_rules": [],
                 "item_count": 1
             }
-        ],
-        "map_locations": [
-            {
-                "map": "Deadline",
-                "x": 1085,
-                "y": 23,
-                "size": 6
-            }
         ]
     }
 ]

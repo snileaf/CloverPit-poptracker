@@ -1,9 +1,9 @@
 {
   "name": "CloverPit Archipelago",
   "game_name": "CloverPit",
-  "package_version": "0.0.1",
+  "package_version": "1.0.0",
   "package_uid": "cloverpit_ap",
-  "author": "Snileaf, builder_script",
+  "author": "Snileaf, builder_script, PopTracker Discord Server Community",
   "variants": {
     "Map Tracker": {
       "display_name": "Item's Only",
@@ -12,5 +12,6 @@
       ]
     }
   },
+  "versions_url": "https://raw.githubusercontent.com/snileaf/CloverPit-poptracker/versions/versions.json",
   "min_poptracker_version": "0.31.0"
 }

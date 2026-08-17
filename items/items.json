@@ -1,19 +1,273 @@
 [
   {
     "name": "Abyssu",
-    "type": "toggle",
-    "img": "images/items/charmabyssu.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmabyssu"
+    "stages": [
+      {
+        "name": "Abyssu",
+        "inherit_codes": true,
+        "img": "/images/items/charmabyssu.png",
+        "codes": "charmabyssu, charmabyssuget"
+      },
+      {
+        "name": "Abyssu",
+        "inherit_codes": true,
+        "img": "/images/items/charmabyssubuy.png",
+        "codes": "charmabyssubuy"
+      },
+      {
+        "name": "Abyssu",
+        "inherit_codes": true,
+        "img": "/images/items/charmabyssutrigger.png",
+        "codes": "charmabyssutrigger"
+      }
+    ]
+  },
+  {
+    "name": "Fortune Cookie",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "overlay_align": "right",
+    "stages": [
+      {
+        "name": "Fortune Cookie",
+        "inherit_codes": true,
+        "img": "/images/items/charmfortunecookie.png",
+        "codes": "charmfortunecookie, charmfortunecookieget"
+      },
+      {
+        "name": "Fortune Cookie",
+        "inherit_codes": true,
+        "img": "/images/items/charmfortunecookiebuy.png",
+        "codes": "charmfortunecookiebuy"
+      }
+    ]
+  },
+  {
+    "name": "Fake Coin",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "overlay_align": "right",
+    "stages": [
+      {
+        "name": "Fake Coin",
+        "inherit_codes": true,
+        "img": "/images/items/charmfakecoin.png",
+        "codes": "charmfakecoin, charmfakecoinget"
+      },
+      {
+        "name": "Fake Coin",
+        "inherit_codes": true,
+        "img": "/images/items/charmfakecoinbuy.png",
+        "codes": "charmfakecoinbuy"
+      },
+      {
+        "name": "Fake Coin",
+        "inherit_codes": true,
+        "img": "/images/items/charmfakecointrigger.png",
+        "codes": "charmfakecointrigger"
+      }
+    ]
+  },
+  {
+    "name": "Eye of God",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "overlay_align": "right",
+    "stages": [
+      {
+        "name": "Eye of God",
+        "inherit_codes": true,
+        "img": "/images/items/charmeyeofgod.png",
+        "codes": "charmeyeofgod, charmeyeofgodget"
+      },
+      {
+        "name": "Eye of God",
+        "inherit_codes": true,
+        "img": "/images/items/charmeyeofgodtrigger.png",
+        "codes": "charmeyeofgodtrigger"
+      }
+    ]
+  },
+  {
+    "name": "Holy Spirit",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "overlay_align": "right",
+    "stages": [
+      {
+        "name": "Holy Spirit",
+        "inherit_codes": true,
+        "img": "/images/items/charmholyspirit.png",
+        "codes": "charmholyspirit, charmholyspiritget"
+      },
+      {
+        "name": "Holy Spirit",
+        "inherit_codes": true,
+        "img": "/images/items/charmholyspirittrigger.png",
+        "codes": "charmholyspirittrigger"
+      }
+    ]
+  },
+  {
+    "name": "Eternity",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "overlay_align": "right",
+    "stages": [
+      {
+        "name": "Eternity",
+        "inherit_codes": true,
+        "img": "/images/items/charmeternity.png",
+        "codes": "charmeternity, charmeternityget"
+      },
+      {
+        "name": "Eternity",
+        "inherit_codes": true,
+        "img": "/images/items/charmeternitytrigger.png",
+        "codes": "charmeternitytrigger"
+      }
+    ]
+  },
+  {
+    "name": "Adam's Ribcage'",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "overlay_align": "right",
+    "stages": [
+      {
+        "name": "Adam's Ribcage",
+        "inherit_codes": true,
+        "img": "/images/items/charmadamsribcage.png",
+        "codes": "charmadamsribcage, charmadamsribcageget"
+      },
+      {
+        "name": "Adam's Ribcage",
+        "inherit_codes": true,
+        "img": "/images/items/charmadamsribcagetrigger.png",
+        "codes": "charmadamsribcagetrigger"
+      }
+    ]
+  },
+  {
+    "name": "Ophanim Wheels",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "overlay_align": "right",
+    "stages": [
+      {
+        "name": "Ophanim Wheels",
+        "inherit_codes": true,
+        "img": "/images/items/charmophanimwheels.png",
+        "codes": "charmophanimwheels, charmophanimwheelsget"
+      },
+      {
+        "name": "Ophanim Wheels",
+        "inherit_codes": true,
+        "img": "/images/items/charmophanimwheelstrigger.png",
+        "codes": "charmophanimwheeltrigger"
+      }
+    ]
+  },
+  {
+    "name": "Angel's Hand",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "overlay_align": "right",
+    "stages": [
+      {
+        "name": "Angel's Hand",
+        "inherit_codes": true,
+        "img": "/images/items/charmangelshand.png",
+        "codes": "charmangelshand, charmangelshandget"
+      },
+      {
+        "name": "Angel's Hand",
+        "inherit_codes": true,
+        "img": "/images/items/charmangelshandactivate.png",
+        "codes": "charmangelshandactivate"
+      }
+    ]
+  },
+  {
+    "name": "Sacred Heart",
+    "type": "toggle",
+    "img": "images/items/charmsacredheart.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "charmsacredheart"
+  },
+  {
+    "name": "Halo",
+    "type": "toggle",
+    "img": "images/items/charmhalo.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "charmhalo"
+  },
+  {
+    "name": "The Blood",
+    "type": "toggle",
+    "img": "images/items/charmtheblood.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "charmtheblood"
+  },
+  {
+    "name": "The Body",
+    "type": "toggle",
+    "img": "images/items/charmthebody.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "charmthebody"
   },
   {
     "name": "Rotated Hamsa",
-    "type": "toggle",
-    "img": "images/items/charmrotatedhamsa.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmrotatedhamsa"
+    "stages": [
+      {
+        "name": "Rotated Hamsa",
+        "inherit_codes": true,
+        "img": "/images/items/charmrotatedhamsa.png",
+        "codes": "charmrotatedhamsa, charmrotatedhamsaget"
+      },
+      {
+        "name": "Rotated Hamsa",
+        "inherit_codes": true,
+        "img": "/images/items/charmrotatedhamsabuy.png",
+        "codes": "charmrotatedhamsabuy"
+      },
+      {
+        "name": "Rotated Hamsa",
+        "inherit_codes": true,
+        "img": "/images/items/charmrotatedhamsatrigger.png",
+        "codes": "charmrotatedhamsatrigger"
+      }
+    ]
   },
   {
     "name": "Card Pack 2",
@@ -25,51 +279,159 @@
   },
   {
     "name": "Nuclear Button",
-    "type": "toggle",
-    "img": "images/items/charmnuclearbutton.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmnuclearbutton"
+    "stages": [
+      {
+        "name": "Nuclear Button",
+        "inherit_codes": true,
+        "img": "/images/items/charmnuclearbutton.png",
+        "codes": "charmnuclearbutton, charmnuclearbuttonget"
+      },
+      {
+        "name": "Nuclear Button",
+        "inherit_codes": true,
+        "img": "/images/items/charmnuclearbuttonbuy.png",
+        "codes": "charmnuclearbuttonbuy"
+      }
+    ]
   },
   {
     "name": "Disc A",
-    "type": "toggle",
-    "img": "images/items/charmdisca.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdisca"
+    "stages": [
+      {
+        "name": "Disc A",
+        "inherit_codes": true,
+        "img": "/images/items/charmdisca.png",
+        "codes": "charmdisca, charmdiscaget"
+      },
+      {
+        "name": "Disc A",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiscabuy.png",
+        "codes": "charmdiscabuy"
+      },
+      {
+        "name": "Disc A",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiscatrigger.png",
+        "codes": "charmdiscatrigger"
+      }
+    ]
   },
   {
     "name": "Demon's Horn",
-    "type": "toggle",
-    "img": "images/items/charmdemonshorn.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdemonshorn"
+    "stages": [
+      {
+        "name": "Demon's Horn",
+        "inherit_codes": true,
+        "img": "/images/items/charmdemonshorn.png",
+        "codes": "charmdemonshorn, charmdemonshornget"
+      },
+      {
+        "name": "Demon's Horn",
+        "inherit_codes": true,
+        "img": "/images/items/charmdemonshornbuy.png",
+        "codes": "charmdemonshornbuy"
+      },
+      {
+        "name": "Demon's Horn",
+        "inherit_codes": true,
+        "img": "/images/items/charmdemonshorntrigger.png",
+        "codes": "charmdemonshorntrigger"
+      }
+    ]
   },
   {
     "name": "Pareidolia",
-    "type": "toggle",
-    "img": "images/items/charmpareidolia.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmpareidolia"
+    "stages": [
+      {
+        "name": "Pareidolia",
+        "inherit_codes": true,
+        "img": "/images/items/charmpareidolia.png",
+        "codes": "charmpareidolia, charmpareidoliaget"
+      },
+      {
+        "name": "Pareidolia",
+        "inherit_codes": true,
+        "img": "/images/items/charmpareidoliabuy.png",
+        "codes": "charmpareidoliabuy"
+      }
+    ]
   },
   {
     "name": "Red Shiny Rock",
-    "type": "toggle",
-    "img": "images/items/charmredshinyrock.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmredshinyrock"
+    "stages": [
+      {
+        "name": "Red Shiny Rock",
+        "inherit_codes": true,
+        "img": "/images/items/charmredshinyrock.png",
+        "codes": "charmredshinyrock, charmredshinyrockget"
+      },
+      {
+        "name": "Red Shiny Rock",
+        "inherit_codes": true,
+        "img": "/images/items/charmredshinyrockbuy.png",
+        "codes": "charmredshinyrockbuy"
+      },
+      {
+        "name": "Red Shiny Rock",
+        "inherit_codes": true,
+        "img": "/images/items/charmredshinyrockactivate.png",
+        "codes": "charmredshinyrockactivate"
+      }
+    ]
   },
   {
     "name": "Dynamo",
-    "type": "toggle",
-    "img": "images/items/charmdynamo.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdynamo"
+    "stages": [
+      {
+        "name": "Dynamo",
+        "inherit_codes": true,
+        "img": "/images/items/charmdynamo.png",
+        "codes": "charmdynamo, charmdynamoget"
+      },
+      {
+        "name": "Dynamo",
+        "inherit_codes": true,
+        "img": "/images/items/charmdynamobuy.png",
+        "codes": "charmdynamobuy"
+      },
+      {
+        "name": "Dynamo",
+        "inherit_codes": true,
+        "img": "/images/items/charmdynamotrigger.png",
+        "codes": "charmdynamotrigger"
+      }
+    ]
   },
   {
     "name": "Card Pack 6",
@@ -81,51 +443,147 @@
   },
   {
     "name": "Thief",
-    "type": "toggle",
-    "img": "images/items/charmthief.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmthief"
+    "stages": [
+      {
+        "name": "Thief",
+        "inherit_codes": true,
+        "img": "/images/items/charmthief.png",
+        "codes": "charmthief, charmthiefget"
+      },
+      {
+        "name": "Thief",
+        "inherit_codes": true,
+        "img": "/images/items/charmthiefbuy.png",
+        "codes": "charmthiefbuy"
+      }
+    ]
   },
   {
     "name": "Stonks",
-    "type": "toggle",
-    "img": "images/items/charmstonks.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmstonks"
+    "stages": [
+      {
+        "name": "Stonks",
+        "inherit_codes": true,
+        "img": "/images/items/charmstonks.png",
+        "codes": "charmstonks, charmstonksget"
+      },
+      {
+        "name": "Stonks",
+        "inherit_codes": true,
+        "img": "/images/items/charmstonksbuy.png",
+        "codes": "charmstonksbuy"
+      }
+    ]
   },
   {
     "name": "CloverPet",
-    "type": "toggle",
-    "img": "images/items/charmcloverpet.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcloverpet"
+    "stages": [
+      {
+        "name": "CloverPet",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverpet.png",
+        "codes": "charmcloverpet, charmcloverpetget"
+      },
+      {
+        "name": "CloverPet",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverpetbuy.png",
+        "codes": "charmcloverpetbuy"
+      }
+    ]
   },
   {
     "name": "Jimbo",
-    "type": "toggle",
-    "img": "images/items/charmjimbo.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmjimbo"
+    "stages": [
+      {
+        "name": "Jimbo",
+        "inherit_codes": true,
+        "img": "/images/items/charmjimbo.png",
+        "codes": "charmjimbo, charmjimboget"
+      },
+      {
+        "name": "Jimbo",
+        "inherit_codes": true,
+        "img": "/images/items/charmjimbobuy.png",
+        "codes": "charmjimbobuy"
+      }
+    ]
   },
   {
     "name": "D4",
-    "type": "toggle",
-    "img": "images/items/charmd4.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmd4"
+    "stages": [
+      {
+        "name": "D4",
+        "inherit_codes": true,
+        "img": "/images/items/charmd4.png",
+        "codes": "charmd4, charmd4get"
+      },
+      {
+        "name": "D4",
+        "inherit_codes": true,
+        "img": "/images/items/charmd4buy.png",
+        "codes": "charmd4buy"
+      },
+      {
+        "name": "D4",
+        "inherit_codes": true,
+        "img": "/images/items/charmd4trigger.png",
+        "codes": "charmd4trigger"
+      }
+    ]
   },
   {
     "name": "Number 2",
-    "type": "toggle",
-    "img": "images/items/charmnumber2.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmnumber2"
+    "stages": [
+      {
+        "name": "Number 2",
+        "inherit_codes": true,
+        "img": "/images/items/charmnumber2.png",
+        "codes": "charmnumber2, charmnumber2get"
+      },
+      {
+        "name": "Number 2",
+        "inherit_codes": true,
+        "img": "/images/items/charmnumber2buy.png",
+        "codes": "charmnumber2buy"
+      },
+      {
+        "name": "Number 2",
+        "inherit_codes": true,
+        "img": "/images/items/charmnumber2activate.png",
+        "codes": "charmnumber2activate"
+      }
+    ]
   },
   {
     "name": "I used to eat healthy...",
@@ -137,51 +595,159 @@
   },
   {
     "name": "Cherry Picture",
-    "type": "toggle",
-    "img": "images/items/charmcherrypicture.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcherrypicture"
+    "stages": [
+      {
+        "name": "Cherry Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmcherrypicture.png",
+        "codes": "charmcherrypicture, charmcherrypictureget"
+      },
+      {
+        "name": "Cherry Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmcherrypicturebuy.png",
+        "codes": "charmcherrypicturebuy"
+      },
+      {
+        "name": "Cherry Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmcherrypictureactivate.png",
+        "codes": "charmcherrypictureactivate"
+      }
+    ]
   },
   {
     "name": "Hamsa",
-    "type": "toggle",
-    "img": "images/items/charmhamsa.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmhamsa"
+    "stages": [
+      {
+        "name": "Hamsa",
+        "inherit_codes": true,
+        "img": "/images/items/charmhamsa.png",
+        "codes": "charmhamsa, charmhamsaget"
+      },
+      {
+        "name": "Hamsa",
+        "inherit_codes": true,
+        "img": "/images/items/charmhamsabuy.png",
+        "codes": "charmhamsabuy"
+      },
+      {
+        "name": "Hamsa",
+        "inherit_codes": true,
+        "img": "/images/items/charmhamsatrigger.png",
+        "codes": "charmhamsatrigger"
+      }
+    ]
   },
   {
     "name": "Chonky Cat",
-    "type": "toggle",
-    "img": "images/items/charmchonkycat.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmchonkycat"
+    "stages": [
+      {
+        "name": "Chonky Cat",
+        "inherit_codes": true,
+        "img": "/images/items/charmchonkycat.png",
+        "codes": "charmchonkycat, charmchonkycatget"
+      },
+      {
+        "name": "Chonky Cat",
+        "inherit_codes": true,
+        "img": "/images/items/charmchonkycatbuy.png",
+        "codes": "charmchonkycatbuy"
+      },
+      {
+        "name": "Chonky Cat",
+        "inherit_codes": true,
+        "img": "/images/items/charmchonkycattrigger.png",
+        "codes": "charmchonkycattrigger"
+      }
+    ]
   },
   {
     "name": "Green Pepper",
-    "type": "toggle",
-    "img": "images/items/charmgreenpepper.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgreenpepper"
+    "stages": [
+      {
+        "name": "Green Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmgreenpepper.png",
+        "codes": "charmgreenpepper, charmgreenpepperget"
+      },
+      {
+        "name": "Green Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmgreenpepperbuy.png",
+        "codes": "charmgreenpepperbuy"
+      },
+      {
+        "name": "Green Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmgreenpeppertrigger.png",
+        "codes": "charmgreenpeppertrigger"
+      }
+    ]
   },
   {
     "name": "Diesel Locomotive",
-    "type": "toggle",
-    "img": "images/items/charmdiesellocomotive.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdiesellocomotive"
+    "stages": [
+      {
+        "name": "Diesel Locomotive",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiesellocomotive.png",
+        "codes": "charmdiesellocomotive, charmdiesellocomotiveget"
+      },
+      {
+        "name": "Diesel Locomotive",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiesellocomotivebuy.png",
+        "codes": "charmdiesellocomotivebuy"
+      }
+    ]
   },
   {
     "name": "Wheat",
-    "type": "toggle",
-    "img": "images/items/charmwheat.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmwheat"
+    "stages": [
+      {
+        "name": "Wheat",
+        "inherit_codes": true,
+        "img": "/images/items/charmwheat.png",
+        "codes": "charmwheat, charmwheatget"
+      },
+      {
+        "name": "Wheat",
+        "inherit_codes": true,
+        "img": "/images/items/charmwheatbuy.png",
+        "codes": "charmwheatbuy"
+      }
+    ]
   },
   {
     "name": "Can I eat something?",
@@ -193,11 +759,31 @@
   },
   {
     "name": "Weird Clock",
-    "type": "toggle",
-    "img": "images/items/charmweirdclock.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmweirdclock"
+    "stages": [
+      {
+        "name": "Weird Clock",
+        "inherit_codes": true,
+        "img": "/images/items/charmweirdclock.png",
+        "codes": "charmweirdclock, charmweirdclockget"
+      },
+      {
+        "name": "Weird Clock",
+        "inherit_codes": true,
+        "img": "/images/items/charmweirdclockbuy.png",
+        "codes": "charmweirdclockbuy"
+      },
+      {
+        "name": "Weird Clock",
+        "inherit_codes": true,
+        "img": "/images/items/charmweirdclockactivate.png",
+        "codes": "charmweirdclockactivate"
+      }
+    ]
   },
   {
     "name": "Card Pack 5",
@@ -209,11 +795,31 @@
   },
   {
     "name": "Crystal Skull",
-    "type": "toggle",
-    "img": "images/items/charmcrystalskull.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcrystalskull"
+    "stages": [
+      {
+        "name": "Crystal Skull",
+        "inherit_codes": true,
+        "img": "/images/items/charmcrystalskull.png",
+        "codes": "charmcrystalskull, charmcrystalskullget"
+      },
+      {
+        "name": "Crystal Skull",
+        "inherit_codes": true,
+        "img": "/images/items/charmcrystalskullbuy.png",
+        "codes": "charmcrystalskullbuy"
+      },
+      {
+        "name": "Crystal Skull",
+        "inherit_codes": true,
+        "img": "/images/items/charmcrystalskulltrigger.png",
+        "codes": "charmcrystalskulltrigger"
+      }
+    ]
   },
   {
     "name": "progressiveskeleton",
@@ -329,51 +935,153 @@
   },
   {
     "name": "CloverPot",
-    "type": "toggle",
-    "img": "images/items/charmcloverpot.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcloverpot"
+    "stages": [
+      {
+        "name": "Clover Pot",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverpot.png",
+        "codes": "charmcloverpot, charmcloverpotget"
+      },
+      {
+        "name": "Clover Pot",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverpotbuy.png",
+        "codes": "charmcloverpotbuy"
+      },
+      {
+        "name": "Clover Pot",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverpottrigger.png",
+        "codes": "charmcloverpottrigger"
+      }
+    ]
   },
   {
     "name": "Lost Briefcase",
-    "type": "toggle",
-    "img": "images/items/charmlostbriefcase.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmlostbriefcase"
+    "stages": [
+      {
+        "name": "Lost Briefcase",
+        "inherit_codes": true,
+        "img": "/images/items/charmlostbriefcase.png",
+        "codes": "charmlostbriefcase, charmlostbriefcaseget"
+      },
+      {
+        "name": "Lost Briefcase",
+        "inherit_codes": true,
+        "img": "/images/items/charmlostbriefcasebuy.png",
+        "codes": "charmlostbriefcasebuy"
+      }
+    ]
   },
   {
     "name": "Swole Cat",
-    "type": "toggle",
-    "img": "images/items/charmswolecat.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmswolecat"
+    "stages": [
+      {
+        "name": "Swole Cat",
+        "inherit_codes": true,
+        "img": "/images/items/charmswolecat.png",
+        "codes": "charmswolecat, charmswolecatget"
+      },
+      {
+        "name": "Swole Cat",
+        "inherit_codes": true,
+        "img": "/images/items/charmswolecatbuy.png",
+        "codes": "charmswolecatbuy"
+      },
+      {
+        "name": "Swole Cat",
+        "inherit_codes": true,
+        "img": "/images/items/charmswolecattrigger.png",
+        "codes": "charmswolecattrigger"
+      }
+    ]
   },
   {
     "name": "Very Big Mushroom",
-    "type": "toggle",
-    "img": "images/items/charmverybigmushroom.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmverybigmushroom"
+    "stages": [
+      {
+        "name": "Very Big Mushroom",
+        "inherit_codes": true,
+        "img": "/images/items/charmverybigmushroom.png",
+        "codes": "charmverybigmushroom, charmverybigmushroomget"
+      },
+      {
+        "name": "Very Big Mushroom",
+        "inherit_codes": true,
+        "img": "/images/items/charmverybigmushroombuy.png",
+        "codes": "charmverybigmushroombuy"
+      },
+      {
+        "name": "Very Big Mushroom",
+        "inherit_codes": true,
+        "img": "/images/items/charmverybigmushroomtrigger.png",
+        "codes": "charmverybigmushroomtrigger"
+      }
+    ]
   },
   {
     "name": "Evil Deal",
-    "type": "toggle",
-    "img": "images/items/charmevildeal.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmevildeal"
+    "stages": [
+      {
+        "name": "Evil Deal",
+        "inherit_codes": true,
+        "img": "/images/items/charmevildeal.png",
+        "codes": "charmevildeal, charmevildealget"
+      },
+      {
+        "name": "Evil Deal",
+        "inherit_codes": true,
+        "img": "/images/items/charmevildealbuy.png",
+        "codes": "charmevildealbuy"
+      }
+    ]
   },
   {
     "name": "Crystal Sphere",
-    "type": "toggle",
-    "img": "images/items/charmcrystalsphere.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcrystalsphere"
+    "stages": [
+      {
+        "name": "Crystal Sphere",
+        "inherit_codes": true,
+        "img": "/images/items/charmcrystalsphere.png",
+        "codes": "charmcrystalsphere, charmcrystalsphereget"
+      },
+      {
+        "name": "Crystal Sphere",
+        "inherit_codes": true,
+        "img": "/images/items/charmcrystalspherebuy.png",
+        "codes": "charmcrystalspherebuy"
+      }
+    ]
   },
   {
     "name": "Help!",
@@ -401,11 +1109,31 @@
   },
   {
     "name": "Hourglass",
-    "type": "toggle",
-    "img": "images/items/charmhourglass.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmhourglass"
+    "stages": [
+      {
+        "name": "Hourglass",
+        "inherit_codes": true,
+        "img": "/images/items/charmhourglass.png",
+        "codes": "charmhourglass, charmhourglassget"
+      },
+      {
+        "name": "Hourglass",
+        "inherit_codes": true,
+        "img": "/images/items/charmhourglassbuy.png",
+        "codes": "charmhourglassbuy"
+      },
+      {
+        "name": "Hourglass",
+        "inherit_codes": true,
+        "img": "/images/items/charmhourglasstrigger.png",
+        "codes": "charmhourglasstrigger"
+      }
+    ]
   },
   {
     "name": "I'm being constant!",
@@ -425,83 +1153,247 @@
   },
   {
     "name": "Possessed Cellphone",
-    "type": "toggle",
-    "img": "images/items/charmpossessedcellphone.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmpossessedcellphone"
+    "stages": [
+      {
+        "name": "Possessed Cellphone",
+        "inherit_codes": true,
+        "img": "/images/items/charmpossessedcellphone.png",
+        "codes": "charmpossessedcellphone, charmpossessedcellphoneget"
+      },
+      {
+        "name": "Possessed Cellphone",
+        "inherit_codes": true,
+        "img": "/images/items/charmpossessedcellphonebuy.png",
+        "codes": "charmpossessedcellphonebuy"
+      },
+      {
+        "name": "Possessed Cellphone",
+        "inherit_codes": true,
+        "img": "/images/items/charmpossessedcellphoneactivate.png",
+        "codes": "charmpossessedcellphoneactivate"
+      }
+    ]
   },
   {
     "name": "Consolation Prize",
-    "type": "toggle",
-    "img": "images/items/charmconsolationprize.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmconsolationprize"
+    "stages": [
+      {
+        "name": "Consolation Prize",
+        "inherit_codes": true,
+        "img": "/images/items/charmconsolationprize.png",
+        "codes": "charmconsolationprize, charmconsolationprizeget"
+      },
+      {
+        "name": "Consolation Prize",
+        "inherit_codes": true,
+        "img": "/images/items/charmconsolationprizebuy.png",
+        "codes": "charmconsolationprizebuy"
+      }
+    ]
   },
   {
     "name": "Greedy King",
-    "type": "toggle",
-    "img": "images/items/charmgreedyking.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgreedyking"
+    "stages": [
+      {
+        "name": "Greedy King",
+        "inherit_codes": true,
+        "img": "/images/items/charmgreedyking.png",
+        "codes": "charmgreedyking, charmgreedykingget"
+      },
+      {
+        "name": "Greedy King",
+        "inherit_codes": true,
+        "img": "/images/items/charmgreedykingbuy.png",
+        "codes": "charmgreedykingbuy"
+      }
+    ]
   },
   {
     "name": "Disc C",
-    "type": "toggle",
-    "img": "images/items/charmdiscc.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdiscc"
+    "stages": [
+      {
+        "name": "Disc C",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiscc.png",
+        "codes": "charmdiscc, charmdisccget"
+      },
+      {
+        "name": "Disc C",
+        "inherit_codes": true,
+        "img": "/images/items/charmdisccbuy.png",
+        "codes": "charmdisccbuy"
+      },
+      {
+        "name": "Disc C",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiscctrigger.png",
+        "codes": "charmdiscctrigger"
+      }
+    ]
   },
   {
     "name": "Midas Touch",
-    "type": "toggle",
-    "img": "images/items/charmmidastouch.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmmidastouch"
+    "stages": [
+      {
+        "name": "Midas Touch",
+        "inherit_codes": true,
+        "img": "/images/items/charmmidastouch.png",
+        "codes": "charmmidastouch, charmmidastouchget"
+      },
+      {
+        "name": "Midas Touch",
+        "inherit_codes": true,
+        "img": "/images/items/charmmidastouchbuy.png",
+        "codes": "charmmidastouchbuy"
+      },
+      {
+        "name": "Midas Touch",
+        "inherit_codes": true,
+        "img": "/images/items/charmmidastouchactivate.png",
+        "codes": "charmmidastouchactivate"
+      }
+    ]
   },
   {
     "name": "Ace of Clubs",
-    "type": "toggle",
-    "img": "images/items/charmaceofclubs.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmaceofclubs"
+    "stages": [
+      {
+        "name": "Ace of Clubs",
+        "inherit_codes": true,
+        "img": "/images/items/charmaceofclubs.png",
+        "codes": "charmaceofclubs, charmaceofclubsget"
+      },
+      {
+        "name": "Ace of Clubs",
+        "inherit_codes": true,
+        "img": "/images/items/charmaceofclubsbuy.png",
+        "codes": "charmaceofclubsbuy"
+      }
+    ]
   },
   {
     "name": "Abstract Painting",
-    "type": "toggle",
-    "img": "images/items/charmabstractpainting.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmabstractpainting"
+    "stages": [
+      {
+        "name": "Abstract Painting",
+        "inherit_codes": true,
+        "img": "/images/items/charmabstractpainting.png",
+        "codes": "charmabstractpainting, charmabstractpaintingget"
+      },
+      {
+        "name": "Abstract Painting",
+        "inherit_codes": true,
+        "img": "/images/items/charmabstractpaintingbuy.png",
+        "codes": "charmabstractpaintingbuy"
+      },
+      {
+        "name": "Abstract Painting",
+        "inherit_codes": true,
+        "img": "/images/items/charmabstractpaintingtrigger.png",
+        "codes": "charmabstractpaintingtrigger"
+      }
+    ]
   },
   {
     "name": "Golden Treasure",
-    "type": "toggle",
-    "img": "images/items/charmgoldentreasure.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgoldentreasure"
+    "stages": [
+      {
+        "name": "Golden Treasure",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldentreasure.png",
+        "codes": "charmgoldentreasure, charmgoldentreasureget"
+      },
+      {
+        "name": "Golden Treasure",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldentreasurebuy.png",
+        "codes": "charmgoldentreasurebuy"
+      }
+    ]
   },
   {
     "name": "Electricity Meter",
-    "type": "toggle",
-    "img": "images/items/charmelectricitymeter.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmelectricitymeter"
+    "stages": [
+      {
+        "name": "Electricity Meter",
+        "inherit_codes": true,
+        "img": "/images/items/charmelectricitymeter.png",
+        "codes": "charmelectricitymeter, charmelectricitymeterget"
+      },
+      {
+        "name": "Electricity Meter",
+        "inherit_codes": true,
+        "img": "/images/items/charmelectricitymeterbuy.png",
+        "codes": "charmelectricitymeterbuy"
+      }
+    ]
   },
   {
     "name": "Bricks",
-    "type": "toggle",
-    "img": "images/items/charmbricks.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmbricks"
+    "stages": [
+      {
+        "name": "Bricks",
+        "inherit_codes": true,
+        "img": "/images/items/charmbricks.png",
+        "codes": "charmbricks, charmbricksget"
+      },
+      {
+        "name": "Bricks",
+        "inherit_codes": true,
+        "img": "/images/items/charmbricksbuy.png",
+        "codes": "charmbricksbuy"
+      }
+    ]
   },
   {
     "name": "Can I borrow some green?",
@@ -529,11 +1421,31 @@
   },
   {
     "name": "Number 1",
-    "type": "toggle",
-    "img": "images/items/charmnumber1.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmnumber1"
+    "stages": [
+      {
+        "name": "Number 1",
+        "inherit_codes": true,
+        "img": "/images/items/charmnumber1.png",
+        "codes": "charmnumber1, charmnumber1get"
+      },
+      {
+        "name": "Number 1",
+        "inherit_codes": true,
+        "img": "/images/items/charmnumber1buy.png",
+        "codes": "charmnumber1buy"
+      },
+      {
+        "name": "Number 1",
+        "inherit_codes": true,
+        "img": "/images/items/charmnumber1activate.png",
+        "codes": "charmnumber1activate"
+      }
+    ]
   },
   {
     "name": "Wait, what day is it?",
@@ -545,75 +1457,231 @@
   },
   {
     "name": "Bell Pepper",
-    "type": "toggle",
-    "img": "images/items/charmbellpepper.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmbellpepper"
+    "stages": [
+      {
+        "name": "Bell Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmbellpepper.png",
+        "codes": "charmbellpepper, charmbellpepperget"
+      },
+      {
+        "name": "Bell Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmbellpepperbuy.png",
+        "codes": "charmbellpepperbuy"
+      },
+      {
+        "name": "Bell Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmbellpeppertrigger.png",
+        "codes": "charmbellpeppertrigger"
+      }
+    ]
   },
   {
     "name": "Pain Killers",
-    "type": "toggle",
-    "img": "images/items/charmpainkillers.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmpainkillers"
+    "stages": [
+      {
+        "name": "Pain Killers",
+        "inherit_codes": true,
+        "img": "/images/items/charmpainkillers.png",
+        "codes": "charmpainkillers, charmpainkillersget"
+      },
+      {
+        "name": "Pain Killers",
+        "inherit_codes": true,
+        "img": "/images/items/charmpainkillersbuy.png",
+        "codes": "charmpainkillersbuy"
+      }
+    ]
   },
   {
     "name": "Raging Capitalist",
-    "type": "toggle",
-    "img": "images/items/charmragingcapitalist.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmragingcapitalist"
+    "stages": [
+      {
+        "name": "Raging Capitalist",
+        "inherit_codes": true,
+        "img": "/images/items/charmragingcapitalist.png",
+        "codes": "charmragingcapitalist, charmragingcapitalistget"
+      },
+      {
+        "name": "Raging Capitalist",
+        "inherit_codes": true,
+        "img": "/images/items/charmragingcapitalistbuy.png",
+        "codes": "charmragingcapitalistbuy"
+      }
+    ]
   },
   {
     "name": "Ace of Spades",
-    "type": "toggle",
-    "img": "images/items/charmaceofspades.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmaceofspades"
+    "stages": [
+      {
+        "name": "Ace of Spades",
+        "inherit_codes": true,
+        "img": "/images/items/charmaceofspades.png",
+        "codes": "charmaceofspades, charmaceofspadesget"
+      },
+      {
+        "name": "Ace of Spades",
+        "inherit_codes": true,
+        "img": "/images/items/charmaceofspadesbuy.png",
+        "codes": "charmaceofspadesbuy"
+      }
+    ]
   },
   {
     "name": "Scratch and Hope",
-    "type": "toggle",
-    "img": "images/items/charmscratchandhope.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmscratchandhope"
+    "stages": [
+      {
+        "name": "Scratch and Hope",
+        "inherit_codes": true,
+        "img": "/images/items/charmscratchandhope.png",
+        "codes": "charmscratchandhope, charmscratchandhopeget"
+      },
+      {
+        "name": "Scratch and Hope",
+        "inherit_codes": true,
+        "img": "/images/items/charmscratchandhopebuy.png",
+        "codes": "charmscratchandhopebuy"
+      }
+    ]
   },
   {
     "name": "Book of Shadows",
-    "type": "toggle",
-    "img": "images/items/charmbookofshadows.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmbookofshadows"
+    "stages": [
+      {
+        "name": "Book of Shadows",
+        "inherit_codes": true,
+        "img": "/images/items/charmbookofshadows.png",
+        "codes": "charmbookofshadows, charmbookofshadowsget"
+      },
+      {
+        "name": "Book of Shadows",
+        "inherit_codes": true,
+        "img": "/images/items/charmbookofshadowsbuy.png",
+        "codes": "charmbookofshadowsbuy"
+      },
+      {
+        "name": "Book of Shadows",
+        "inherit_codes": true,
+        "img": "/images/items/charmbookofshadowstrigger.png",
+        "codes": "charmbookofshadowstrigger"
+      }
+    ]
   },
   {
     "name": "Disc B",
-    "type": "toggle",
-    "img": "images/items/charmdiscb.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdiscb"
+    "stages": [
+      {
+        "name": "Disc B",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiscb.png",
+        "codes": "charmdiscb, charmdiscbget"
+      },
+      {
+        "name": "Disc B",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiscbbuy.png",
+        "codes": "charmdiscbbuy"
+      },
+      {
+        "name": "Disc B",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiscbtrigger.png",
+        "codes": "charmdiscbtrigger"
+      }
+    ]
   },
   {
     "name": "Magical Tomato",
-    "type": "toggle",
-    "img": "images/items/charmmagicaltomato.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmmagicaltomato"
+    "stages": [
+      {
+        "name": "Magical Tomato",
+        "inherit_codes": true,
+        "img": "/images/items/charmmagicaltomato.png",
+        "codes": "charmmagicaltomato, charmmagicaltomatoget"
+      },
+      {
+        "name": "Magical Tomato",
+        "inherit_codes": true,
+        "img": "/images/items/charmmagicaltomatobuy.png",
+        "codes": "charmmagicaltomatobuy"
+      },
+      {
+        "name": "Magical Tomato",
+        "inherit_codes": true,
+        "img": "/images/items/charmmagicaltomatotrigger.png",
+        "codes": "charmmagicaltomatotrigger"
+      }
+    ]
   },
   {
     "name": "Ancient Coin",
-    "type": "toggle",
-    "img": "images/items/charmancientcoin.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmancientcoin"
+    "stages": [
+      {
+        "name": "Ancient Coin",
+        "inherit_codes": true,
+        "img": "/images/items/charmancientcoin.png",
+        "codes": "charmancientcoin, charmancientcoinget"
+      },
+      {
+        "name": "Ancient Coin",
+        "inherit_codes": true,
+        "img": "/images/items/charmancientcoinbuy.png",
+        "codes": "charmancientcoinbuy"
+      },
+      {
+        "name": "Ancient Coin",
+        "inherit_codes": true,
+        "img": "/images/items/charmancientcoinactivate.png",
+        "codes": "charmancientcoinactivate"
+      }
+    ]
   },
   {
     "name": "I'm feeling more energetic recently.",
@@ -625,67 +1693,191 @@
   },
   {
     "name": "Expired Meds",
-    "type": "toggle",
-    "img": "images/items/charmexpiredmeds.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmexpiredmeds"
+    "stages": [
+      {
+        "name": "Expired Meds",
+        "inherit_codes": true,
+        "img": "/images/items/charmexpiredmeds.png",
+        "codes": "charmexpiredmeds, charmexpiredmedsget"
+      },
+      {
+        "name": "Expired Meds",
+        "inherit_codes": true,
+        "img": "/images/items/charmexpiredmedsbuy.png",
+        "codes": "charmexpiredmedsbuy"
+      }
+    ]
   },
   {
     "name": "Music Tape",
-    "type": "toggle",
-    "img": "images/items/charmmusictape.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmmusictape"
+    "stages": [
+      {
+        "name": "Music Tape",
+        "inherit_codes": true,
+        "img": "/images/items/charmmusictape.png",
+        "codes": "charmmusictape, charmmusictapeget"
+      },
+      {
+        "name": "Music Tape",
+        "inherit_codes": true,
+        "img": "/images/items/charmmusictapebuy.png",
+        "codes": "charmmusictapebuy"
+      }
+    ]
   },
   {
     "name": "Potato Battery",
-    "type": "toggle",
-    "img": "images/items/charmpotatobattery.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmpotatobattery"
+    "stages": [
+      {
+        "name": "Potato Battery",
+        "inherit_codes": true,
+        "img": "/images/items/charmpotatobattery.png",
+        "codes": "charmpotatobattery, charmpotatobatteryget"
+      },
+      {
+        "name": "Potato Battery",
+        "inherit_codes": true,
+        "img": "/images/items/charmpotatobatterybuy.png",
+        "codes": "charmpotatobatterybuy"
+      }
+    ]
   },
   {
     "name": "Ace of Hearts",
-    "type": "toggle",
-    "img": "images/items/charmaceofhearts.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmaceofhearts"
+    "stages": [
+      {
+        "name": "Ace of Hearts",
+        "inherit_codes": true,
+        "img": "/images/items/charmaceofhearts.png",
+        "codes": "charmaceofhearts, charmaceofheartsget"
+      },
+      {
+        "name": "Ace of Hearts",
+        "inherit_codes": true,
+        "img": "/images/items/charmaceofheartsbuy.png",
+        "codes": "charmaceofheartsbuy"
+      },
+      {
+        "name": "Ace of Hearts",
+        "inherit_codes": true,
+        "img": "/images/items/charmaceofheartstrigger.png",
+        "codes": "charmaceofheartstrigger"
+      }
+    ]
   },
   {
     "name": "Sheep",
-    "type": "toggle",
-    "img": "images/items/charmsheep.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmsheep"
+    "stages": [
+      {
+        "name": "Sheep",
+        "inherit_codes": true,
+        "img": "/images/items/charmsheep.png",
+        "codes": "charmsheep, charmsheepget"
+      },
+      {
+        "name": "Sheep",
+        "inherit_codes": true,
+        "img": "/images/items/charmsheepbuy.png",
+        "codes": "charmsheepbuy"
+      }
+    ]
   },
   {
     "name": "D6",
-    "type": "toggle",
-    "img": "images/items/charmd6.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmd6"
+    "stages": [
+      {
+        "name": "D6",
+        "inherit_codes": true,
+        "img": "/images/items/charmd6.png",
+        "codes": "charmd6, charmd6get"
+      },
+      {
+        "name": "D6",
+        "inherit_codes": true,
+        "img": "/images/items/charmd6buy.png",
+        "codes": "charmd6buy"
+      },
+      {
+        "name": "D6",
+        "inherit_codes": true,
+        "img": "/images/items/charmd6trigger.png",
+        "codes": "charmd6trigger"
+      }
+    ]
   },
   {
     "name": "Golden Diamond",
-    "type": "toggle",
-    "img": "images/items/charmgoldendiamond.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgoldendiamond"
+    "stages": [
+      {
+        "name": "Golden Diamond",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldendiamond.png",
+        "codes": "charmgoldendiamond, charmgoldendiamondget"
+      },
+      {
+        "name": "Golden Diamond",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldendiamondbuy.png",
+        "codes": "charmgoldendiamondbuy"
+      }
+    ]
   },
   {
     "name": "Wheelbarrow",
-    "type": "toggle",
-    "img": "images/items/charmwheelbarrow.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmwheelbarrow"
+    "stages": [
+      {
+        "name": "Wheelbarrow",
+        "inherit_codes": true,
+        "img": "/images/items/charmwheelbarrow.png",
+        "codes": "charmwheelbarrow, charmwheelbarrowget"
+      },
+      {
+        "name": "Wheelbarrow",
+        "inherit_codes": true,
+        "img": "/images/items/charmwheelbarrowbuy.png",
+        "codes": "charmwheelbarrowbuy"
+      }
+    ]
   },
   {
     "name": "progressivedrawer",
@@ -731,19 +1923,59 @@
   },
   {
     "name": "Mushrooms",
-    "type": "toggle",
-    "img": "images/items/charmmushrooms.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmmushrooms"
+    "stages": [
+      {
+        "name": "Mushrooms",
+        "inherit_codes": true,
+        "img": "/images/items/charmmushrooms.png",
+        "codes": "charmmushrooms, charmmushroomsget"
+      },
+      {
+        "name": "Mushrooms",
+        "inherit_codes": true,
+        "img": "/images/items/charmmushroomsbuy.png",
+        "codes": "charmmushroomsbuy"
+      },
+      {
+        "name": "Mushrooms",
+        "inherit_codes": true,
+        "img": "/images/items/charmmushroomstrigger.png",
+        "codes": "charmmushroomstrigger"
+      }
+    ]
   },
   {
     "name": "Lemon Picture",
-    "type": "toggle",
-    "img": "images/items/charmlemonpicture.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmlemonpicture"
+    "stages": [
+      {
+        "name": "Lemon Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmlemonpicture.png",
+        "codes": "charmlemonpicture, charmlemonpictureget"
+      },
+      {
+        "name": "Lemon Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmlemonpicturebuy.png",
+        "codes": "charmlemonpicturebuy"
+      },
+      {
+        "name": "Lemon Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmlemonpictureactivate.png",
+        "codes": "charmlemonpictureactivate"
+      }
+    ]
   },
   {
     "name": "progressiveluck",
@@ -775,27 +2007,81 @@
   },
   {
     "name": "Dark Lotus",
-    "type": "toggle",
-    "img": "images/items/charmdarklotus.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdarklotus"
+    "stages": [
+      {
+        "name": "Dark Lotus",
+        "inherit_codes": true,
+        "img": "/images/items/charmdarklotus.png",
+        "codes": "charmdarklotus, charmdarklotusget"
+      },
+      {
+        "name": "Dark Lotus",
+        "inherit_codes": true,
+        "img": "/images/items/charmdarklotusbuy.png",
+        "codes": "charmdarklotusbuy"
+      }
+    ]
   },
   {
     "name": "Gabihbb'h",
-    "type": "toggle",
-    "img": "images/items/charmgabihbbh.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgabihbbh"
+    "stages": [
+      {
+        "name": "Gabihbb'h",
+        "inherit_codes": true,
+        "img": "/images/items/charmgabihbbh.png",
+        "codes": "charmgabihbbh, charmgabihbbhget"
+      },
+      {
+        "name": "Gabihbb'h",
+        "inherit_codes": true,
+        "img": "/images/items/charmgabihbbhbuy.png",
+        "codes": "charmgabihbbhbuy"
+      },
+      {
+        "name": "Gabihbb'h",
+        "inherit_codes": true,
+        "img": "/images/items/charmgabihbbhtrigger.png",
+        "codes": "charmgabihbbhtrigger"
+      }
+    ]
   },
   {
     "name": "Cross",
-    "type": "toggle",
-    "img": "images/items/charmcross.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcross"
+    "stages": [
+      {
+        "name": "Cross",
+        "inherit_codes": true,
+        "img": "/images/items/charmcross.png",
+        "codes": "charmcross, charmcrossget"
+      },
+      {
+        "name": "Cross",
+        "inherit_codes": true,
+        "img": "/images/items/charmcrossbuy.png",
+        "codes": "charmcrossbuy"
+      },
+      {
+        "name": "Cross",
+        "inherit_codes": true,
+        "img": "/images/items/charmcrossactivate.png",
+        "codes": "charmcrossactivate"
+      }
+    ]
   },
   {
     "name": "Today's my lucky day!",
@@ -807,75 +2093,213 @@
   },
   {
     "name": "Depression",
-    "type": "toggle",
-    "img": "images/items/charmdepression.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdepression"
+    "stages": [
+      {
+        "name": "Depression",
+        "inherit_codes": true,
+        "img": "/images/items/charmdepression.png",
+        "codes": "charmdepression, charmdepressionget"
+      },
+      {
+        "name": "Depression",
+        "inherit_codes": true,
+        "img": "/images/items/charmdepressionbuy.png",
+        "codes": "charmdepressionbuy"
+      }
+    ]
   },
   {
     "name": "Sardines",
-    "type": "toggle",
-    "img": "images/items/charmsardines.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmsardines"
+    "stages": [
+      {
+        "name": "Sardines",
+        "inherit_codes": true,
+        "img": "/images/items/charmsardines.png",
+        "codes": "charmsardines, charmsardinesget"
+      },
+      {
+        "name": "Sardines",
+        "inherit_codes": true,
+        "img": "/images/items/charmsardinesbuy.png",
+        "codes": "charmsardinesbuy"
+      }
+    ]
   },
   {
     "name": "Tarot Deck",
-    "type": "toggle",
-    "img": "images/items/charmtarotdeck.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmtarotdeck"
+    "stages": [
+      {
+        "name": "Tarot Deck",
+        "inherit_codes": true,
+        "img": "/images/items/charmtarotdeck.png",
+        "codes": "charmtarotdeck, charmtarotdeckget"
+      },
+      {
+        "name": "Tarot Deck",
+        "inherit_codes": true,
+        "img": "/images/items/charmtarotdeckbuy.png",
+        "codes": "charmtarotdeckbuy"
+      },
+      {
+        "name": "Tarot Deck",
+        "inherit_codes": true,
+        "img": "/images/items/charmtarotdecktrigger.png",
+        "codes": "charmtarotdecktrigger"
+      }
+    ]
   },
   {
     "name": "CloverField",
-    "type": "toggle",
-    "img": "images/items/charmcloverfield.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcloverfield"
+    "stages": [
+      {
+        "name": "CloverField",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverfield.png",
+        "codes": "charmcloverfield, charmcloverfieldget"
+      },
+      {
+        "name": "CloverField",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverfieldbuy.png",
+        "codes": "charmcloverfieldbuy"
+      },
+      {
+        "name": "CloverField",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverfieldtrigger.png",
+        "codes": "charmcloverfieldtrigger"
+      }
+    ]
   },
   {
     "name": "Naughty Dealer",
-    "type": "toggle",
-    "img": "images/items/charmnaughtydealer.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmnaughtydealer"
+    "stages": [
+      {
+        "name": "Naughty Dealer",
+        "inherit_codes": true,
+        "img": "/images/items/charmnaughtydealer.png",
+        "codes": "charmnaughtydealer, charmnaughtydealerget"
+      },
+      {
+        "name": "Naughty Dealer",
+        "inherit_codes": true,
+        "img": "/images/items/charmnaughtydealerbuy.png",
+        "codes": "charmnaughtydealerbuy"
+      }
+    ]
   },
   {
     "name": "Iron",
-    "type": "toggle",
-    "img": "images/items/charmiron.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmiron"
+    "stages": [
+      {
+        "name": "Iron",
+        "inherit_codes": true,
+        "img": "/images/items/charmiron.png",
+        "codes": "charmiron, charmironget"
+      },
+      {
+        "name": "Iron",
+        "inherit_codes": true,
+        "img": "/images/items/charmironbuy.png",
+        "codes": "charmironbuy"
+      }
+    ]
   },
   {
     "name": "Grandma's Purse",
-    "type": "toggle",
-    "img": "images/items/charmgrandmaspurse.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgrandmaspurse"
+    "stages": [
+      {
+        "name": "Grandma's Purse",
+        "inherit_codes": true,
+        "img": "/images/items/charmgrandmaspurse.png",
+        "codes": "charmgrandmaspurse, charmgrandmaspurseget"
+      },
+      {
+        "name": "Grandma's Purse",
+        "inherit_codes": true,
+        "img": "/images/items/charmgrandmaspursebuy.png",
+        "codes": "charmgrandmaspursebuy"
+      }
+    ]
   },
   {
     "name": "Cat Food",
-    "type": "toggle",
-    "img": "images/items/charmcatfood.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcatfood"
+    "stages": [
+      {
+        "name": "Cat Food",
+        "inherit_codes": true,
+        "img": "/images/items/charmcatfood.png",
+        "codes": "charmcatfood, charmcatfoodget"
+      },
+      {
+        "name": "Cat Food",
+        "inherit_codes": true,
+        "img": "/images/items/charmcatfoodbuy.png",
+        "codes": "charmcatfoodbuy"
+      }
+    ]
   },
   {
     "name": "Voicemail",
-    "type": "toggle",
-    "img": "images/items/charmvoicemail.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmvoicemail"
+    "stages": [
+      {
+        "name": "Voicemail",
+        "inherit_codes": true,
+        "img": "/images/items/charmvoicemail.png",
+        "codes": "charmvoicemail, charmvoicemailget"
+      },
+      {
+        "name": "Voicemail",
+        "inherit_codes": true,
+        "img": "/images/items/charmvoicemailbuy.png",
+        "codes": "charmvoicemailbuy"
+      }
+    ]
   },
   {
     "name": "I like cryptic values!",
@@ -887,11 +2311,25 @@
   },
   {
     "name": "The Collector",
-    "type": "toggle",
-    "img": "images/items/charmthecollector.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmthecollector"
+    "stages": [
+      {
+        "name": "The Collector",
+        "inherit_codes": true,
+        "img": "/images/items/charmthecollector.png",
+        "codes": "charmthecollector, charmthecollectorget"
+      },
+      {
+        "name": "The Collector",
+        "inherit_codes": true,
+        "img": "/images/items/charmthecollectorbuy.png",
+        "codes": "charmthecollectorbuy"
+      }
+    ]
   },
   {
     "name": "I love shiny stuff!",
@@ -903,11 +2341,25 @@
   },
   {
     "name": "Steam Locomotive",
-    "type": "toggle",
-    "img": "images/items/charmsteamlocomotive.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmsteamlocomotive"
+    "stages": [
+      {
+        "name": "Steam Locomotive",
+        "inherit_codes": true,
+        "img": "/images/items/charmsteamlocomotive.png",
+        "codes": "charmsteamlocomotive, charmsteamlocomotiveget"
+      },
+      {
+        "name": "Steam Locomotive",
+        "inherit_codes": true,
+        "img": "/images/items/charmsteamlocomotivebuy.png",
+        "codes": "charmsteamlocomotivebuy"
+      }
+    ]
   },
   {
     "name": "I need supplements!",
@@ -919,19 +2371,53 @@
   },
   {
     "name": "Golden Cherry",
-    "type": "toggle",
-    "img": "images/items/charmgoldencherry.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgoldencherry"
+    "stages": [
+      {
+        "name": "Golden Cherry",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldencherry.png",
+        "codes": "charmgoldencherry, charmgoldencherryget"
+      },
+      {
+        "name": "Golden Cherry",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldencherrybuy.png",
+        "codes": "charmgoldencherrybuy"
+      }
+    ]
   },
   {
     "name": "Dung Beetle",
-    "type": "toggle",
-    "img": "images/items/charmdungbeetle.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdungbeetle"
+    "stages": [
+      {
+        "name": "Dung Beetle",
+        "inherit_codes": true,
+        "img": "/images/items/charmdungbeetle.png",
+        "codes": "charmdungbeetle, charmdungbeetleget"
+      },
+      {
+        "name": "Dung Beetle",
+        "inherit_codes": true,
+        "img": "/images/items/charmdungbeetlebuy.png",
+        "codes": "charmdungbeetlebuy"
+      },
+      {
+        "name": "Dung Beetle",
+        "inherit_codes": true,
+        "img": "/images/items/charmdungbeetletrigger.png",
+        "codes": "charmdungbeetletrigger"
+      }
+    ]
   },
   {
     "name": "I'll take back control of my life.",
@@ -959,35 +2445,103 @@
   },
   {
     "name": "Diamond Picture",
-    "type": "toggle",
-    "img": "images/items/charmdiamondpicture.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdiamondpicture"
+    "stages": [
+      {
+        "name": "Diamond Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiamondpicture.png",
+        "codes": "charmdiamondpicture, charmdiamondpictureget"
+      },
+      {
+        "name": "Diamond Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiamondpicturebuy.png",
+        "codes": "charmdiamondpicturebuy"
+      },
+      {
+        "name": "Diamond Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmdiamondpictureactivate.png",
+        "codes": "charmdiamondpictureactivate"
+      }
+    ]
   },
   {
     "name": "Golden Clover",
-    "type": "toggle",
-    "img": "images/items/charmgoldenclover.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgoldenclover"
+    "stages": [
+      {
+        "name": "Golden Clover",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenclover.png",
+        "codes": "charmgoldenclover, charmgoldencloverget"
+      },
+      {
+        "name": "Golden Clover",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldencloverbuy.png",
+        "codes": "charmgoldencloverbuy"
+      }
+    ]
   },
   {
     "name": "One Trick Pony",
-    "type": "toggle",
-    "img": "images/items/charmonetrickpony.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmonetrickpony"
+    "stages": [
+      {
+        "name": "One Trick Pony",
+        "inherit_codes": true,
+        "img": "/images/items/charmonetrickpony.png",
+        "codes": "charmonetrickpony, charmonetrickponyget"
+      },
+      {
+        "name": "One Trick Pony",
+        "inherit_codes": true,
+        "img": "/images/items/charmonetrickponybuy.png",
+        "codes": "charmonetrickponybuy"
+      },
+      {
+        "name": "One Trick Pony",
+        "inherit_codes": true,
+        "img": "/images/items/charmonetrickponytrigger.png",
+        "codes": "charmonetrickponytrigger"
+      }
+    ]
   },
   {
     "name": "Shoe",
-    "type": "toggle",
-    "img": "images/items/charmshoe.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmshoe"
+    "stages": [
+      {
+        "name": "Shoe",
+        "inherit_codes": true,
+        "img": "/images/items/charmshoe.png",
+        "codes": "charmshoe, charmshoeget"
+      },
+      {
+        "name": "Shoe",
+        "inherit_codes": true,
+        "img": "/images/items/charmshoebuy.png",
+        "codes": "charmshoebuy"
+      }
+    ]
   },
   {
     "name": "I'm gonna go \"All in\"!",
@@ -998,20 +2552,48 @@
     "codes": "callimgonnagoallin!"
   },
   {
-    "name": "Necronomoicon",
-    "type": "toggle",
-    "img": "images/items/charmnecronomicon.png",
-    "initial_active_state": false,
+    "name": "Necronomicon",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmnecronomicon"
+    "stages": [
+      {
+        "name": "Necronomicon",
+        "inherit_codes": true,
+        "img": "/images/items/charmnecronomicon.png",
+        "codes": "charmnecronomicon, charmnecronomiconget"
+      },
+      {
+        "name": "Necronomicon",
+        "inherit_codes": true,
+        "img": "/images/items/charmnecronomiconbuy.png",
+        "codes": "charmnecronomiconbuy"
+      }
+    ]
   },
   {
     "name": "Wood",
-    "type": "toggle",
-    "img": "images/items/charmwood.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmwood"
+    "stages": [
+      {
+        "name": "Wood",
+        "inherit_codes": true,
+        "img": "/images/items/charmwood.png",
+        "codes": "charmwood, charmwoodget"
+      },
+      {
+        "name": "Wood",
+        "inherit_codes": true,
+        "img": "/images/items/charmwoodbuy.png",
+        "codes": "charmwoodbuy"
+      }
+    ]
   },
   {
     "name": "Card Pack 1",
@@ -1031,27 +2613,69 @@
   },
   {
     "name": "Personal Trainer",
-    "type": "toggle",
-    "img": "images/items/charmpersonaltrainer.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmpersonaltrainer"
+    "stages": [
+      {
+        "name": "Personal Trainer",
+        "inherit_codes": true,
+        "img": "/images/items/charmpersonaltrainer.png",
+        "codes": "charmpersonaltrainer, charmpersonaltrainerget"
+      },
+      {
+        "name": "Personal Trainer",
+        "inherit_codes": true,
+        "img": "/images/items/charmpersonaltrainerbuy.png",
+        "codes": "charmpersonaltrainerbuy"
+      }
+    ]
   },
   {
     "name": "Car Battery",
-    "type": "toggle",
-    "img": "images/items/charmcarbattery.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcarbattery"
+    "stages": [
+      {
+        "name": "Car Battery",
+        "inherit_codes": true,
+        "img": "/images/items/charmcarbattery.png",
+        "codes": "charmcarbattery, charmcarbatteryget"
+      },
+      {
+        "name": "Car Battery",
+        "inherit_codes": true,
+        "img": "/images/items/charmcarbatterybuy.png",
+        "codes": "charmcarbatterybuy"
+      }
+    ]
   },
   {
     "name": "Shopping Cart",
-    "type": "toggle",
-    "img": "images/items/charmshoppingcart.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmshoppingcart"
+    "stages": [
+      {
+        "name": "Shopping Cart",
+        "inherit_codes": true,
+        "img": "/images/items/charmshoppingcart.png",
+        "codes": "charmshoppingcart, charmshoppingcartget"
+      },
+      {
+        "name": "Shopping Cart",
+        "inherit_codes": true,
+        "img": "/images/items/charmshoppingcartbuy.png",
+        "codes": "charmshoppingcartbuy"
+      }
+    ]
   },
   {
     "name": "Card Pack 7",
@@ -1063,99 +2687,303 @@
   },
   {
     "name": "Chastity Belt",
-    "type": "toggle",
-    "img": "images/items/charmchastitybelt.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmchastitybelt"
+    "stages": [
+      {
+        "name": "Chastity Belt",
+        "inherit_codes": true,
+        "img": "/images/items/charmchastitybelt.png",
+        "codes": "charmchastitybelt, charmchastitybeltget"
+      },
+      {
+        "name": "Chastity Belt",
+        "inherit_codes": true,
+        "img": "/images/items/charmchastitybeltbuy.png",
+        "codes": "charmchastitybeltbuy"
+      }
+    ]
   },
   {
     "name": "Cigarettes",
-    "type": "toggle",
-    "img": "images/items/charmcigarettes.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcigarettes"
+    "stages": [
+      {
+        "name": "Cigarettes",
+        "inherit_codes": true,
+        "img": "/images/items/charmcigarettes.png",
+        "codes": "charmcigarettes, charmcigarettesget"
+      },
+      {
+        "name": "Cigarettes",
+        "inherit_codes": true,
+        "img": "/images/items/charmcigarettesbuy.png",
+        "codes": "charmcigarettesbuy"
+      }
+    ]
   },
   {
     "name": "Dear Diary",
-    "type": "toggle",
-    "img": "images/items/charmdeardiary.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmdeardiary"
+    "stages": [
+      {
+        "name": "Dear Diary",
+        "inherit_codes": true,
+        "img": "/images/items/charmdeardiary.png",
+        "codes": "charmdeardiary, charmdeardiaryget"
+      },
+      {
+        "name": "Dear Diary",
+        "inherit_codes": true,
+        "img": "/images/items/charmdeardiarybuy.png",
+        "codes": "charmdeardiarybuy"
+      }
+    ]
   },
   {
     "name": "Lucky Cat",
-    "type": "toggle",
-    "img": "images/items/charmluckycat.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmluckycat"
+    "stages": [
+      {
+        "name": "Lucky Cat",
+        "inherit_codes": true,
+        "img": "/images/items/charmluckycat.png",
+        "codes": "charmluckycat, charmluckycatget"
+      },
+      {
+        "name": "Lucky Cat",
+        "inherit_codes": true,
+        "img": "/images/items/charmluckycatbuy.png",
+        "codes": "charmluckycatbuy"
+      },
+      {
+        "name": "Lucky Cat",
+        "inherit_codes": true,
+        "img": "/images/items/charmluckycattrigger.png",
+        "codes": "charmluckycattrigger"
+      }
+    ]
   },
   {
     "name": "Cardboard House",
-    "type": "toggle",
-    "img": "images/items/charmcardboardhouse.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcardboardhouse"
+    "stages": [
+      {
+        "name": "Cardboard House",
+        "inherit_codes": true,
+        "img": "/images/items/charmcardboardhouse.png",
+        "codes": "charmcardboardhouse, charmcardboardhouseget"
+      },
+      {
+        "name": "Cardboard House",
+        "inherit_codes": true,
+        "img": "/images/items/charmcardboardhousebuy.png",
+        "codes": "charmcardboardhousebuy"
+      }
+    ]
   },
   {
     "name": "Rosary",
-    "type": "toggle",
-    "img": "images/items/charmrosary.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmrosary"
+    "stages": [
+      {
+        "name": "Rosary",
+        "inherit_codes": true,
+        "img": "/images/items/charmrosary.png",
+        "codes": "charmrosary, charmrosaryget"
+      },
+      {
+        "name": "Rosary",
+        "inherit_codes": true,
+        "img": "/images/items/charmrosarybuy.png",
+        "codes": "charmrosarybuy"
+      },
+      {
+        "name": "Rosary",
+        "inherit_codes": true,
+        "img": "/images/items/charmrosarytrigger.png",
+        "codes": "charmrosarytrigger"
+      }
+    ]
   },
   {
     "name": "Vine's Soup",
-    "type": "toggle",
-    "img": "images/items/charmvinessoup.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmvinessoup"
+    "stages": [
+      {
+        "name": "Vine's Soup",
+        "inherit_codes": true,
+        "img": "/images/items/charmvinessoup.png",
+        "codes": "charmvinessoup, charmvinessoupget"
+      },
+      {
+        "name": "Vine's Soup",
+        "inherit_codes": true,
+        "img": "/images/items/charmvinessoupbuy.png",
+        "codes": "charmvinessoupbuy"
+      },
+      {
+        "name": "Vine's Soup",
+        "inherit_codes": true,
+        "img": "/images/items/charmvinessouptrigger.png",
+        "codes": "charmvinessouptrigger"
+      }
+    ]
   },
   {
     "name": "7 Sins Stone",
-    "type": "toggle",
-    "img": "images/items/charm7sinsstone.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charm7sinsstone"
+    "stages": [
+      {
+        "name": "7 Sins Stone",
+        "inherit_codes": true,
+        "img": "/images/items/charm7sinsstone.png",
+        "codes": "charm7sinsstone, charm7sinsstoneget"
+      },
+      {
+        "name": "7 Sins Stone",
+        "inherit_codes": true,
+        "img": "/images/items/charm7sinsstonebuy.png",
+        "codes": "charm7sinsstonebuy"
+      },
+      {
+        "name": "7 Sins Stone",
+        "inherit_codes": true,
+        "img": "/images/items/charm7sinsstonetrigger.png",
+        "codes": "charm7sinsstonetrigger"
+      }
+    ]
   },
   {
     "name": "Necklace",
-    "type": "toggle",
-    "img": "images/items/charmnecklace.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmnecklace"
+    "stages": [
+      {
+        "name": "Necklace",
+        "inherit_codes": true,
+        "img": "/images/items/charmnecklace.png",
+        "codes": "charmnecklace, charmnecklaceget"
+      },
+      {
+        "name": "Necklace",
+        "inherit_codes": true,
+        "img": "/images/items/charmnecklacebuy.png",
+        "codes": "charmnecklacebuy"
+      }
+    ]
   },
   {
     "name": "Golden Pepper",
-    "type": "toggle",
-    "img": "images/items/charmgoldenpepper.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgoldenpepper"
+    "stages": [
+      {
+        "name": "Golden Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenpepper.png",
+        "codes": "charmgoldenpepper, charmgoldenpepperget"
+      },
+      {
+        "name": "Golden Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenpepperbuy.png",
+        "codes": "charmgoldenpepperbuy"
+      },
+      {
+        "name": "Golden Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenpeppertrigger.png",
+        "codes": "charmgoldenpeppertrigger"
+      }
+    ]
   },
   {
     "name": "Lost Wallet",
-    "type": "toggle",
-    "img": "images/items/charmlostwallet.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmlostwallet"
+    "stages": [
+      {
+        "name": "Lost Wallet",
+        "inherit_codes": true,
+        "img": "/images/items/charmlostwallet.png",
+        "codes": "charmlostwallet, charmlostwalletget"
+      },
+      {
+        "name": "Lost Wallet",
+        "inherit_codes": true,
+        "img": "/images/items/charmlostwalletbuy.png",
+        "codes": "charmlostwalletbuy"
+      }
+    ]
   },
   {
     "name": "Holy Bible",
-    "type": "toggle",
-    "img": "images/items/charmholybible.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmholybible"
+    "stages": [
+      {
+        "name": "Holy Bible",
+        "inherit_codes": true,
+        "img": "/images/items/charmholybible.png",
+        "codes": "charmholybible, charmholybibleget"
+      },
+      {
+        "name": "Holy Bible",
+        "inherit_codes": true,
+        "img": "/images/items/charmholybiblebuy.png",
+        "codes": "charmholybiblebuy"
+      },
+      {
+        "name": "Holy Bible",
+        "inherit_codes": true,
+        "img": "/images/items/charmholybibletrigger.png",
+        "codes": "charmholybibletrigger"
+      }
+    ]
   },
   {
     "name": "I don't care about the price!",
@@ -1167,11 +2995,31 @@
   },
   {
     "name": "Barathrum",
-    "type": "toggle",
-    "img": "images/items/charmbarathrum.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmbarathrum"
+    "stages": [
+      {
+        "name": "Barathrum",
+        "inherit_codes": true,
+        "img": "/images/items/charmbarathrum.png",
+        "codes": "charmbarathrum, charmbarathrumget"
+      },
+      {
+        "name": "Barathrum",
+        "inherit_codes": true,
+        "img": "/images/items/charmbarathrumbuy.png",
+        "codes": "charmbarathrumbuy"
+      },
+      {
+        "name": "Barathrum",
+        "inherit_codes": true,
+        "img": "/images/items/charmbarathrumtrigger.png",
+        "codes": "charmbarathrumtrigger"
+      }
+    ]
   },
   {
     "name": "Give me back my money!",
@@ -1191,11 +3039,25 @@
   },
   {
     "name": "Broken Calculator",
-    "type": "toggle",
-    "img": "images/items/charmbrokencalculator.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmbrokencalculator"
+    "stages": [
+      {
+        "name": "Broken Calculator",
+        "inherit_codes": true,
+        "img": "/images/items/charmbrokencalculator.png",
+        "codes": "charmbrokencalculator, charmbrokencalculatorget"
+      },
+      {
+        "name": "Broken Calculator",
+        "inherit_codes": true,
+        "img": "/images/items/charmbrokencalculatorbuy.png",
+        "codes": "charmbrokencalculatorbuy"
+      }
+    ]
   },
   {
     "name": "I've already bet it all!",
@@ -1215,35 +3077,109 @@
   },
   {
     "name": "Baphomet",
-    "type": "toggle",
-    "img": "images/items/charmbaphomet.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmbaphomet"
+    "stages": [
+      {
+        "name": "Baphomet",
+        "inherit_codes": true,
+        "img": "/images/items/charmbaphomet.png",
+        "codes": "charmbaphomet, charmbaphometget"
+      },
+      {
+        "name": "Baphomet",
+        "inherit_codes": true,
+        "img": "/images/items/charmbaphometbuy.png",
+        "codes": "charmbaphometbuy"
+      },
+      {
+        "name": "Baphomet",
+        "inherit_codes": true,
+        "img": "/images/items/charmbaphomettrigger.png",
+        "codes": "charmbaphomettrigger"
+      }
+    ]
   },
   {
     "name": "Tuba Hat",
-    "type": "toggle",
-    "img": "images/items/charmtubahat.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmtubahat"
+    "stages": [
+      {
+        "name": "Tuba Hat",
+        "inherit_codes": true,
+        "img": "/images/items/charmtubahat.png",
+        "codes": "charmtubahat, charmtubahatget"
+      },
+      {
+        "name": "Tuba Hat",
+        "inherit_codes": true,
+        "img": "/images/items/charmtubahatbuy.png",
+        "codes": "charmtubahatbuy"
+      }
+    ]
   },
   {
     "name": "Clover Picture",
-    "type": "toggle",
-    "img": "images/items/charmcloverpicture.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcloverpicture"
+    "stages": [
+      {
+        "name": "Clover Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverpicture.png",
+        "codes": "charmcloverpicture, charmcloverpictureget"
+      },
+      {
+        "name": "Clover Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverpicturebuy.png",
+        "codes": "charmcloverpicturebuy"
+      },
+      {
+        "name": "Clover Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverpictureactivate.png",
+        "codes": "charmcloverpictureactivate"
+      }
+    ]
   },
   {
     "name": "Ace of Diamonds",
-    "type": "toggle",
-    "img": "images/items/charmaceofdiamonds.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmaceofdiamonds"
+    "stages": [
+      {
+        "name": "Ace of Diamonds",
+        "inherit_codes": true,
+        "img": "/images/items/charmaceofdiamonds.png",
+        "codes": "charmaceofdiamonds, charmaceofdiamondsget"
+      },
+      {
+        "name": "Ace of Diamonds",
+        "inherit_codes": true,
+        "img": "/images/items/charmaceofdiamondsbuy.png",
+        "codes": "charmaceofdiamondsbuy"
+      },
+      {
+        "name": "Ace of Diamonds",
+        "inherit_codes": true,
+        "img": "/images/items/charmaceofdiamondstrigger.png",
+        "codes": "charmaceofdiamondstrigger"
+      }
+    ]
   },
   {
     "name": "This time I'm betting on Green!",
@@ -1255,51 +3191,135 @@
   },
   {
     "name": "Golden Bell",
-    "type": "toggle",
-    "img": "images/items/charmgoldenbell.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgoldenbell"
+    "stages": [
+      {
+        "name": "Golden Bell",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenbell.png",
+        "codes": "charmgoldenbell, charmgoldenbellget"
+      },
+      {
+        "name": "Golden Bell",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenbellbuy.png",
+        "codes": "charmgoldenbellbuy"
+      }
+    ]
   },
   {
     "name": "Fidelity Card",
-    "type": "toggle",
-    "img": "images/items/charmfidelitycard.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmfidelitycard"
+    "stages": [
+      {
+        "name": "Fidelity Card",
+        "inherit_codes": true,
+        "img": "/images/items/charmfidelitycard.png",
+        "codes": "charmfidelitycard, charmfidelitycardget"
+      },
+      {
+        "name": "Fidelity Card",
+        "inherit_codes": true,
+        "img": "/images/items/charmfidelitycardbuy.png",
+        "codes": "charmfidelitycardbuy"
+      }
+    ]
   },
   {
     "name": "Calendar",
-    "type": "toggle",
-    "img": "images/items/charmcalendar.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcalendar"
+    "stages": [
+      {
+        "name": "Calendar",
+        "inherit_codes": true,
+        "img": "/images/items/charmcalendar.png",
+        "codes": "charmcalendar, charmcalendarget"
+      },
+      {
+        "name": "Calendar",
+        "inherit_codes": true,
+        "img": "/images/items/charmcalendarbuy.png",
+        "codes": "charmcalendarbuy"
+      }
+    ]
   },
   {
     "name": "Channeler of Fortune",
-    "type": "toggle",
-    "img": "images/items/charmchanneleroffortune.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmchanneleroffortune"
+    "stages": [
+      {
+        "name": "Channeler of Fortune",
+        "inherit_codes": true,
+        "img": "/images/items/charmchanneleroffortune.png",
+        "codes": "charmchanneleroffortune, charmchanneleroffortuneget"
+      },
+      {
+        "name": "Channeler of Fortune",
+        "inherit_codes": true,
+        "img": "/images/items/charmchanneleroffortunebuy.png",
+        "codes": "charmchanneleroffortunebuy"
+      }
+    ]
   },
   {
     "name": "Crowbar",
-    "type": "toggle",
-    "img": "images/items/charmcrowbar.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcrowbar"
+    "stages": [
+      {
+        "name": "Crowbar",
+        "inherit_codes": true,
+        "img": "/images/items/charmcrowbar.png",
+        "codes": "charmcrowbar, charmcrowbarget"
+      },
+      {
+        "name": "Crowbar",
+        "inherit_codes": true,
+        "img": "/images/items/charmcrowbarbuy.png",
+        "codes": "charmcrowbarbuy"
+      }
+    ]
   },
   {
     "name": "Golden Seven",
-    "type": "toggle",
-    "img": "images/items/charmgoldenseven.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgoldenseven"
+    "stages": [
+      {
+        "name": "Golden Seven",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenseven.png",
+        "codes": "charmgoldenseven, charmgoldensevenget"
+      },
+      {
+        "name": "Golden Seven",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldensevenbuy.png",
+        "codes": "charmgoldensevenbuy"
+      }
+    ]
   },
   {
     "name": "This time I'm betting on Yellow!",
@@ -1319,11 +3339,25 @@
   },
   {
     "name": "Clover Voucher",
-    "type": "toggle",
-    "img": "images/items/charmclovervoucher.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmclovervoucher"
+    "stages": [
+      {
+        "name": "Clover Voucher",
+        "inherit_codes": true,
+        "img": "/images/items/charmclovervoucher.png",
+        "codes": "charmclovervoucher, charmclovervoucherget"
+      },
+      {
+        "name": "Clover Voucher",
+        "inherit_codes": true,
+        "img": "/images/items/charmclovervoucherbuy.png",
+        "codes": "charmclovervoucherbuy"
+      }
+    ]
   },
   {
     "name": "I see the patterns in my behavior.",
@@ -1335,59 +3369,181 @@
   },
   {
     "name": "Fruit Basket",
-    "type": "toggle",
-    "img": "images/items/charmfruitbasket.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmfruitbasket"
+    "stages": [
+      {
+        "name": "Fruit Basket",
+        "inherit_codes": true,
+        "img": "/images/items/charmfruitbasket.png",
+        "codes": "charmfruitbasket, charmfruitbasketget"
+      },
+      {
+        "name": "Fruit Basket",
+        "inherit_codes": true,
+        "img": "/images/items/charmfruitbasketbuy.png",
+        "codes": "charmfruitbasketbuy"
+      }
+    ]
   },
   {
     "name": "Golden Horseshoe",
-    "type": "toggle",
-    "img": "images/items/charmgoldenhorseshoe.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgoldenhorseshoe"
+    "stages": [
+      {
+        "name": "Golden Horseshoe",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenhorseshoe.png",
+        "codes": "charmgoldenhorseshoe, charmgoldenhorseshoget"
+      },
+      {
+        "name": "Golden Horseshoe",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenhorseshoebuy.png",
+        "codes": "charmgoldenhorseshoebuy"
+      },
+      {
+        "name": "Golden Horseshoe",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenhorseshoeactivate.png",
+        "codes": "charmgoldenhorseshoeactivate"
+      }
+    ]
   },
   {
     "name": "Ritual Bell",
-    "type": "toggle",
-    "img": "images/items/charmritualbell.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmritualbell"
+    "stages": [
+      {
+        "name": "Ritual Bell",
+        "inherit_codes": true,
+        "img": "/images/items/charmritualbell.png",
+        "codes": "charmritualbell, charmritualbellget"
+      },
+      {
+        "name": "Ritual Bell",
+        "inherit_codes": true,
+        "img": "/images/items/charmritualbellbuy.png",
+        "codes": "charmritualbellbuy"
+      },
+      {
+        "name": "Ritual Bell",
+        "inherit_codes": true,
+        "img": "/images/items/charmritualbelltrigger.png",
+        "codes": "charmritualbelltrigger"
+      }
+    ]
   },
   {
     "name": "Harbor",
-    "type": "toggle",
-    "img": "images/items/charmharbor.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmharbor"
+    "stages": [
+      {
+        "name": "Harbor",
+        "inherit_codes": true,
+        "img": "/images/items/charmharbor.png",
+        "codes": "charmharbor, charmharborget"
+      },
+      {
+        "name": "Harbor",
+        "inherit_codes": true,
+        "img": "/images/items/charmharborbuy.png",
+        "codes": "charmharborbuy"
+      }
+    ]
   },
   {
     "name": "Red Pepper",
-    "type": "toggle",
-    "img": "images/items/charmredpepper.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmredpepper"
+    "stages": [
+      {
+        "name": "Red Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmredpepper.png",
+        "codes": "charmredpepper, charmredpepperget"
+      },
+      {
+        "name": "Red Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmredpepperbuy.png",
+        "codes": "charmredpepperbuy"
+      },
+      {
+        "name": "Red Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmredpeppertrigger.png",
+        "codes": "charmredpeppertrigger"
+      }
+    ]
   },
   {
     "name": "Rotten Pepper",
-    "type": "toggle",
-    "img": "images/items/charmrottenpepper.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmrottenpepper"
+    "stages": [
+      {
+        "name": "Rotten Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmrottenpepper.png",
+        "codes": "charmrottenpepper, charmrottenpepperget"
+      },
+      {
+        "name": "Rotten Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmrottenpepperbuy.png",
+        "codes": "charmrottenpepperbuy"
+      },
+      {
+        "name": "Rotten Pepper",
+        "inherit_codes": true,
+        "img": "/images/items/charmrottenpeppertrigger.png",
+        "codes": "charmrottenpeppertrigger"
+      }
+    ]
   },
   {
     "name": "Toy Train",
-    "type": "toggle",
-    "img": "images/items/charmtoytrain.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmtoytrain"
+    "stages": [
+      {
+        "name": "Toy Train",
+        "inherit_codes": true,
+        "img": "/images/items/charmtoytrain.png",
+        "codes": "charmtoytrain, charmtoytrainget"
+      },
+      {
+        "name": "Toy Train",
+        "inherit_codes": true,
+        "img": "/images/items/charmtoytrainbuy.png",
+        "codes": "charmtoytrainbuy"
+      }
+    ]
   },
   {
     "name": "bonusdeadlinetickets",
@@ -1399,19 +3555,53 @@
   },
   {
     "name": "Property Certificate",
-    "type": "toggle",
-    "img": "images/items/charmpropertycertificate.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmpropertycertificate"
+    "stages": [
+      {
+        "name": "Property Certificate",
+        "inherit_codes": true,
+        "img": "/images/items/charmpropertycertificate.png",
+        "codes": "charmpropertycertificate, charmpropertycertificateget"
+      },
+      {
+        "name": "Property Certificate",
+        "inherit_codes": true,
+        "img": "/images/items/charmpropertycertificatebuy.png",
+        "codes": "charmpropertycertificatebuy"
+      }
+    ]
   },
   {
     "name": "Seven Picture",
-    "type": "toggle",
-    "img": "images/items/charmsevenpicture.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmsevenpicture"
+    "stages": [
+      {
+        "name": "Seven Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmsevenpicture.png",
+        "codes": "charmsevenpicture, charmsevenpictureget"
+      },
+      {
+        "name": "Seven Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmsevenpicturebuy.png",
+        "codes": "charmsevenpicturebuy"
+      },
+      {
+        "name": "Seven Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmsevenpictureactivate.png",
+        "codes": "charmsevenpictureactivate"
+      }
+    ]
   },
   {
     "name": "Card Pack 3",
@@ -1439,27 +3629,75 @@
   },
   {
     "name": "AA Batteries",
-    "type": "toggle",
-    "img": "images/items/charmaabatteries.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmaabatteries"
+    "stages": [
+      {
+        "name": "AA Batteries",
+        "inherit_codes": true,
+        "img": "/images/items/charmaabatteries.png",
+        "codes": "charmaabatteries, charmaabatteriesget"
+      },
+      {
+        "name": "AA Batteries",
+        "inherit_codes": true,
+        "img": "/images/items/charmaabatteriesbuy.png",
+        "codes": "charmaabatteriesbuy"
+      }
+    ]
   },
   {
     "name": "Pentacle",
-    "type": "toggle",
-    "img": "images/items/charmpentacle.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmpentacle"
+    "stages": [
+      {
+        "name": "Pentacle",
+        "inherit_codes": true,
+        "img": "/images/items/charmpentacle.png",
+        "codes": "charmpentacle, charmpentacleget"
+      },
+      {
+        "name": "Pentacle",
+        "inherit_codes": true,
+        "img": "/images/items/charmpentaclebuy.png",
+        "codes": "charmpentaclebuy"
+      },
+      {
+        "name": "Pentacle",
+        "inherit_codes": true,
+        "img": "/images/items/charmpentacletrigger.png",
+        "codes": "charmpentacletrigger"
+      }
+    ]
   },
   {
     "name": "Electrician",
-    "type": "toggle",
-    "img": "images/items/charmelectrician.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmelectrician"
+    "stages": [
+      {
+        "name": "Electrician",
+        "inherit_codes": true,
+        "img": "/images/items/charmelectrician.png",
+        "codes": "charmelectrician, charmelectricianget"
+      },
+      {
+        "name": "Electrician",
+        "inherit_codes": true,
+        "img": "/images/items/charmelectricianbuy.png",
+        "codes": "charmelectricianbuy"
+      }
+    ]
   },
   {
     "name": "I'm re-organizing my mind!",
@@ -1471,19 +3709,53 @@
   },
   {
     "name": "Fortune Teller",
-    "type": "toggle",
-    "img": "images/items/charmfortuneteller.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmfortuneteller"
+    "stages": [
+      {
+        "name": "Fortune Teller",
+        "inherit_codes": true,
+        "img": "/images/items/charmfortuneteller.png",
+        "codes": "charmfortuneteller, charmfortunetellerget"
+      },
+      {
+        "name": "Fortune Teller",
+        "inherit_codes": true,
+        "img": "/images/items/charmfortunetellerbuy.png",
+        "codes": "charmfortunetellerbuy"
+      }
+    ]
   },
   {
     "name": "Ankh",
-    "type": "toggle",
-    "img": "images/items/charmankh.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmankh"
+    "stages": [
+      {
+        "name": "Ankh",
+        "inherit_codes": true,
+        "img": "/images/items/charmankh.png",
+        "codes": "charmankh, charmankhget"
+      },
+      {
+        "name": "Ankh",
+        "inherit_codes": true,
+        "img": "/images/items/charmankhbuy.png",
+        "codes": "charmankhbuy"
+      },
+      {
+        "name": "Ankh",
+        "inherit_codes": true,
+        "img": "/images/items/charmankhtrigger.png",
+        "codes": "charmankhtrigger"
+      }
+    ]
   },
   {
     "name": "I want to address some stuff.",
@@ -1495,43 +3767,119 @@
   },
   {
     "name": "Super Capacitor",
-    "type": "toggle",
-    "img": "images/items/charmsupercapacitor.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmsupercapacitor"
+    "stages": [
+      {
+        "name": "Super Capacitor",
+        "inherit_codes": true,
+        "img": "/images/items/charmsupercapacitor.png",
+        "codes": "charmsupercapacitor, charmsupercapacitorget"
+      },
+      {
+        "name": "Super Capacitor",
+        "inherit_codes": true,
+        "img": "/images/items/charmsupercapacitorbuy.png",
+        "codes": "charmsupercapacitorbuy"
+      }
+    ]
   },
   {
     "name": "Eye Jar",
-    "type": "toggle",
-    "img": "images/items/charmeyejar.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmeyejar"
+    "stages": [
+      {
+        "name": "Eye Jar",
+        "inherit_codes": true,
+        "img": "/images/items/charmeyejar.png",
+        "codes": "charmeyejar, charmeyejarget"
+      },
+      {
+        "name": "Eye Jar",
+        "inherit_codes": true,
+        "img": "/images/items/charmeyejarbuy.png",
+        "codes": "charmeyejarbuy"
+      }
+    ]
   },
   {
     "name": "Golden Lemon",
-    "type": "toggle",
-    "img": "images/items/charmgoldenlemon.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmgoldenlemon"
+    "stages": [
+      {
+        "name": "Golden Lemon",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenlemon.png",
+        "codes": "charmgoldenlemon, charmgoldenlemonget"
+      },
+      {
+        "name": "Golden Lemon",
+        "inherit_codes": true,
+        "img": "/images/items/charmgoldenlemonbuy.png",
+        "codes": "charmgoldenlemonbuy"
+      }
+    ]
   },
   {
     "name": "Car",
-    "type": "toggle",
-    "img": "images/items/charmcar.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcar"
+    "stages": [
+      {
+        "name": "Car",
+        "inherit_codes": true,
+        "img": "/images/items/charmcar.png",
+        "codes": "charmcar, charmcarget"
+      },
+      {
+        "name": "Car",
+        "inherit_codes": true,
+        "img": "/images/items/charmcarbuy.png",
+        "codes": "charmcarbuy"
+      }
+    ]
   },
   {
     "name": "Ring Bell",
-    "type": "toggle",
-    "img": "images/items/charmringbell.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmringbell"
+    "stages": [
+      {
+        "name": "Ring Bell",
+        "inherit_codes": true,
+        "img": "/images/items/charmringbell.png",
+        "codes": "charmringbell, charmringbellget"
+      },
+      {
+        "name": "Ring Bell",
+        "inherit_codes": true,
+        "img": "/images/items/charmringbellbuy.png",
+        "codes": "charmringbellbuy"
+      },
+      {
+        "name": "Ring Bell",
+        "inherit_codes": true,
+        "img": "/images/items/charmringbellactivate.png",
+        "codes": "charmringbellactivate"
+      }
+    ]
   },
   {
     "name": "It's kinda fun!",
@@ -1551,43 +3899,119 @@
   },
   {
     "name": "Megaphone",
-    "type": "toggle",
-    "img": "images/items/charmmegaphone.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmmegaphone"
+    "stages": [
+      {
+        "name": "Megaphone",
+        "inherit_codes": true,
+        "img": "/images/items/charmmegaphone.png",
+        "codes": "charmmegaphone, charmmegaphoneget"
+      },
+      {
+        "name": "Megaphone",
+        "inherit_codes": true,
+        "img": "/images/items/charmmegaphonebuy.png",
+        "codes": "charmmegaphonebuy"
+      }
+    ]
   },
   {
     "name": "D20",
-    "type": "toggle",
-    "img": "images/items/charmd20.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmd20"
+    "stages": [
+      {
+        "name": "D20",
+        "inherit_codes": true,
+        "img": "/images/items/charmd20.png",
+        "codes": "charmd20, charmd20get"
+      },
+      {
+        "name": "D20",
+        "inherit_codes": true,
+        "img": "/images/items/charmd20buy.png",
+        "codes": "charmd20buy"
+      },
+      {
+        "name": "D20",
+        "inherit_codes": true,
+        "img": "/images/items/charmd20trigger.png",
+        "codes": "charmd20trigger"
+      }
+    ]
   },
   {
     "name": "Little Star",
-    "type": "toggle",
-    "img": "images/items/charmlittlestar.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmlittlestar"
+    "stages": [
+      {
+        "name": "Little Star",
+        "inherit_codes": true,
+        "img": "/images/items/charmlittlestar.png",
+        "codes": "charmlittlestar, charmlittlestarget"
+      },
+      {
+        "name": "Little Star",
+        "inherit_codes": true,
+        "img": "/images/items/charmlittlestarbuy.png",
+        "codes": "charmlittlestarbuy"
+      }
+    ]
   },
   {
     "name": "Stone",
-    "type": "toggle",
-    "img": "images/items/charmstone.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmstone"
+    "stages": [
+      {
+        "name": "Stone",
+        "inherit_codes": true,
+        "img": "/images/items/charmstone.png",
+        "codes": "charmstone, charmstoneget"
+      },
+      {
+        "name": "Stone",
+        "inherit_codes": true,
+        "img": "/images/items/charmstonebuy.png",
+        "codes": "charmstonebuy"
+      }
+    ]
   },
   {
     "name": "Thimble",
-    "type": "toggle",
-    "img": "images/items/charmthimble.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmthimble"
+    "stages": [
+      {
+        "name": "Thimble",
+        "inherit_codes": true,
+        "img": "/images/items/charmthimble.png",
+        "codes": "charmthimble, charmthimbleget"
+      },
+      {
+        "name": "Thimble",
+        "inherit_codes": true,
+        "img": "/images/items/charmthimblebuy.png",
+        "codes": "charmthimblebuy"
+      }
+    ]
   },
   {
     "name": "My head hurts!",
@@ -1607,11 +4031,31 @@
   },
   {
     "name": "Bell Picture",
-    "type": "toggle",
-    "img": "images/items/charmbellpicture.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmbellpicture"
+    "stages": [
+      {
+        "name": "Bell Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmbellpicture.png",
+        "codes": "charmbellpicture, charmbellpictureget"
+      },
+      {
+        "name": "Bell Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmbellpicturebuy.png",
+        "codes": "charmbellpicturebuy"
+      },
+      {
+        "name": "Bell Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmbellpictureactivate.png",
+        "codes": "charmbellpictureactivate"
+      }
+    ]
   },
   {
     "name": "I need money!",
@@ -1631,43 +4075,131 @@
   },
   {
     "name": "Photo Book",
-    "type": "toggle",
-    "img": "images/items/charmphotobook.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmphotobook"
+    "stages": [
+      {
+        "name": "Photo Book",
+        "inherit_codes": true,
+        "img": "/images/items/charmphotobook.png",
+        "codes": "charmphotobook, charmphotobookget"
+      },
+      {
+        "name": "Photo Book",
+        "inherit_codes": true,
+        "img": "/images/items/charmphotobookbuy.png",
+        "codes": "charmphotobookbuy"
+      }
+    ]
   },
   {
     "name": "CloverBell",
-    "type": "toggle",
-    "img": "images/items/charmcloverbell.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmcloverbell"
+    "stages": [
+      {
+        "name": "CloverBell",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverbell.png",
+        "codes": "charmcloverbell, charmcloverbellget"
+      },
+      {
+        "name": "CloverBell",
+        "inherit_codes": true,
+        "img": "/images/items/charmcloverbellbuy.png",
+        "codes": "charmcloverbellbuy"
+      }
+    ]
   },
   {
     "name": "Stain",
-    "type": "toggle",
-    "img": "images/items/charmstain.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmstain"
+    "stages": [
+      {
+        "name": "Stain",
+        "inherit_codes": true,
+        "img": "/images/items/charmstain.png",
+        "codes": "charmstain, charmstainget"
+      },
+      {
+        "name": "Stain",
+        "inherit_codes": true,
+        "img": "/images/items/charmstainbuy.png",
+        "codes": "charmstainbuy"
+      },
+      {
+        "name": "Stain",
+        "inherit_codes": true,
+        "img": "/images/items/charmstaintrigger.png",
+        "codes": "charmstaintrigger"
+      }
+    ]
   },
   {
     "name": "Treasure Picture",
-    "type": "toggle",
-    "img": "images/items/charmtreasurepicture.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmtreasurepicture"
+    "stages": [
+      {
+        "name": "Treasure Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmtreasurepicture.png",
+        "codes": "charmtreasurepicture, charmtreasurepictureget"
+      },
+      {
+        "name": "Treasure Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmtreasurepicturebuy.png",
+        "codes": "charmtreasurepicturebuy"
+      },
+      {
+        "name": "Treasure Picture",
+        "inherit_codes": true,
+        "img": "/images/items/charmtreasurepictureactivate.png",
+        "codes": "charmtreasurepictureactivate"
+      }
+    ]
   },
   {
     "name": "Vorago",
-    "type": "toggle",
-    "img": "images/items/charmvorago.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmvorago"
+    "stages": [
+      {
+        "name": "Vorago",
+        "inherit_codes": true,
+        "img": "/images/items/charmvorago.png",
+        "codes": "charmvorago, charmvoragget"
+      },
+      {
+        "name": "Vorago",
+        "inherit_codes": true,
+        "img": "/images/items/charmvoragobuy.png",
+        "codes": "charmvoragobuy"
+      },
+      {
+        "name": "Vorago",
+        "inherit_codes": true,
+        "img": "/images/items/charmvoragotrigger.png",
+        "codes": "charmvoragotrigger"
+      }
+    ]
   },
   {
     "name": "I'm sure the value will rise!",
@@ -1687,11 +4219,25 @@
   },
   {
     "name": "Nose",
-    "type": "toggle",
-    "img": "images/items/charmnose.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmnose"
+    "stages": [
+      {
+        "name": "Nose",
+        "inherit_codes": true,
+        "img": "/images/items/charmnose.png",
+        "codes": "charmnose, charmnoseget"
+      },
+      {
+        "name": "Nose",
+        "inherit_codes": true,
+        "img": "/images/items/charmnosebuy.png",
+        "codes": "charmnosebuy"
+      }
+    ]
   },
   {
     "name": "I'm thinking of some strategies!",
@@ -1703,11 +4249,25 @@
   },
   {
     "name": "Ship",
-    "type": "toggle",
-    "img": "images/items/charmship.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmship"
+    "stages": [
+      {
+        "name": "Ship",
+        "inherit_codes": true,
+        "img": "/images/items/charmship.png",
+        "codes": "charmship, charmshipget"
+      },
+      {
+        "name": "Ship",
+        "inherit_codes": true,
+        "img": "/images/items/charmshipbuy.png",
+        "codes": "charmshipbuy"
+      }
+    ]
   },
   {
     "name": "I found a winning strategy!",
@@ -1719,11 +4279,25 @@
   },
   {
     "name": "Horseshoe",
-    "type": "toggle",
-    "img": "images/items/charmhorseshoe.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmhorseshoe"
+    "stages": [
+      {
+        "name": "Horseshoe",
+        "inherit_codes": true,
+        "img": "/images/items/charmhorseshoe.png",
+        "codes": "charmhorseshoe, charmhorseshoeget"
+      },
+      {
+        "name": "Horseshoe",
+        "inherit_codes": true,
+        "img": "/images/items/charmhorseshoebuy.png",
+        "codes": "charmhorseshoebuy"
+      }
+    ]
   },
   {
     "name": "Gold and Diamonds are a good investment!",
@@ -1735,11 +4309,25 @@
   },
   {
     "name": "Clicker",
-    "type": "toggle",
-    "img": "images/items/charmclicker.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "charmclicker"
+    "stages": [
+      {
+        "name": "Clicker",
+        "inherit_codes": true,
+        "img": "/images/items/charmclicker.png",
+        "codes": "charmclicker, charmclickerget"
+      },
+      {
+        "name": "Clicker",
+        "inherit_codes": true,
+        "img": "/images/items/charmclickerbuy.png",
+        "codes": "charmclickerbuy"
+      }
+    ]
   },
   {
     "name": "update",
