@@ -15,4 +15,4 @@ Images used for this tracker came from the following sources:
 - The wiki for [CloverPit](https://cloverpit.wiki.gg/).
 - A single asset from the game [CloverPit](https://store.steampowered.com/app/3314790/CloverPit/).
 
-Best place to contact me is via the [Archipelago Discord](https://discord.gg/archipelago), just @snileaf in general or something as CloverPit doesn't have a dedicated channel there.
+Best place to contact me is via the [Archipelago Discord](https://discord.gg/archipelago), just @snileaf in general or in the [CloverPit channel](https://discord.com/channels/731205301247803413/1423372513957908662).
