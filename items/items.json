@@ -587,11 +587,25 @@
   },
   {
     "name": "I used to eat healthy...",
-    "type": "toggle",
-    "img": "images/items/calliusedtoeathealthy....png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "calliusedtoeathealthy..."
+    "stages": [
+      {
+        "name": "I used to eat healthy...",
+        "inherit_codes": true,
+        "img": "/images/items/calliusedtoeathealthy....png",
+        "codes": "calliusedtoeathealthy..., calliusedtoeathealthy...get"
+      },
+      {
+        "name": "I used to eat healthy...",
+        "inherit_codes": true,
+        "img": "/images/items/calliusedtoeathealthy...answer.png",
+        "codes": "calliusedtoeathealthy...answer"
+      }
+    ]
   },
   {
     "name": "Cherry Picture",
@@ -751,11 +765,25 @@
   },
   {
     "name": "Can I eat something?",
-    "type": "toggle",
-    "img": "images/items/callcanieatsomething.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callcanieatsomething?"
+    "stages": [
+      {
+        "name": "Can I eat something?",
+        "inherit_codes": true,
+        "img": "/images/items/callcanieatsomething.png",
+        "codes": "callcanieatsomething?, callcanieatsomething?get"
+      },
+      {
+        "name": "Can I eat something?",
+        "inherit_codes": true,
+        "img": "/images/items/callcanieatsomethinganswer.png",
+        "codes": "callcanieatsomething?answer"
+      }
+    ]
   },
   {
     "name": "Weird Clock",
@@ -1085,27 +1113,69 @@
   },
   {
     "name": "Help!",
-    "type": "toggle",
-    "img": "images/items/callhelp!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callhelp!"
+    "stages": [
+      {
+        "name": "Help!",
+        "inherit_codes": true,
+        "img": "/images/items/callhelp!.png",
+        "codes": "callhelp!, callhelp!get"
+      },
+      {
+        "name": "Help!",
+        "inherit_codes": true,
+        "img": "/images/items/callhelp!answer.png",
+        "codes": "callhelp!answer"
+      }
+    ]
   },
   {
     "name": "Please don't throw my stuff away!",
-    "type": "toggle",
-    "img": "images/items/callpleasedontthrowmystuffaway!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callpleasedontthrowmystuffaway!"
+    "stages": [
+      {
+        "name": "Please don't throw my stuff away!",
+        "inherit_codes": true,
+        "img": "/images/items/callpleasedontthrowmystuffaway!.png",
+        "codes": "callpleasedontthrowmystuffaway!, callpleasedontthrowmystuffaway!get"
+      },
+      {
+        "name": "Please don't throw my stuff away!",
+        "inherit_codes": true,
+        "img": "/images/items/callpleasedontthrowmystuffaway!answer.png",
+        "codes": "callpleasedontthrowmystuffaway!answer"
+      }
+    ]
   },
   {
     "name": "This time I'm betting on Orange!",
-    "type": "toggle",
-    "img": "images/items/callthistimeimbettingonorange!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callthistimeimbettingonorange!"
+    "stages": [
+      {
+        "name": "This time I'm betting on Orange!",
+        "inherit_codes": true,
+        "img": "/images/items/callthistimeimbettingonorange!.png",
+        "codes": "callthistimeimbettingonorange!, callthistimeimbettingonorange!get"
+      },
+      {
+        "name": "This time I'm betting on Orange!",
+        "inherit_codes": true,
+        "img": "/images/items/callthistimeimbettingonorange!answer.png",
+        "codes": "callthistimeimbettingonorange!answer"
+      }
+    ]
   },
   {
     "name": "Hourglass",
@@ -1137,19 +1207,47 @@
   },
   {
     "name": "I'm being constant!",
-    "type": "toggle",
-    "img": "images/items/callimbeingconstant!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callimbeingconstant!"
+    "stages": [
+      {
+        "name": "I'm being constant!",
+        "inherit_codes": true,
+        "img": "/images/items/callimbeingconstant!.png",
+        "codes": "callimbeingconstant!, callimbeingconstant!get"
+      },
+      {
+        "name": "I'm being constant!",
+        "inherit_codes": true,
+        "img": "/images/items/callimbeingconstant!answer.png",
+        "codes": "callimbeingconstant!answer"
+      }
+    ]
   },
   {
     "name": "I need to heal myself.",
-    "type": "toggle",
-    "img": "images/items/callineedtohealmyself..png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callineedtohealmyself."
+    "stages": [
+      {
+        "name": "I need to heal myself.",
+        "inherit_codes": true,
+        "img": "/images/items/callineedtohealmyself..png",
+        "codes": "callineedtohealmyself., callineedtohealmyself.get"
+      },
+      {
+        "name": "I need to heal myself.",
+        "inherit_codes": true,
+        "img": "/images/items/callineedtohealmyself.answer.png",
+        "codes": "callineedtohealmyself.answer"
+      }
+    ]
   },
   {
     "name": "Possessed Cellphone",
@@ -1397,27 +1495,69 @@
   },
   {
     "name": "Can I borrow some green?",
-    "type": "toggle",
-    "img": "images/items/callcaniborrowsomegreen.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callcaniborrowsomegreen?"
+    "stages": [
+      {
+        "name": "Can I borrow some green?",
+        "inherit_codes": true,
+        "img": "/images/items/callcaniborrowsomegreen.png",
+        "codes": "callcaniborrowsomegreen?, callcaniborrowsomegreen?get"
+      },
+      {
+        "name": "Can I borrow some green?",
+        "inherit_codes": true,
+        "img": "/images/items/callcaniborrowsomegreenanswer.png",
+        "codes": "callcaniborrowsomegreen?answer"
+      }
+    ]
   },
   {
     "name": "Please, I'll give you anything!",
-    "type": "toggle",
-    "img": "images/items/callplease.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callpleaseillgiveyouanything"
+    "stages": [
+      {
+        "name": "Please, I'll give you anything!",
+        "inherit_codes": true,
+        "img": "/images/items/callplease.png",
+        "codes": "callpleaseillgiveyouanything, callpleaseillgiveyouanythingget"
+      },
+      {
+        "name": "Please, I'll give you anything!",
+        "inherit_codes": true,
+        "img": "/images/items/callpleaseanswer.png",
+        "codes": "callpleaseillgiveyouanythinganswer"
+      }
+    ]
   },
   {
     "name": "I didn't hurt anybody...",
-    "type": "toggle",
-    "img": "images/items/callididnthurtanybody....png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callididnthurtanybody..."
+    "stages": [
+      {
+        "name": "I didn't hurt anybody...",
+        "inherit_codes": true,
+        "img": "/images/items/callididnthurtanybody....png",
+        "codes": "callididnthurtanybody..., callididnthurtanybody...get"
+      },
+      {
+        "name": "I didn't hurt anybody...",
+        "inherit_codes": true,
+        "img": "/images/items/callididnthurtanybody...answer.png",
+        "codes": "callididnthurtanybody...answer"
+      }
+    ]
   },
   {
     "name": "Number 1",
@@ -1449,11 +1589,25 @@
   },
   {
     "name": "Wait, what day is it?",
-    "type": "toggle",
-    "img": "images/items/callwait.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callwaitwhatdayisit?"
+    "stages": [
+      {
+        "name": "Wait, what day is it?",
+        "inherit_codes": true,
+        "img": "/images/items/callwait.png",
+        "codes": "callwaitwhatdayisit?, callwaitwhatdayisit?get"
+      },
+      {
+        "name": "Wait, what day is it?",
+        "inherit_codes": true,
+        "img": "/images/items/callwaitanswer.png",
+        "codes": "callwaitwhatdayisit?answer"
+      }
+    ]
   },
   {
     "name": "Bell Pepper",
@@ -1685,11 +1839,25 @@
   },
   {
     "name": "I'm feeling more energetic recently.",
-    "type": "toggle",
-    "img": "images/items/callimfeelingmoreenergeticrecently..png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callimfeelingmoreenergeticrecently."
+    "stages": [
+      {
+        "name": "I'm feeling more energetic recently.",
+        "inherit_codes": true,
+        "img": "/images/items/callimfeelingmoreenergeticrecently..png",
+        "codes": "callimfeelingmoreenergeticrecently., callimfeelingmoreenergeticrecently.get"
+      },
+      {
+        "name": "I'm feeling more energetic recently.",
+        "inherit_codes": true,
+        "img": "/images/items/callimfeelingmoreenergeticrecently.answer.png",
+        "codes": "callimfeelingmoreenergeticrecently.answer"
+      }
+    ]
   },
   {
     "name": "Expired Meds",
@@ -1915,11 +2083,25 @@
   },
   {
     "name": "I can't quit now!",
-    "type": "toggle",
-    "img": "images/items/callicantquitnow!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callicantquitnow!"
+    "stages": [
+      {
+        "name": "I can't quit now!",
+        "inherit_codes": true,
+        "img": "/images/items/callicantquitnow!.png",
+        "codes": "callicantquitnow!, callicantquitnow!get"
+      },
+      {
+        "name": "I can't quit now!",
+        "inherit_codes": true,
+        "img": "/images/items/callicantquitnow!answer.png",
+        "codes": "callicantquitnow!answer"
+      }
+    ]
   },
   {
     "name": "Mushrooms",
@@ -2085,11 +2267,25 @@
   },
   {
     "name": "Today's my lucky day!",
-    "type": "toggle",
-    "img": "images/items/calltodaysmyluckyday!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "calltodaysmyluckyday!"
+    "stages": [
+      {
+        "name": "Today's my lucky day!",
+        "inherit_codes": true,
+        "img": "/images/items/calltodaysmyluckyday!.png",
+        "codes": "calltodaysmyluckyday!, calltodaysmyluckyday!get"
+      },
+      {
+        "name": "Today's my lucky day!",
+        "inherit_codes": true,
+        "img": "/images/items/calltodaysmyluckyday!answer.png",
+        "codes": "calltodaysmyluckyday!answer"
+      }
+    ]
   },
   {
     "name": "Depression",
@@ -2303,11 +2499,25 @@
   },
   {
     "name": "I like cryptic values!",
-    "type": "toggle",
-    "img": "images/items/callilikecrypticvalues!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callilikecrypticvalues!"
+    "stages": [
+      {
+        "name": "I like cryptic values!",
+        "inherit_codes": true,
+        "img": "/images/items/callilikecrypticvalues!.png",
+        "codes": "callilikecrypticvalues!, callilikecrypticvalues!get"
+      },
+      {
+        "name": "I like cryptic values!",
+        "inherit_codes": true,
+        "img": "/images/items/callilikecrypticvalues!answer.png",
+        "codes": "callilikecrypticvalues!answer"
+      }
+    ]
   },
   {
     "name": "The Collector",
@@ -2333,11 +2543,25 @@
   },
   {
     "name": "I love shiny stuff!",
-    "type": "toggle",
-    "img": "images/items/calliloveshinystuff!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "calliloveshinystuff!"
+    "stages": [
+      {
+        "name": "I love shiny stuff!",
+        "inherit_codes": true,
+        "img": "/images/items/calliloveshinystuff!.png",
+        "codes": "calliloveshinystuff!, calliloveshinystuff!get"
+      },
+      {
+        "name": "I love shiny stuff!",
+        "inherit_codes": true,
+        "img": "/images/items/calliloveshinystuff!answer.png",
+        "codes": "calliloveshinystuff!answer"
+      }
+    ]
   },
   {
     "name": "Steam Locomotive",
@@ -2363,11 +2587,25 @@
   },
   {
     "name": "I need supplements!",
-    "type": "toggle",
-    "img": "images/items/callineedsupplements!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callineedsupplements!"
+    "stages": [
+      {
+        "name": "I need supplements!",
+        "inherit_codes": true,
+        "img": "/images/items/callineedsupplements!.png",
+        "codes": "callineedsupplements!, callineedsupplements!get"
+      },
+      {
+        "name": "I need supplements!",
+        "inherit_codes": true,
+        "img": "/images/items/callineedsupplements!answer.png",
+        "codes": "callineedsupplements!answer"
+      }
+    ]
   },
   {
     "name": "Golden Cherry",
@@ -2421,11 +2659,25 @@
   },
   {
     "name": "I'll take back control of my life.",
-    "type": "toggle",
-    "img": "images/items/callilltakebackcontrolofmylife..png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callilltakebackcontrolofmylife."
+    "stages": [
+      {
+        "name": "I'll take back control of my life.",
+        "inherit_codes": true,
+        "img": "/images/items/callilltakebackcontrolofmylife..png",
+        "codes": "callilltakebackcontrolofmylife., callilltakebackcontrolofmylife.get"
+      },
+      {
+        "name": "I'll take back control of my life.",
+        "inherit_codes": true,
+        "img": "/images/items/callilltakebackcontrolofmylife.answer.png",
+        "codes": "callilltakebackcontrolofmylife.answer"
+      }
+    ]
   },
   {
     "name": "5xclovertickets",
@@ -2437,11 +2689,25 @@
   },
   {
     "name": "I need to be there!",
-    "type": "toggle",
-    "img": "images/items/callineedtobethere!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callineedtobethere!"
+    "stages": [
+      {
+        "name": "I need to be there!",
+        "inherit_codes": true,
+        "img": "/images/items/callineedtobethere!.png",
+        "codes": "callineedtobethere!, callineedtobethere!get"
+      },
+      {
+        "name": "I need to be there!",
+        "inherit_codes": true,
+        "img": "/images/items/callineedtobethere!answer.png",
+        "codes": "callineedtobethere!answer"
+      }
+    ]
   },
   {
     "name": "Diamond Picture",
@@ -2545,11 +2811,25 @@
   },
   {
     "name": "I'm gonna go \"All in\"!",
-    "type": "toggle",
-    "img": "images/items/callimgonnagoallin!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callimgonnagoallin!"
+    "stages": [
+      {
+        "name": "I'm gonna go \"All in\"!",
+        "inherit_codes": true,
+        "img": "/images/items/callimgonnagoallin!.png",
+        "codes": "callimgonnagoallin!, callimgonnagoallin!get"
+      },
+      {
+        "name": "I'm gonna go \"All in\"!",
+        "inherit_codes": true,
+        "img": "/images/items/callimgonnagoallin!answer.png",
+        "codes": "callimgonnagoallin!answer"
+      }
+    ]
   },
   {
     "name": "Necronomicon",
@@ -2605,11 +2885,25 @@
   },
   {
     "name": "Life gave me lemons.",
-    "type": "toggle",
-    "img": "images/items/calllifegavemelemons.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "calllifegavemelemons"
+    "stages": [
+      {
+        "name": "Life gave me lemons.",
+        "inherit_codes": true,
+        "img": "/images/items/calllifegavemelemons.png",
+        "codes": "calllifegavemelemons, calllifegavemelemonsget"
+      },
+      {
+        "name": "Life gave me lemons.",
+        "inherit_codes": true,
+        "img": "/images/items/calllifegavemelemonsanswer.png",
+        "codes": "calllifegavemelemonsanswer"
+      }
+    ]
   },
   {
     "name": "Personal Trainer",
@@ -2987,11 +3281,25 @@
   },
   {
     "name": "I don't care about the price!",
-    "type": "toggle",
-    "img": "images/items/callidontcareabouttheprice!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callidontcareabouttheprice!"
+    "stages": [
+      {
+        "name": "I don't care about the price!",
+        "inherit_codes": true,
+        "img": "/images/items/callidontcareabouttheprice!.png",
+        "codes": "callidontcareabouttheprice!, callidontcareabouttheprice!get"
+      },
+      {
+        "name": "I don't care about the price!",
+        "inherit_codes": true,
+        "img": "/images/items/callidontcareabouttheprice!answer.png",
+        "codes": "callidontcareabouttheprice!answer"
+      }
+    ]
   },
   {
     "name": "Barathrum",
@@ -3023,19 +3331,47 @@
   },
   {
     "name": "Give me back my money!",
-    "type": "toggle",
-    "img": "images/items/callgivemebackmymoney!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callgivemebackmymoney!"
+    "stages": [
+      {
+        "name": "Give me back my money!",
+        "inherit_codes": true,
+        "img": "/images/items/callgivemebackmymoney!.png",
+        "codes": "callgivemebackmymoney!, callgivemebackmymoney!get"
+      },
+      {
+        "name": "Give me back my money!",
+        "inherit_codes": true,
+        "img": "/images/items/callgivemebackmymoney!answer.png",
+        "codes": "callgivemebackmymoney!answer"
+      }
+    ]
   },
   {
     "name": "There's nothing to eat but mould.",
-    "type": "toggle",
-    "img": "images/items/calltheresnothingtoeatbutmould..png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "calltheresnothingtoeatbutmould."
+    "stages": [
+      {
+        "name": "There's nothing to eat but mould.",
+        "inherit_codes": true,
+        "img": "/images/items/calltheresnothingtoeatbutmould..png",
+        "codes": "calltheresnothingtoeatbutmould., calltheresnothingtoeatbutmould..get"
+      },
+      {
+        "name": "There's nothing to eat but mould.",
+        "inherit_codes": true,
+        "img": "/images/items/calltheresnothingtoeatbutmould.answer.png",
+        "codes": "calltheresnothingtoeatbutmould.answer"
+      }
+    ]
   },
   {
     "name": "Broken Calculator",
@@ -3061,11 +3397,25 @@
   },
   {
     "name": "I've already bet it all!",
-    "type": "toggle",
-    "img": "images/items/callivealreadybetitall!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callivealreadybetitall!"
+    "stages": [
+      {
+        "name": "I've already bet it all!",
+        "inherit_codes": true,
+        "img": "/images/items/callivealreadybetitall!.png",
+        "codes": "callivealreadybetitall!, callivealreadybetitall!get"
+      },
+      {
+        "name": "I've already bet it all!",
+        "inherit_codes": true,
+        "img": "/images/items/callivealreadybetitall!answer.png",
+        "codes": "callivealreadybetitall!answer"
+      }
+    ]
   },
   {
     "name": "cointrap",
@@ -3183,11 +3533,25 @@
   },
   {
     "name": "This time I'm betting on Green!",
-    "type": "toggle",
-    "img": "images/items/callthistimeimbettingongreen!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callthistimeimbettingongreen!"
+    "stages": [
+      {
+        "name": "This time I'm betting on Green!",
+        "inherit_codes": true,
+        "img": "/images/items/callthistimeimbettingongreen!.png",
+        "codes": "callthistimeimbettingongreen!, callthistimeimbettingongreen!get"
+      },
+      {
+        "name": "This time I'm betting on Green!",
+        "inherit_codes": true,
+        "img": "/images/items/callthistimeimbettingongreen!answer.png",
+        "codes": "callthistimeimbettingongreen!answer"
+      }
+    ]
   },
   {
     "name": "Golden Bell",
@@ -3323,19 +3687,47 @@
   },
   {
     "name": "This time I'm betting on Yellow!",
-    "type": "toggle",
-    "img": "images/items/callthistimeimbettingonyellow!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callthistimeimbettingonyellow!"
+    "stages": [
+      {
+        "name": "This time I'm betting on Yellow!",
+        "inherit_codes": true,
+        "img": "/images/items/callthistimeimbettingonyellow!.png",
+        "codes": "callthistimeimbettingonyellow!, callthistimeimbettingonyellow!get"
+      },
+      {
+        "name": "This time I'm betting on Yellow!",
+        "inherit_codes": true,
+        "img": "/images/items/callthistimeimbettingonyellow!answer.png",
+        "codes": "callthistimeimbettingonyellow!answer"
+      }
+    ]
   },
   {
     "name": "If I keep trying, the patterns will align!",
-    "type": "toggle",
-    "img": "images/items/callifikeeptrying.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callifikeeptryingthepatternswillalign!"
+    "stages": [
+      {
+        "name": "If I keep trying, the patterns will align!",
+        "inherit_codes": true,
+        "img": "/images/items/callifikeeptrying.png",
+        "codes": "callifikeeptryingthepatternswillalign!, callifikeeptryingthepatternswillalign!get"
+      },
+      {
+        "name": "If I keep trying, the patterns will align!",
+        "inherit_codes": true,
+        "img": "/images/items/callifikeeptryinganswer.png",
+        "codes": "callifikeeptryingthepatternswillalign!answer"
+      }
+    ]
   },
   {
     "name": "Clover Voucher",
@@ -3361,11 +3753,25 @@
   },
   {
     "name": "I see the patterns in my behavior.",
-    "type": "toggle",
-    "img": "images/items/calliseethepatternsinmybehaviour..png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "calliseethepatternsinmybehaviour."
+    "stages": [
+      {
+        "name": "I see the patterns in my behavior.",
+        "inherit_codes": true,
+        "img": "/images/items/calliseethepatternsinmybehaviour..png",
+        "codes": "calliseethepatternsinmybehaviour., calliseethepatternsinmybehaviour.get"
+      },
+      {
+        "name": "I see the patterns in my behavior.",
+        "inherit_codes": true,
+        "img": "/images/items/calliseethepatternsinmybehaviour.answer.png",
+        "codes": "calliseethepatternsinmybehaviour.answer"
+      }
+    ]
   },
   {
     "name": "Fruit Basket",
@@ -3621,11 +4027,25 @@
   },
   {
     "name": "I'm feeling lucky!",
-    "type": "toggle",
-    "img": "images/items/callimfeelinglucky!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callimfeelinglucky!"
+    "stages": [
+      {
+        "name": "I'm feeling lucky!",
+        "inherit_codes": true,
+        "img": "/images/items/callimfeelinglucky!.png",
+        "codes": "callimfeelinglucky!, callimfeelinglucky!get"
+      },
+      {
+        "name": "I'm feeling lucky!",
+        "inherit_codes": true,
+        "img": "/images/items/callimfeelinglucky!answer.png",
+        "codes": "callimfeelinglucky!answer"
+      }
+    ]
   },
   {
     "name": "AA Batteries",
@@ -3701,11 +4121,25 @@
   },
   {
     "name": "I'm re-organizing my mind!",
-    "type": "toggle",
-    "img": "images/items/callimre-organizingmymind!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callimre-organizingmymind!"
+    "stages": [
+      {
+        "name": "I'm re-organizing my mind!",
+        "inherit_codes": true,
+        "img": "/images/items/callimre-organizingmymind!.png",
+        "codes": "callimre-organizingmymind!, callimre-organizingmymind!get"
+      },
+      {
+        "name": "I'm re-organizing my mind!",
+        "inherit_codes": true,
+        "img": "/images/items/callimre-organizingmymind!answer.png",
+        "codes": "callimre-organizingmymind!answer"
+      }
+    ]
   },
   {
     "name": "Fortune Teller",
@@ -3759,11 +4193,25 @@
   },
   {
     "name": "I want to address some stuff.",
-    "type": "toggle",
-    "img": "images/items/calliwanttoaddresssomestuff..png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "calliwanttoaddresssomestuff."
+    "stages": [
+      {
+        "name": "I want to address some stuff.",
+        "inherit_codes": true,
+        "img": "/images/items/calliwanttoaddresssomestuff..png",
+        "codes": "calliwanttoaddresssomestuff., calliwanttoaddresssomestuff.get"
+      },
+      {
+        "name": "I want to address some stuff.",
+        "inherit_codes": true,
+        "img": "/images/items/calliwanttoaddresssomestuff.answer.png",
+        "codes": "calliwanttoaddresssomestuff.answer"
+      }
+    ]
   },
   {
     "name": "Super Capacitor",
@@ -3883,11 +4331,25 @@
   },
   {
     "name": "It's kinda fun!",
-    "type": "toggle",
-    "img": "images/items/callitskindafun!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callitskindafun!"
+    "stages": [
+      {
+        "name": "It's kinda fun!",
+        "inherit_codes": true,
+        "img": "/images/items/callitskindafun!.png",
+        "codes": "callitskindafun!, callitskindafun!get"
+      },
+      {
+        "name": "It's kinda fun!",
+        "inherit_codes": true,
+        "img": "/images/items/callitskindafun!answer.png",
+        "codes": "callitskindafun!answer"
+      }
+    ]
   },
   {
     "name": "clovertrap",
@@ -4015,11 +4477,25 @@
   },
   {
     "name": "My head hurts!",
-    "type": "toggle",
-    "img": "images/items/callmyheadhurts!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callmyheadhurts!"
+    "stages": [
+      {
+        "name": "My head hurts!",
+        "inherit_codes": true,
+        "img": "/images/items/callmyheadhurts!.png",
+        "codes": "callmyheadhurts!, callmyheadhurts!get"
+      },
+      {
+        "name": "My head hurts!",
+        "inherit_codes": true,
+        "img": "/images/items/callmyheadhurts!answer.png",
+        "codes": "callmyheadhurts!answer"
+      }
+    ]
   },
   {
     "name": "bonusstartingtickets",
@@ -4059,19 +4535,47 @@
   },
   {
     "name": "I need money!",
-    "type": "toggle",
-    "img": "images/items/callineedmoney!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callineedmoney!"
+    "stages": [
+      {
+        "name": "I need money!",
+        "inherit_codes": true,
+        "img": "/images/items/callineedmoney!.png",
+        "codes": "callineedmoney!, callineedmoney!get"
+      },
+      {
+        "name": "I need money!",
+        "inherit_codes": true,
+        "img": "/images/items/callineedmoney!answer.png",
+        "codes": "callineedmoney!answer"
+      }
+    ]
   },
   {
     "name": "Can I get some Energy Drinks?",
-    "type": "toggle",
-    "img": "images/items/callcanigetsomeenergydrinks.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callcanigetsomeenergydrinks?"
+    "stages": [
+      {
+        "name": "Can I get some Energy Drinks?",
+        "inherit_codes": true,
+        "img": "/images/items/callcanigetsomeenergydrinks.png",
+        "codes": "callcanigetsomeenergydrinks?, callcanigetsomeenergydrinks?get"
+      },
+      {
+        "name": "Can I get some Energy Drinks?",
+        "inherit_codes": true,
+        "img": "/images/items/callcanigetsomeenergydrinksanswer.png",
+        "codes": "callcanigetsomeenergydrinks?answer"
+      }
+    ]
   },
   {
     "name": "Photo Book",
@@ -4203,11 +4707,25 @@
   },
   {
     "name": "I'm sure the value will rise!",
-    "type": "toggle",
-    "img": "images/items/callimsurethevaluewillrise!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callimsurethevaluewillrise!"
+    "stages": [
+      {
+        "name": "I'm sure the value will rise!",
+        "inherit_codes": true,
+        "img": "/images/items/callimsurethevaluewillrise!.png",
+        "codes": "callimsurethevaluewillrise!, callimsurethevaluewillrise!get"
+      },
+      {
+        "name": "I'm sure the value will rise!",
+        "inherit_codes": true,
+        "img": "/images/items/callimsurethevaluewillrise!answer.png",
+        "codes": "callimsurethevaluewillrise!answer"
+      }
+    ]
   },
   {
     "name": "win",
@@ -4241,11 +4759,25 @@
   },
   {
     "name": "I'm thinking of some strategies!",
-    "type": "toggle",
-    "img": "images/items/callimthinkingofsomestrategies!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callimthinkingofsomestrategies!"
+    "stages": [
+      {
+        "name": "I'm thinking of some strategies!",
+        "inherit_codes": true,
+        "img": "/images/items/callimthinkingofsomestrategies!.png",
+        "codes": "callimthinkingofsomestrategies!, callimthinkingofsomestrategies!get"
+      },
+      {
+        "name": "I'm thinking of some strategies!",
+        "inherit_codes": true,
+        "img": "/images/items/callimthinkingofsomestrategies!answer.png",
+        "codes": "callimthinkingofsomestrategies!answer"
+      }
+    ]
   },
   {
     "name": "Ship",
@@ -4271,11 +4803,25 @@
   },
   {
     "name": "I found a winning strategy!",
-    "type": "toggle",
-    "img": "images/items/callifoundawinningstrategy!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callifoundawinningstrategy!"
+    "stages": [
+      {
+        "name": "I found a winning strategy!",
+        "inherit_codes": true,
+        "img": "/images/items/callifoundawinningstrategy!.png",
+        "codes": "callifoundawinningstrategy!, callifoundawinningstrategy!get"
+      },
+      {
+        "name": "I found a winning strategy!",
+        "inherit_codes": true,
+        "img": "/images/items/callifoundawinningstrategy!answer.png",
+        "codes": "callifoundawinningstrategy!answer"
+      }
+    ]
   },
   {
     "name": "Horseshoe",
@@ -4301,11 +4847,25 @@
   },
   {
     "name": "Gold and Diamonds are a good investment!",
-    "type": "toggle",
-    "img": "images/items/callgoldanddiamondsareagoodinvestment!.png",
-    "initial_active_state": false,
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
     "overlay_align": "right",
-    "codes": "callgoldanddiamondsareagoodinvestment!"
+    "stages": [
+      {
+        "name": "Gold and Diamonds are a good investment!",
+        "inherit_codes": true,
+        "img": "/images/items/callgoldanddiamondsareagoodinvestment!.png",
+        "codes": "callgoldanddiamondsareagoodinvestment!, callgoldanddiamondsareagoodinvestment!get"
+      },
+      {
+        "name": "Gold and Diamonds are a good investment!",
+        "inherit_codes": true,
+        "img": "/images/items/callgoldanddiamondsareagoodinvestment!answer.png",
+        "codes": "callgoldanddiamondsareagoodinvestment!answer"
+      }
+    ]
   },
   {
     "name": "Clicker",
