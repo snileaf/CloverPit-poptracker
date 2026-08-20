@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.1.1",
+            "download_url": "https://github.com/snileaf/CloverPit-poptracker/releases/download/v1.1.1/CloverPit-PopTracker.v1.1.1.zip",
+            "sha256": "322192efa51354611d1f46719eba107b851aeea3f1484112ed71ee092b86bf9a",
+            "changelog": [
+                "Fixed some backend errors and hint function, removed unused locations, and added new license."
+            ]
+        },
+        {
             "package_version": "1.1.0",
             "download_url": "https://github.com/snileaf/CloverPit-poptracker/releases/download/v1.1.0/CloverPit-PopTracker.v1.1.0.zip",
             "sha256": "4b6ea5abb4b6a48ba87b46f0e3028fbef4694b761eef37adc071d7d44ebb78b4",
