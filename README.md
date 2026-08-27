@@ -5,7 +5,7 @@ PopTracker pack for the CloverPit Archipelago Mod
 ## Installation
 
 1. If you don't already have it, download [Poptracker](https://github.com/black-sliver/PopTracker/releases).
-2. Download the [latest release](https://github.com/snileaf/CloverPit-poptracker/releases) of this pack.
+2. Download the [latest release](https://github.com/snileaf/CloverPit-poptracker/releases/latest) of this pack.
 3. Place the downloaded zip file in PopTracker's `packs` directory OR drag and drop the .zip file onto the PopTracker window.
 
 ## Credits
