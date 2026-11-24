@@ -1,6 +1,87 @@
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 
+local CHARM_META = {}
+local CHARM_STATE = {}
+
+local function InitCharmMeta()
+    CHARM_META = {}
+    for _, loc_array in pairs(LOCATION_MAPPING) do
+        local loc_path = loc_array[1]
+        local item_code = loc_array[2]
+        if loc_path and item_code and item_code:sub(1, 5) == "charm" then
+            CHARM_META[item_code] = CHARM_META[item_code] or { has_buy = false, has_secondary = false }
+            if loc_path:sub(1, 5) == "@Buy/" then
+                CHARM_META[item_code].has_buy = true
+            elseif loc_path:sub(1, 9) == "@Trigger/" or loc_path:sub(1, 12) == "@Red Button/" then
+                CHARM_META[item_code].has_secondary = true
+            end
+        end
+    end
+end
+InitCharmMeta()
+
+local STARTER_CHARMS = {
+    charmfortunecookie = true,
+    charmfakecoin = true,
+    charmeyeofgod = true,
+    charmholyspirit = true,
+    charmeternity = true,
+    charmadamsribcage = true,
+    charmophanimwheels = true,
+    charmangelshand = true,
+}
+
+local function UpdateCharmVisual(charmCode)
+    local meta = CHARM_META[charmCode]
+    local state = CHARM_STATE[charmCode]
+    if not meta or not state then return end
+
+    local obj = Tracker:FindObjectForCode(charmCode .. "_grid")
+    if not obj then return end
+
+    if STARTER_CHARMS[charmCode] then
+        if meta.has_buy and meta.has_secondary then
+            if state.buy and state.secondary then obj.CurrentStage = 3
+            elseif state.secondary then obj.CurrentStage = 2
+            elseif state.buy then obj.CurrentStage = 1
+            else obj.CurrentStage = 0 end
+        else
+            obj.CurrentStage = (state.buy or state.secondary) and 1 or 0
+        end
+        return
+    end
+
+    if meta.has_buy and meta.has_secondary then
+        if state.owned then
+            if state.buy and state.secondary then obj.CurrentStage = 4
+            elseif state.secondary then obj.CurrentStage = 3
+            elseif state.buy then obj.CurrentStage = 2
+            else obj.CurrentStage = 1 end
+        else
+            if state.buy and state.secondary then obj.CurrentStage = 7
+            elseif state.secondary then obj.CurrentStage = 6
+            elseif state.buy then obj.CurrentStage = 5
+            else obj.CurrentStage = 0 end
+        end
+    else
+        local locCleared = state.buy or state.secondary
+        if state.owned then
+            obj.CurrentStage = locCleared and 2 or 1
+        else
+            obj.CurrentStage = locCleared and 3 or 0
+        end
+    end
+end
+
+local function ResetCharms()
+    CHARM_STATE = {}
+    for charmCode, _ in pairs(CHARM_META) do
+        CHARM_STATE[charmCode] = { owned = false, buy = false, secondary = false }
+        UpdateCharmVisual(charmCode)
+    end
+end
+
 CUR_INDEX = -1
 --SLOT_DATA = nil
 
@@ -268,6 +349,9 @@ function OnClear(slot_data)
             end
         end
     end
+
+    ResetCharms()
+
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
@@ -316,31 +400,36 @@ function OnItem(index, item_id, item_name, player_number)
         local item_type = item_pair[2]
         local consumable_multiplier = tonumber(item_pair[3]) or 1
 
-        local item_obj = Tracker:FindObjectForCode(item_code)
-        if item_obj then
-            if item_obj.Type == "toggle" then
-                -- print("toggle")
-                item_obj.Active = true
-            elseif item_obj.Type == "progressive" then
-                -- print("progressive")
-                if item_obj.Active == true then
-                    item_obj.CurrentStage = item_obj.CurrentStage + 1
-                else
-                    item_obj.Active = true
-                end
-            elseif item_obj.Type == "consumable" then
-                -- print("consumable")
-                item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * consumable_multiplier
-            elseif item_obj.Type == "progressive_toggle" then
-                -- print("progressive_toggle")
-                if item_obj.Active then
-                    item_obj.CurrentStage = item_obj.CurrentStage + 1
-                else
-                    item_obj.Active = true
-                end
-            end
+        if CHARM_STATE[item_code] then
+            CHARM_STATE[item_code].owned = true
+            UpdateCharmVisual(item_code)
         else
-            print(string.format("OnItem: could not find object for code %s", item_code))
+            local item_obj = Tracker:FindObjectForCode(item_code)
+            if item_obj then
+                if item_obj.Type == "toggle" then
+                    -- print("toggle")
+                    item_obj.Active = true
+                elseif item_obj.Type == "progressive" then
+                    -- print("progressive")
+                    if item_obj.Active == true then
+                        item_obj.CurrentStage = item_obj.CurrentStage + 1
+                    else
+                        item_obj.Active = true
+                    end
+                elseif item_obj.Type == "consumable" then
+                    -- print("consumable")
+                    item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * consumable_multiplier
+                elseif item_obj.Type == "progressive_toggle" then
+                    -- print("progressive_toggle")
+                    if item_obj.Active then
+                        item_obj.CurrentStage = item_obj.CurrentStage + 1
+                    else
+                        item_obj.Active = true
+                    end
+                end
+            else
+                print(string.format("OnItem: could not find object for code %s", item_code))
+            end
         end
     end
 end
@@ -355,32 +444,36 @@ function OnLocation(location_id, location_name)
         print(string.format("OnLocation: could not find location mapping for id %s", location_id))
         return
     end
+    local loc_path = location_array[1] or ""
+    local field = nil
+    if loc_path:sub(1, 5) == "@Buy/" then
+        field = "buy"
+    elseif loc_path:sub(1, 9) == "@Trigger/" or loc_path:sub(1, 12) == "@Red Button/" then
+        field = "secondary"
+    end
 
     for _, location in pairs(location_array) do
-        local location_obj = Tracker:FindObjectForCode(location)
-        -- print(location, location_obj, "This is the first item")
-        if location_obj then
-            if location:sub(1, 1) == "@" then
-                print(location, "This is a location.")
+        if location:sub(1, 1) == "@" then
+            local location_obj = Tracker:FindObjectForCode(location)
+            if location_obj then
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
-                print(location,"reduced chest count by 1")
-            else
-                print(location,"This is a hosted item.")
+            end
+        elseif CHARM_STATE[location] and field then
+            CHARM_STATE[location][field] = true
+            UpdateCharmVisual(location)
+        else
+            local location_obj = Tracker:FindObjectForCode(location)
+            if location_obj then
                 if location_obj.Type == "toggle" then
                     location_obj.Active = true
-                    print(location,"toggled on.")
                 elseif location_obj.Type == "progressive" then
-                    if location_obj.Active == true or location == "charmfortunecookie" or location == "charmfakecoin" or location == "charmeyeofgod" or location == "charmholyspirit" or location == "charmeternity" or location == "charmadamsribcage" or location == "charmophanimwheels" or location == "charmangelshand" then
+                    if location_obj.Active == true then
                         location_obj.CurrentStage = location_obj.CurrentStage + 1
-                        print(location,"added +1 to the stage count")
                     else
                         location_obj.Active = true
-                        print(location,"toggled on")
                     end
                 end
             end
-        else
-            print(string.format("OnLocation: could not find location_object for code %s", location))
         end
     end
     MANUAL_CHECKED = true
