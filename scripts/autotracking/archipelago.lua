@@ -82,6 +82,33 @@ local function ResetCharms()
     end
 end
 
+local CALL_STATE = {}
+
+local function UpdateCallVisual(callCode)
+    local state = CALL_STATE[callCode]
+    if not state then return end
+
+    local obj = Tracker:FindObjectForCode(callCode .. "_grid")
+    if not obj then return end
+
+    if state.owned then
+        obj.CurrentStage = state.answered and 2 or 1
+    else
+        obj.CurrentStage = state.answered and 3 or 0
+    end
+end
+
+local function ResetCalls()
+    CALL_STATE = {}
+    for _, loc_array in pairs(LOCATION_MAPPING) do
+        local item_code = loc_array[2]
+        if item_code and item_code:sub(1, 4) == "call" then
+            CALL_STATE[item_code] = { owned = false, answered = false }
+            UpdateCallVisual(item_code)
+        end
+    end
+end
+
 CUR_INDEX = -1
 --SLOT_DATA = nil
 
@@ -351,6 +378,7 @@ function OnClear(slot_data)
     end
 
     ResetCharms()
+    ResetCalls()
 
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
@@ -403,6 +431,9 @@ function OnItem(index, item_id, item_name, player_number)
         if CHARM_STATE[item_code] then
             CHARM_STATE[item_code].owned = true
             UpdateCharmVisual(item_code)
+        elseif CALL_STATE[item_code] then
+            CALL_STATE[item_code].owned = true
+            UpdateCallVisual(item_code)
         else
             local item_obj = Tracker:FindObjectForCode(item_code)
             if item_obj then
@@ -441,7 +472,7 @@ function OnLocation(location_id, location_name)
     MANUAL_CHECKED = false
     local location_array = LOCATION_MAPPING[location_id]
     if not location_array or not location_array[1] then
-        print(string.format("OnLocation: could not find location mapping for id %s", location_id))
+        --print(string.format("OnLocation: unmapped id %s (%s)", location_id, tostring(location_name)))
         return
     end
     local loc_path = location_array[1] or ""
@@ -461,6 +492,9 @@ function OnLocation(location_id, location_name)
         elseif CHARM_STATE[location] and field then
             CHARM_STATE[location][field] = true
             UpdateCharmVisual(location)
+        elseif CALL_STATE[location] then
+            CALL_STATE[location].answered = true
+            UpdateCallVisual(location)
         else
             local location_obj = Tracker:FindObjectForCode(location)
             if location_obj then
