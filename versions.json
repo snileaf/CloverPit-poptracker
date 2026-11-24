@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.2.0",
+            "download_url": "https://github.com/snileaf/CloverPit-poptracker/releases/download/v1.2.0/CloverPit-PopTracker.v1.2.0.zip",
+            "sha256": "7c0ee7613fa40981e2d53c367e96d6cb4557514bf51cec378d91beb7e81b7c19",
+            "changelog": [
+                "Added proper independent tracking for both charm and call location checks."
+            ]
+        },
+        {
             "package_version": "1.1.1",
             "download_url": "https://github.com/snileaf/CloverPit-poptracker/releases/download/v1.1.1/CloverPit-PopTracker.v1.1.1.zip",
             "sha256": "322192efa51354611d1f46719eba107b851aeea3f1484112ed71ee092b86bf9a",
